@@ -55,7 +55,7 @@ In this task, you will add Sentinel to the created log analytics workspace and a
 1. You should still be logged into the Azure portal **https://portal.azure.com**.
 1. In the search bar, in the blue banner at the top of the page, enter **Microsoft Sentinel**, then select it from the search results listed under services.
 1. From the **Microsoft Sentinel** page, select **Create**.
-1. In the **Add a Microsoft Sentinel to a workspace page** the previously created log analytics workspace should be listed.  Select **law-sentinel** then select **Add**.
+1. In the **Add a Microsoft Sentinel to a workspace page** the previously created log analytics workspace should be listed.  Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** then select **Add**.
 1. It may take a few minutes to add Sentinel to the workspace.  Once it's added, the **Microsoft Sentinel | New & guides** page is displayed.  You're notified that the Microsoft Sentinel fre trial is activated.  Select **Ok**.
 1. From the center of the page, select **Go to content hub**.  Alternatively, from the left navigation panel expand **Content management** then select **Content hub**.
 1. Search for **Microsoft Sentinel Training Lab**, select it from the search results, and **install** the solution.
