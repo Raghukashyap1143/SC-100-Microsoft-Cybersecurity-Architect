@@ -1,17 +1,25 @@
 [
     {
-      "Name": "SC-100: Lab-1:Security Operations and Threat Management",
-      "Language": "English",
-      "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
-      "Files": [
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
-          "Order": 1
-        },
-        {
-          "RawFilePath": "",
-          "Order": 2
-        }
-      ]
+        "Name": "SC-100: Lab-1:Security Operations and Threat Management",
+        "Language": "English",
+        "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/05-LAB_SC_100_Lab1_Ex1_Sentinel.md",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/09-LAB_SC_100_Lab1_Ex2_DfEASM.md",
+                "Order": 3
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/10-LAB_SC_100_Lab1_Ex3_Secure_Infrastructure.md",
+                "Order": 4
+            }
+        ]
     }
-  ]
+]
