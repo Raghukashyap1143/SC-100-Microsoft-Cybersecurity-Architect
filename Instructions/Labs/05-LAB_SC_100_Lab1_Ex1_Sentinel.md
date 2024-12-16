@@ -123,8 +123,8 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
 
 1. Select **Review + Create**.
 1. Select **Create**, then select **Ok**
-1. In the top search bar, search for **`Resource groups`** and select **rg_eastus_soc**.
-1. Open the log analytics workspace **law-sentinel**.
+1. In the top search bar, search for **`Resource groups`** and select **sc-100-lab1**.
+1. Open the log analytics workspace **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
 1. In the left navigation pane, expand **Settings** and select **Tables**.
 1. Search for **`Cisco_Umbrella_dns_CL`**.
 1. Click on the ellipses (...), select **Access control (IAM)**.
