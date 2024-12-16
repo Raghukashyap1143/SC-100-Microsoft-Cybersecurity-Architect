@@ -1,17 +1,29 @@
 [
     {
-      "Name": "SC-100: Lab-2: Identity and Access Management",
-      "Language": "English",
-      "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
-      "Files": [
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
-          "Order": 1
-        },
-        {
-          "RawFilePath": "",
-          "Order": 2
-        }
-      ]
+        "Name": "SC-100: Lab-2: Identity and Access Management",
+        "Language": "English",
+        "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/02-LAB_SC_100_Lab2_Ex1_Entra_ID_policies.md",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/03-LAB_SC_100_Lab2_Ex2_Conditional_Access.md",
+                "Order": 3
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/04-LAB_SC_100_Lab2_Ex3_B2B_collaboration.md",
+                "Order": 4
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/06-LAB_SC_100_Lab2_Ex4_Shadow_IT.md",
+                "Order": 5
+            }
+        ]
     }
-  ]
+]

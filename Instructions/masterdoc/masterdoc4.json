@@ -1,17 +1,25 @@
 [
     {
-      "Name": "SC-100: Lab-4: Advanced Security Management",
-      "Language": "English",
-      "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
-      "Files": [
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
-          "Order": 1
-        },
-        {
-          "RawFilePath": "",
-          "Order": 2
-        }
-      ]
+        "Name": "SC-100: Lab-4: Advanced Security Management",
+        "Language": "English",
+        "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "",
+                "Order": 3
+            },
+            {
+                "RawFilePath": "",
+                "Order": 4
+            }
+        ]
     }
-  ]
+]
