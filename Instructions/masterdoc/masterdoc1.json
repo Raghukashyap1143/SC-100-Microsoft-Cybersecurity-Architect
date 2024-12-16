@@ -1,0 +1,17 @@
+[
+    {
+      "Name": "SC-100: Lab-1:Security Operations and Threat Management",
+      "Language": "English",
+      "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
+      "Files": [
+        {
+          "RawFilePath": "",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "",
+          "Order": 2
+        }
+      ]
+    }
+  ]
