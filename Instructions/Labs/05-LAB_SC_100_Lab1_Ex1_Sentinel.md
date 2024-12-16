@@ -248,6 +248,6 @@ You´ll setup dynamic content to get all alerts for the selected incident. Alert
 1. Select an **Incident**.
 1. Alerts to the linked Incident will show up below.
 1. Save your query by selecting the Save icon.  
-1. In the **Save as** window, enter a title for your new workbook, select the **rg_eastus_soc** resource group from the drop-down, then select **Save as**.
+1. In the **Save as** window, enter a title for your new workbook, select the **sc-100-lab1** resource group from the drop-down, then select **Save as**.
 
 You successfully created a dashboard with custom views for incidents and the associated alerts.
