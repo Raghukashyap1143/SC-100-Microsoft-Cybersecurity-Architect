@@ -9,15 +9,15 @@
                 "Order": 1
             },
             {
-                "RawFilePath": "",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/11-LAB_SC_100_Lab4_Ex1_SecureScore.md",
                 "Order": 2
             },
             {
-                "RawFilePath": "",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/13-LAB-SC_100_Lab4_Ex2_Global_Secure_Access.md",
                 "Order": 3
             },
             {
-                "RawFilePath": "",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/12-LAB_SC_100_Lab4_Ex4_Endpoint_Security.md",
                 "Order": 4
             }
         ]
