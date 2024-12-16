@@ -1,17 +1,25 @@
 [
     {
-      "Name": "SC-100: Lab-3: Compliance and Data Governance",
-      "Language": "English",
-      "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
-      "Files": [
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
-          "Order": 1
-        },
-        {
-          "RawFilePath": "",
-          "Order": 2
-        }
-      ]
+        "Name": "SC-100: Lab-3: Compliance and Data Governance",
+        "Language": "English",
+        "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/01-LAB_SC_100_Lab3_Ex1_Compliance_Assessment.md",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/07-LAB_SC_100_Lab3_Ex2_Data%20classification%20framework.md",
+                "Order": 3
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/08-LAB_SC_100_Lab3_Ex3_Retention_policies.md",
+                "Order": 4
+            }
+        ]
     }
-  ]
+]
