@@ -5,7 +5,7 @@
       "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
       "Files": [
         {
-          "RawFilePath": "",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
           "Order": 1
         },
         {
