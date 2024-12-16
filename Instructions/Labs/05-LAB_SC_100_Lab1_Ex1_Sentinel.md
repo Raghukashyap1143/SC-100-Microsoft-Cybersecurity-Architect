@@ -60,7 +60,7 @@ In this task, you will add Sentinel to the created log analytics workspace and a
 1. From the center of the page, select **Go to content hub**.  Alternatively, from the left navigation panel expand **Content management** then select **Content hub**.
 1. Search for **Microsoft Sentinel Training Lab**, select it from the search results, and **install** the solution.
 1. Select **Create**.
-1. Choose the resource group **rg_eastus_soc** and workspace **law-sentinel**.
+1. Choose the resource group **sc-100-lab1** and workspace **law-sentinel**.
 1. Select **Review & Create** then select **Create**.
 1. Wait till the solution is successfully installed.
 
