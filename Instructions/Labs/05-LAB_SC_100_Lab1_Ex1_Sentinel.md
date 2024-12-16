@@ -142,7 +142,7 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 
 1. You should still be logged into the Azure portal **https://portal.azure.com**.
 1. On the Search bar on the top, search for **`Microsoft Sentinel`** and open it.
-1. Select **law-sentinel**.
+1. Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
 1. In the left navigation pane, expand **Threat management** and select **Workbooks**.
 1. Select **Add Workbook**.
 1. Select **Edit**.
