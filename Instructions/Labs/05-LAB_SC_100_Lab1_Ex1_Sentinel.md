@@ -42,7 +42,7 @@ In this task, you'll create a log analytics workspace which is required to house
 6. Select **Create a resource** and search for **log analytics workspace**
 7. Find the **Log Analytics Workspace tile**, select **Create**.
 8. On Create Log Analytics workspace site, create a new **Resource Group** and name it **`rg_eastus_soc`**.
-9. In Instance details enter the name **`law-sentinel`**, select **East US** for region.
+9. In Instance details enter the name **`law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>`**, select **East US** for region.
 10. Select **Review & Create**
 11. Select **Create** to start the deployment.
 
