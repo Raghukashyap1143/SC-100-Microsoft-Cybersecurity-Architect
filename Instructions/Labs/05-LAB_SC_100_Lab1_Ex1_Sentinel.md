@@ -112,8 +112,10 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
 1. Select **Next (3)**.
 
     ![](../media/lab01/9.png)
-1. Select **+Select members**.
-1. Search for **`SOC Analysts`** Group, select **SOC Analysts** from the search results, press **Select**  and add the role assignment.
+1. Select **+Select members (1)**.
+1. Search for **`SOC Analysts`** (2) Group, select **SOC Analysts** from the search results, press **Select (3)**  and add the role assignment.
+
+    ![](../media/lab01/10.png)
 1. Select **Review + assign**.
 1. You'll repeat the steps for the Sentinel Contributor role. Select **Add**, from the dropdown select **Add role assignment**.
 1. Search for **`Microsoft Sentinel Contributor`** and select the role.
