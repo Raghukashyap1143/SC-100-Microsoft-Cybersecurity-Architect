@@ -71,8 +71,8 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 1. In the left hand navigation pane, expand **Azure Arc resources** and select **Machines**.
 1. Select **Add/Create** > **Add a Machine**.
 1. Under Add a single server, select **Generate script**.
-1. In the Resource group field, use the drop-down menu to select **ContosoRG**.
-1. In the Region field, use the drop-down menu to select **East US**.
+1. In the Resource group field, use the drop-down menu to select **sc-100-lab1**.
+1. In the Region field, use the drop-down menu to select **<inject key="Region" enableCopy="false" ></inject>**.
 1. Select **Download and run script**.
 1. Select **Download** and run script on your second Lab Client **VM1** to onboard the on-premise Server to Azure.
 1. Run Windows PowerShell as an administrator. To do this, use the right mouse key to select the Windows icon on the bottom right corner of the window and select **Windows PowerShell(Admin)**
