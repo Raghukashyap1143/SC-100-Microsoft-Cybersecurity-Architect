@@ -37,10 +37,6 @@ In the second step examinine Contoso Ltd.'s existing environment. Microsoft Defe
 
 In this Task, you´ll create a Defender EASM workspace.
 
-1. Log into the **Microsoft Azure: lon-sc1**.
-1. Open **Microsoft Edge**, select the address bar, navigate to **`https://portal.azure.com`** and log into the Azure Portal as user <user1-ZZZZZZZ@LODSUATMCA.onmicrosoft.com>. Admin's password should be provided by your lab hosting provider.
-1. On the Stay signed in? dialog box, select the Don’t show this again checkbox and then select No.
-1. Close the password save dialog from the bottom by selecting **Never**, to not save the default global admins credentials in your browser.
 1. In the top search bar, search for **`Microsoft Defender EASM`**.
 1. Select **Create**.
 1. On Create Microsoft Defender EASM Resource, select the existing resource group **rg_eastus_soc**.
