@@ -66,9 +66,11 @@ In this Task, you´ll create a Discovery on Contoso Ltd. outside facing assets. 
 
     ![](../media/lab01/13.png)
 1. Select the **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** workspace you created in the last task.
-1. Search for **Contoso** in the **Search for an organization** search field.
-1. Select **Contoso Ltd.**.
-1. Select **Start attack surface discovery**.
+1. Search for **Contoso (1)** in the **Search for an organization** search field.
+1. Select **Contoso Ltd. (2)**.
+1. Select **Start attack surface discovery (3)**.
+
+    ![](../media/lab01/15.png)
 
 You successfully created the Discovery of Contoso´s External Attack Surface and populated the EASM instance with actionable data.
 
