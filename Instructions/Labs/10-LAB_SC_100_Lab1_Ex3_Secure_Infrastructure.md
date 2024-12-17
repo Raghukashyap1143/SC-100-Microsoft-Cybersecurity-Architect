@@ -99,10 +99,10 @@ You have successfully enabled Azure Arc on the test server and data should start
 
 You´ll deploy a Data collection rule to get event logs from the on premise server. The rule will automatically deploy the monitoring agent on the server and forward logs to the previously created log analytics workspace.
 
-1. You should still be logged into the Azure portal **https://portal.azure.com**.
-1. Open Defender for Cloud. From the left navigation panel, select **Get started**.
+1. Search for **Microsoft Defender for Cloud** and open it.
+1. From the left navigation panel, select **Environment settings** under management.
 1. From the top of the Getting started page, select the **Upgrade** tab.
-1. You will see the previously created log analytics workspace, **contosola** listed.  Select where it says **Off**.  This will take you to the **Defender plan** page of contosola.  
+1. You will see the previously created log analytics workspace, **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** listed.  Select where it says **Off**.  This will take you to the **Defender plan** page of law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>.  
 1. On the **Servers** plan, select **On**, then select **Save**, from the top of the page.
 1. Use the search bar at the top to search for **Data collection rules**, then select it from the search results.
 1. Select **Create**.
