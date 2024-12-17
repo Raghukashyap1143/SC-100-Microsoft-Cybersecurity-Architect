@@ -22,11 +22,11 @@ In this scenario, you deploy the SIEM SOAR solution based on Microsoft Sentinel,
 
 ### Proposed solution
 
-| Requirement | Solution | Action plan |
-| ---- | ---- | ---- |
-| Deploy SIEM/SOAR Solution | Microsoft Sentinel, Log Analytics Workspace | Set up log analytics workspace and deploy Microsoft Sentinel |
-| Limit access to specific SOC roles | Log Analytics Workspace, Role-based Access Control | Set up RBAC for Log Analytics Workspace |
-| Create a dashboard with custom views for incidents and their alerts | Microsoft Sentinel, Workbook | Create a workbook with a custom view on current incidents and alerts |
+| Requirement                                                         | Solution                                           | Action plan                                                          |
+| ------------------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------- |
+| Deploy SIEM/SOAR Solution                                           | Microsoft Sentinel, Log Analytics Workspace        | Set up log analytics workspace and deploy Microsoft Sentinel         |
+| Limit access to specific SOC roles                                  | Log Analytics Workspace, Role-based Access Control | Set up RBAC for Log Analytics Workspace                              |
+| Create a dashboard with custom views for incidents and their alerts | Microsoft Sentinel, Workbook                       | Create a workbook with a custom view on current incidents and alerts |
 
 ## Part 2: Implement the solution (optional)
 
@@ -37,20 +37,22 @@ In this task, you'll create a log analytics workspace which is required to house
 1. Open Edge and sign into the Azure portal **`https://portal.azure.com`** using the following credentials:
    - **Username**: <inject key="AzureAdUserEmail"></inject>
    - **Password**: <inject key="AzureAdUserPassword"></inject>
-   >**Note**: If you are asked to **Stay Signed in**, Click on **Yes**.
+     > **Note**: If you are asked to **Stay Signed in**, Click on **Yes**.
 1. Search for **`log analytics workspace`**(1) and click on **log analytics workspace** (2).
 
-    ![](../media/lab01/1.png)
+   ![](../media/lab01/1.png)
+
 1. Click On Create.
 1. On Create Log Analytics workspace tab, please enter the following details:
-    | Settings | Values |
-    |  -- | -- |
-    | Subscription | *Leave default subscription* (1)|
-    | Resource group | Select the resource group name **sc-100-lab1** from the dropdown list (2)|
-    | Name | **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** (3) | 
-    | Region | **<inject key="Resource group Region" enableCopy="false" ></inject>** (4) | 
+   | Settings | Values |
+   | -- | -- |
+   | Subscription | _Leave default subscription_ (1)|
+   | Resource group | Select the resource group name **sc-100-lab1** from the dropdown list (2)|
+   | Name | **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** (3) |
+   | Region | **<inject key="Resource group Region" enableCopy="false" ></inject>** (4) |
 
-    ![](../media/lab01/2.png)
+   ![](../media/lab01/2.png)
+
 1. Select **Review & Create (5)**.
 1. Select **Create** to start the deployment.
 
@@ -62,27 +64,31 @@ In this task, you will add Sentinel to the created log analytics workspace and a
 
 1. In the search bar, in the blue banner at the top of the page, enter **`Microsoft Sentinel`** (1), then select it from the search results listed under services.
 
-    ![](../media/lab01/3.png)
-1. From the **Microsoft Sentinel** page, select **Create**.
-1. In the **Add a Microsoft Sentinel to a workspace page** the previously created log analytics workspace should be listed.  Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** then select **Add**.
-1. It may take a few minutes to add Sentinel to the workspace.  Once it's added, the **Microsoft Sentinel | New & guides (1)** page is displayed.  You're notified that the Microsoft Sentinel fre trial is activated.  Select **Ok**.
-1. From the center of the page, select **Go to content hub (2)**.  Alternatively, from the left navigation panel expand **Content management** then select **Content hub**.
+   ![](../media/lab01/3.png)
 
-    ![](../media/lab01/4.png)
+1. From the **Microsoft Sentinel** page, select **Create**.
+1. In the **Add a Microsoft Sentinel to a workspace page** the previously created log analytics workspace should be listed. Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** then select **Add**.
+1. It may take a few minutes to add Sentinel to the workspace. Once it's added, the **Microsoft Sentinel | New & guides (1)** page is displayed. You're notified that the Microsoft Sentinel fre trial is activated. Select **Ok**.
+1. From the center of the page, select **Go to content hub (2)**. Alternatively, from the left navigation panel expand **Content management** then select **Content hub**.
+
+   ![](../media/lab01/4.png)
 
 1. Search for **Microsoft Sentinel Training Lab (1)**, select it from the search results, and **install (2)** the solution.
 
-    ![](../media/lab01/5.png)
+   ![](../media/lab01/5.png)
+
 1. Select **Create (1)**.
 
-    ![](../media/lab01/6.png)
+   ![](../media/lab01/6.png)
+
 1. Choose the resource group **sc-100-lab1 (1)** and workspace **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject> (2)**.
 1. Select **Review & Create (3)** then select **Create**.
 
-    ![](../media/lab01/7.png)
+   ![](../media/lab01/7.png)
+
 1. Wait till the solution is successfully installed.
 
-You have successfully deployed Sentinel to the log analytics workspace and added data. 
+You have successfully deployed Sentinel to the log analytics workspace and added data.
 
 ### Task 3 - Setup RBAC
 
@@ -91,13 +97,13 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
 
 #### Permission requirements
 
-| Role | Permissions |
-|---|---|
-| Security analyst | View data, incidents, worksbooks and other Sentinel resources |
-| | Assigning/dismissing incidents. |
-| Security engineer | Create and edit workbooks and analytics rules |
-| | Install and update solutions from content hub |
-| Network Team | Read Permissions for Group: **NOC** on Table: **Cisco_Umbrella_dns_CL**|
+| Role              | Permissions                                                             |
+| ----------------- | ----------------------------------------------------------------------- |
+| Security analyst  | View data, incidents, worksbooks and other Sentinel resources           |
+|                   | Assigning/dismissing incidents.                                         |
+| Security engineer | Create and edit workbooks and analytics rules                           |
+|                   | Install and update solutions from content hub                           |
+| Network Team      | Read Permissions for Group: **NOC** on Table: **Cisco_Umbrella_dns_CL** |
 
 ---
 
@@ -105,60 +111,99 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
 1. In the left navigation pane, select **Access control (IAM) (1)**.
 1. Select **Add (2)**, from the dropdown select **Add role assignment (3)**.
 
-    ![](../media/lab01/8.png)
+   ![](../media/lab01/8.png)
+
 1. Search for **`Microsoft Sentinel Responder`** (1) and select **View** (2) in the Details column.
 1. Review that the permissions match the requirements.
 1. Close the window with **X** in the top right corner.
 1. Select **Next (3)**.
 
-    ![](../media/lab01/9.png)
-1. Select **+Select members (1)**.
-1. Search for **`SOC Analysts`** (2) Group, select **SOC Analysts** from the search results, press **Select (3)**  and add the role assignment.
+   ![](../media/lab01/9.png)
 
-    ![](../media/lab01/10.png)
+1. Select **+Select members (1)**.
+1. Search for **`SOC Analysts`** (2) Group, select **SOC Analysts** from the search results, press **Select (3)** and add the role assignment.
+
+   ![](../media/lab01/10.png)
+
 1. Select **Review + assign**.
 1. You'll repeat the steps for the Sentinel Contributor role. Select **Add**, from the dropdown select **Add role assignment**.
 1. Search for **`Microsoft Sentinel Contributor`** (1) and select the role (2).
 1. Select **Next** (3).
 
-    ![](../media/lab01/11.png)
-1. Select **+Select members (1)**.
-1. On the **Select members** blade, search for the **SOC Engineers (2)** Group.  From the search results select **SOC Engineers** press **Select (3)** to add the role assignment.
+   ![](../media/lab01/11.png)
 
-    ![](../media/lab01/12.png)
+1. Select **+Select members (1)**.
+1. On the **Select members** blade, search for the **SOC Engineers (2)** Group. From the search results select **SOC Engineers** press **Select (3)** to add the role assignment.
+
+   ![](../media/lab01/12.png)
+
 1. Select **Review + assign** twice.
 1. Select **Role assignments tab**, Confirm that the role assignments are set.
-1. Now you'll add a custom role. Select **Add**, from the dropdown select **Add custom role**.
-1. Name it, **`NOC-CiscoUmbrellaCL-Read`**.
-1. For **Baseline Permission**, select **Start from scratch**.
-1. Select **Next**.
+1. Now you'll add a custom role. Select **Add** (1), from the dropdown select **Add custom role** (2).
+
+   ![](../media/lab01/57.png)
+
+1. Name it, **`NOC-CiscoUmbrellaCL-Read`** (1).
+1. For **Baseline Permission**, select **Start from scratch** (2).
+1. Select **Next** (3).
+
+   ![](../media/lab01/58.png)
+
 1. On the **Permissions** tab, select **Add permissions**.
-1. Search for **`Microsoft.OperationalInsights`**, Select the **Azure Log Analytics** card.
+1. Search for **`Microsoft.OperationalInsights`** (1), Select the **Azure Log Analytics** (2) card.
+
+   ![](../media/lab01/59.png)
+
 1. Add the following permissions.
-    - Microsoft.OperationalInsights/workspaces
-        - Read : Get Workspace
-        - Other : Search Workspace Data
 
-    - Microsoft.OperationalInsights/workspaces/analytics
-        - Other : Search
+   - Microsoft.OperationalInsights/workspaces (1)
 
-    - Microsoft.OperationalInsights/workspaces/query
-        - Read : Query Data in Workspace
+     - Read : Get Workspace (2)
+     - Other : Search Workspace Data (3)
 
-    - Microsoft.OperationalInsights/workspaces/tables/query
-        - Read : Query workspace table data
+       ![](../media/lab01/60.png)
+
+   - Microsoft.OperationalInsights/workspaces/analytics (1)
+
+     - Other : Search (2)
+
+       ![](../media/lab01/61.png)
+
+   - Microsoft.OperationalInsights/workspaces/query (1)
+
+     - Read : Query Data in Workspace (2)
+
+       ![](../media/lab01/62.png)
+
+   - Microsoft.OperationalInsights/workspaces/tables/query (1)
+
+     - Read : Query workspace table data (2)
+
+       ![](../media/lab01/63.png)
 
 1. Select **Review + Create**.
 1. Select **Create**, then select **Ok**
 1. In the top search bar, search for **`Resource groups`** and select **sc-100-lab1**.
 1. Open the log analytics workspace **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
-1. In the left navigation pane, expand **Settings** and select **Tables**.
-1. Search for **`Cisco_Umbrella_dns_CL`**.
-1. Click on the ellipses (...), select **Access control (IAM)**.
-1. Select **Add** > **Add role assignment**.
-1. Search for **`NOC-CiscoUmbrellaCL-Read`** and select the custom role.
-1. Select **Next**.
-1. Select **Select Members**, search for **NOC**, select it from the search results then press **Select**
+1. In the left navigation pane, expand **Settings** (1) and select **Tables** (2).
+1. Search for **`Cisco_Umbrella_dns_CL`** (3).
+1. Click on the ellipses (...), select **Access control (IAM)** (4).
+
+   ![](../media/lab01/64.png)
+
+1. Select **Add** > **Add role assignment** (1).
+
+   ![](../media/lab01/65.png)
+
+1. Search for **`NOC-CiscoUmbrellaCL-Read`** (1) and select the custom role (2).
+1. Select **Next** (3).
+
+   ![](../media/lab01/66.png)
+
+1. Select **Select Members** (1), search for **NOC** (2), select it from the search results then press **Select** (3).
+
+   ![](../media/lab01/67.png)
+
 1. Select **Review + assign** twice.
 
 You successfully created role based access model for the role requirements for Contoso´s security operations team and created a custom role for the network team and assigned the role on the specific table in your log analytics workspace.
@@ -167,8 +212,10 @@ You successfully created role based access model for the role requirements for C
 
 In this task, you´ll create a workbook, to get a dashboard with custom views and current incidents and their alerts.
 
-1. You should still be logged into the Azure portal **https://portal.azure.com**.
 1. On the Search bar on the top, search for **`Microsoft Sentinel`** and open it.
+
+   ![](../media/lab01/68.png)
+
 1. Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
 1. In the left navigation pane, expand **Threat management** and select **Workbooks**.
 1. Select **Add Workbook**.
@@ -176,47 +223,48 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select the first **Edit** button on the right side.
 1. Select **Add** > **Add parameters**.
 1. Select **Add parameter** and fill out the following information:
-     - **Parameter name:** TimeRange
-     - **Parameter type:** Time range picker
+   - **Parameter name:** TimeRange
+   - **Parameter type:** Time range picker
 1. Check the following settings:
-     - **Required?**
+   - **Required?**
 1. Select **Save**.
 1. In the **TimeRange:** dropdown menu in the lower left, select **Last 7 days**.
 1. Select **Add parameter** and fill out the following information:
-     - **Parameter name:** AlertSeverity
-     - **Parameter type:** Drop down
+   - **Parameter name:** AlertSeverity
+   - **Parameter type:** Drop down
 1. Check the following settings:
-     - **Required?**
-     - **Allow multiple selections**
-     - **Hide parameter in reading mode**
+   - **Required?**
+   - **Allow multiple selections**
+   - **Hide parameter in reading mode**
 1. Under **Log Analytics workspace Logs Query** paste in:
 
-    ```KQL
-    SecurityAlert
-    | summarize Count = count() by AlertSeverity
-    | order by Count desc, AlertSeverity
-    | project Value = AlertSeverity, Label = strcat(AlertSeverity, ' - ', Count)
-    ```
+   ```KQL
+   SecurityAlert
+   | summarize Count = count() by AlertSeverity
+   | order by Count desc, AlertSeverity
+   | project Value = AlertSeverity, Label = strcat(AlertSeverity, ' - ', Count)
+   ```
 
 1. In the **Time Range** dropdown menu Select **TimeRange**.
 1. Scroll down to **Include in the drop down**, check **All** and set **Default selected item** to **All**.
 1. Select **Save**.
 1. Select **Add parameter** and fill out the following information:
-     - **Parameter name:** ProductName
-     - **Parameter type:** Drop down
+   - **Parameter name:** ProductName
+   - **Parameter type:** Drop down
 1. Check the following settings:
-     - **Required?**
-     - **Allow multiple selections**
-     - **Hide parameter in reading mode**
+
+   - **Required?**
+   - **Allow multiple selections**
+   - **Hide parameter in reading mode**
 
 1. Under **Log Analytics workspace Logs Query** paste in:
 
-    ```KQL
-    SecurityAlert
-    | summarize Count = count() by ProductName
-    | order by Count desc, ProductName asc
-    | project Value = ProductName, Label = strcat(ProductName, ' - ', Count)
-    ```
+   ```KQL
+   SecurityAlert
+   | summarize Count = count() by ProductName
+   | order by Count desc, ProductName asc
+   | project Value = ProductName, Label = strcat(ProductName, ' - ', Count)
+   ```
 
 1. In the **Time Range** dropdown menu Select **TimeRange**
 1. Scroll down to **Include in the drop down**, check **All** and set **Default selected item** to **All**.
@@ -224,32 +272,32 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Add** and choose **Add query**.
 1. Under **Log Analytics workspace Logs Query** paste in:
 
-    ```KQL
-    SecurityIncident
-    | where CreatedTime {TimeRange:value}
-    | summarize arg_max(TimeGenerated,*) by tostring(IncidentNumber)
-    | extend IncidentID = IncidentName
-    | extend Alerts = extract("\\[(.*?)\\]", 1, tostring(AlertIds))
-    | mv-expand AlertIds to typeof(string)
-    | join
-    (
-        SecurityAlert
-        | extend AlertEntities = parse_json(Entities)
-        | mv-expand AlertEntities
-    ) on $left.AlertIds == $right.SystemAlertId
-    | summarize AlertCount=dcount(AlertIds) by IncidentNumber, Status, Severity, Title, Alerts, IncidentUrl, IncidentID
-    | project IncidentNumber, IncidentID, Title, Severity, Status, AlertCount, Alerts, IncidentUrl
-    | order by Severity
-    ```
+   ```KQL
+   SecurityIncident
+   | where CreatedTime {TimeRange:value}
+   | summarize arg_max(TimeGenerated,*) by tostring(IncidentNumber)
+   | extend IncidentID = IncidentName
+   | extend Alerts = extract("\\[(.*?)\\]", 1, tostring(AlertIds))
+   | mv-expand AlertIds to typeof(string)
+   | join
+   (
+       SecurityAlert
+       | extend AlertEntities = parse_json(Entities)
+       | mv-expand AlertEntities
+   ) on $left.AlertIds == $right.SystemAlertId
+   | summarize AlertCount=dcount(AlertIds) by IncidentNumber, Status, Severity, Title, Alerts, IncidentUrl, IncidentID
+   | project IncidentNumber, IncidentID, Title, Severity, Status, AlertCount, Alerts, IncidentUrl
+   | order by Severity
+   ```
 
 1. Choose **TimeRange** in the Time Range drop down menu.
-You´ll setup dynamic content to get all alerts for the selected incident. Alerts will be exported and available outside this query.
+   You´ll setup dynamic content to get all alerts for the selected incident. Alerts will be exported and available outside this query.
 1. Select the **Advanced Settings** tab at the top of the **Editing query** window.
 1. Check the following settings:
-    - **When items are selected, export parameters** 
+   - **When items are selected, export parameters**
 1. Select **Add Parameter** and fill in the following information:
-    - **Field to export:** Alerts
-    - **Parameter name:** Alerts
+   - **Field to export:** Alerts
+   - **Parameter name:** Alerts
 1. Select **Save**.
 1. Go back to the **Settings** tab.
 1. Select **Run Query**.
@@ -262,19 +310,19 @@ You´ll setup dynamic content to get all alerts for the selected incident. Alert
 1. Select **+ Add** on the bottom of the **Editing query item** window. Select **Add query**.
 1. Paste the KQL in the Log Analytics workspace Logs Query
 
-    ```KQL
-    SecurityAlert
-    | where SystemAlertId in ({Alerts})
-    | summarize by  DisplayName, StartTime, EndTime,  SystemAlertId
-    | sort by EndTime desc
-    ```
+   ```KQL
+   SecurityAlert
+   | where SystemAlertId in ({Alerts})
+   | summarize by  DisplayName, StartTime, EndTime,  SystemAlertId
+   | sort by EndTime desc
+   ```
 
 1. Choose **TimeRange** in the Time Range drop down.
 1. Select **Done Editing**.
 1. Select **Done Editing** in the top bar of the **New workbook** window.
 1. Select an **Incident**.
 1. Alerts to the linked Incident will show up below.
-1. Save your query by selecting the Save icon.  
+1. Save your query by selecting the Save icon.
 1. In the **Save as** window, enter a title for your new workbook, select the **sc-100-lab1** resource group from the drop-down, then select **Save as**.
 
 You successfully created a dashboard with custom views for incidents and the associated alerts.
