@@ -86,7 +86,9 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 1. On the PowerShell windows, select Y
 1. Run the onboarding script. To do this, select file explorer. It should take you to the downloads folder on the local C drive of the server VM. Use the right mouse key to select the file **OnboardingScript** and select **Run with PowerShell**.
 1. Click on **Open**.
-1. When the authentication popup appears, log in with the same account you are using for the Azure portal.
+1. When the authentication popup appears, log in with the following following credentials:
+   - **Username**: <inject key="AzureAdUserEmail"></inject>
+   - **Password**: <inject key="AzureAdUserPassword"></inject>
 1. Wait till the script is successfully completed.
 1. Go back to LON-SC1 and open Azure Arc.
 1. Select **Machines**, select **Refresh** on top of the page and validate your server is successfully deployed to Azure Arc.
