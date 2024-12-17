@@ -87,16 +87,22 @@ In this Task, you´ll configure a data connection from Defender EASM to an log a
 
     ![](../media/lab01/13.png)
 1. Select your **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** workspace.
-1. In the left navigation pane, expand **Manage** and select **Data connections**.
+1. In the left navigation pane, expand **Manage (1)** and select **Data connections (2)**.
+
+    ![](../media/lab01/18.png)
 1. Under Log Analytics, select **Add connection**.
 1. Name it **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
 1. Switch to the previous tab with the log analytics workspace that should be open.
-1. Expand **Log Analytics agent instructions**.
+1. Expand **Agents** under Settings.
 1. Copy the **Workspace ID** into the corresponding field of the Add data connection window.
 1. Copy the ** **Primary key** into the API key field of the Add data connection window.
+
+    ![](../media/lab01/19.png)
 1. In Content select **All**.
 1. In Frequency select **Daily**.
 1. Select **Add**.
+
+    ![](../media/lab01/20.png)
 1. The Log Analytics card of the Data connections page should now show law-sentinel, listed under Connected (1).
 
 After the connection has been created, custom log tables are created in the log analytics workspace. In Sentinel, this data can then be used to create or enrich security incidents, build investigation playbooks, train machine learning algorithms or trigger remediation actions.
