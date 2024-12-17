@@ -47,8 +47,6 @@ In this task you will restrict the level of access a user can grant to applicati
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
     - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. 1. If **Action required** pop-up window appears, click on **Ask Later**.
-
 1. On the left navigation pane, navigate to **Identity** > **Applications** > **Enterprise applications** > **Security** > **Consent and permissions**.
 
    ![](../media/lab02/exc1-1.png)
