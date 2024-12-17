@@ -70,7 +70,7 @@ In this Task, you´ll create a Discovery on Contoso Ltd. outside facing assets. 
 1. Select **Contoso Ltd. (2)**.
 1. Select **Start attack surface discovery (3)**.
 
-    ![](../media/lab01/15.png)
+    ![](../media/lab01/16.png)
 
 You successfully created the Discovery of Contoso´s External Attack Surface and populated the EASM instance with actionable data.
 
