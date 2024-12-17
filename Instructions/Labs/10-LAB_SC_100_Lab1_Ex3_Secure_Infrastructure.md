@@ -174,7 +174,10 @@ Based on the recommendation you can start to secure the resource and assign secu
 1. Search for **`NIST SP 800-53 Rev. 5`** (2). Change the status slider to **On** (3).
 
    ![](../media/lab01/55.png)
-1. Go back to Defender for Cloud and select **Regulatory compliance** under Cloud Security.
+1. Go back to Defender for Cloud and select **Regulatory compliance** (1) under Cloud Security.
+
+   ![](../media/lab01/56.png)
+
 
 Due to limitation off the lab environment, you are not able to see the resources as well as the compliance recommendations. It takes a while until the deployed resources are visible in Defender for Cloud.
 
