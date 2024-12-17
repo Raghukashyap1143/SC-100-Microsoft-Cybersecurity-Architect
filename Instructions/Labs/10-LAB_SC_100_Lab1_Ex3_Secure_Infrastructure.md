@@ -47,14 +47,19 @@ You successfully created the log analytics workspace. -->
 
 Before Defender for Cloud can apply protections to your assets you have to enable the Defender plans for the resource types you want to secure.
 
-1. You should still be logged into the Azure portal **https://portal.azure.com**.
-1. Search for **Microsoft Defender for Cloud** and open it.
-1. In the left navigation pane, expand **Management** and select **Environment settings**.
+1. Search for **Microsoft Defender for Cloud** (1) and open it (2).
+
+   ![](../media/lab01/36.png)
+1. In the left navigation pane, expand **Management** (1) and select **Environment settings** (2).
 1. Select **Expand all** and select your Subscription.
 1. If the Subscription is shown as **unregistered** reload the page.
-1. Select the ellipses (...) next to the subscription and select **Edit settings**.
-1. Under **Cloud Workload Protection** set the **Servers** plan stats to **On**.
-1. Select **Save** on top of the page.
+1. Select the ellipses (...) (3) next to the subscription and select **Edit settings** (4).
+
+   ![](../media/lab01/37.png)
+1. Under **Cloud Workload Protection** set the **Servers** plan stats to **On** (1).
+1. Select **Save** (2) on top of the page.
+
+   ![](../media/lab01/38.png)
 
 When enabling the Plan for Servers you could see that Defender for Cloud supports many more resource types.
 
