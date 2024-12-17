@@ -38,10 +38,22 @@ In the second step examinine Contoso Ltd.'s existing environment. Microsoft Defe
 In this Task, you´ll create a Defender EASM workspace.
 
 1. In the top search bar, search for **`Microsoft Defender EASM`**.
+
+    ![](../media/lab01/13.png)
 1. Select **Create**.
+
+    ![](../media/lab01/14.png)
 1. On Create Microsoft Defender EASM Resource, select the existing resource group **sc-100-lab1**.
-1. In Instance details enter the name **EASM<inject key="DeploymentID" enableCopy="false" /></inject>**, select **East US** for region.
-1. Select **Review & Create**.
+1. In Instance details enter the following details and select on **Review & Create**:
+    | Settings | Values |
+    |  -- | -- |
+    | Subscription | *Leave default subscription* (1)|
+    | Resource group | Select the resource group name **sc-100-lab1** from the dropdown list (2)|
+    | Name | **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** (3) | 
+    | Region | **<inject key="Resource group Region" enableCopy="false" ></inject>** (4) | 
+
+    ![](../media/lab01/15.png)
+
 1. Select **Create**.
 
 You successfully created the Defender EASM workspace.
