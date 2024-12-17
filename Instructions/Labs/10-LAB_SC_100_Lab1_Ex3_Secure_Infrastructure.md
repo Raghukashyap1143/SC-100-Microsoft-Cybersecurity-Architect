@@ -101,8 +101,8 @@ You´ll deploy a Data collection rule to get event logs from the on premise serv
 
 1. Search for **Microsoft Defender for Cloud** and open it.
 1. From the left navigation panel, select **Environment settings** under management.
-1. From the top of the Getting started page, select the **Upgrade** tab.
-1. You will see the previously created log analytics workspace, **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** listed.  Select where it says **Off**.  This will take you to the **Defender plan** page of law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>.  
+<!-- 1. From the top of the Getting started page, select the **Upgrade** tab. -->
+1. Expand the **Tenant Root Group** and the **Subscrtiption**, now you will see the previously created log analytics workspace, **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** listed. Select the ellipses (...) next to the **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** and select **Edit settings**..  This will take you to the **Defender plan** page of law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>.  
 1. On the **Servers** plan, select **On**, then select **Save**, from the top of the page.
 1. Use the search bar at the top to search for **Data collection rules**, then select it from the search results.
 1. Select **Create**.
