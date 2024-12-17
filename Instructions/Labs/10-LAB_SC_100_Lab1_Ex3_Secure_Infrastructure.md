@@ -90,7 +90,9 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 
    ![](../media/lab01/43.png)
 1. Select **Download** and run script on your second Lab Client **VM1** to onboard the on-premise Server to Azure.
-   >**Note**: If there is a pop-up regarding **OnboardingScript.ps1 could harm your device. Do you want to keep it anyway?**, click on **Keep**.
+   >**Note**: If there is a pop-up regarding **OnboardingScript.ps1 could harm your device. Do you want to keep it anyway?**, click on **Keep** (1).
+
+      ![](../media/lab01/44.png)
 1. Run Windows PowerShell as an administrator. To do this, use the right mouse key to select the Windows icon on the bottom right corner of the window and select **Windows PowerShell(Admin)**
 1. Set the Execution Policy to unrestricted.
 
@@ -106,7 +108,9 @@ Azure Arc is required so that it can be used to send data to the log analytics w
    - **Password**: <inject key="AzureAdUserPassword"></inject>
 1. Wait till the script is successfully completed.
 1. Go back to Azure Portal and open Azure Arc.
-1. Select **Machines**, select **Refresh** on top of the page and validate your server is successfully deployed to Azure Arc.
+1. Select **Machines**, select **Refresh** (1) on top of the page and validate your server is successfully deployed to Azure Arc.
+
+   ![](../media/lab01/45.png)
 
 You have successfully enabled Azure Arc on the test server and data should start to flow into the log analytics workspace. This process might take some time until you can see anything in the dashboard.
 
