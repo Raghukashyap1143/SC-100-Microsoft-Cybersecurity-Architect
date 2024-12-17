@@ -53,7 +53,7 @@ Before Defender for Cloud can apply protections to your assets you have to enabl
 1. Select **Expand all** and select your Subscription.
 1. If the Subscription is shown as **unregistered** reload the page.
 1. Select the ellipses (...) next to the subscription and select **Edit settings**.
-1. Under **Cloud Workload Protection** set the **Servers** plan the slider on the right to **On**.
+1. Under **Cloud Workload Protection** set the **Servers** plan stats to **On**.
 1. Select **Save** on top of the page.
 
 When enabling the Plan for Servers you could see that Defender for Cloud supports many more resource types.
@@ -62,7 +62,10 @@ When enabling the Plan for Servers you could see that Defender for Cloud support
 
 Azure Arc is required so that it can be used to send data to the log analytics workspace that Defender for Cloud uses.
 
-1. Swap to VM **LON-SC2** and sign into the Azure portal **`https://portal.azure.com`**.
+1. Swap to VM **Microsoft Azure: VM1** and sign into the Azure portal **`https://portal.azure.com`** using the following credentials:
+   - **Username**: <inject key="AzureAdUserEmail"></inject>
+   - **Password**: <inject key="AzureAdUserPassword"></inject>
+   >**Note**:
 1. Search for **`Azure Arc`** and open it.
 1. In the left hand navigation pane, expand **Azure Arc resources** and select **Machines**.
 1. Select **Add/Create** > **Add Machine**.
