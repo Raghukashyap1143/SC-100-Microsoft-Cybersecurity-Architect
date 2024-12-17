@@ -32,9 +32,10 @@ The third phase involves crafting the solution's concept. Upon investigation, it
 
 In this task you will create a named location using your VM's external IP address to define a trusted network you can use in a conditional access policy in the following tasks. You will use this address because your machine is located within your company network.
 
-1. Log into the Client 1 VM (LON-Sc1) as the **lon-sc1\admin** account. The password should be provided by your lab hosting provider.
-1. Open a **PowerShell** window by selecting the start menu with the right mouse button and then select **Terminal**.
+1. In LabVM, Open a **PowerShell** window by selecting the start menu with the right mouse button and then select **Terminal**.
+
 1. Enter the following cmdlet to check your current external IP address:
+
     ```powershell
     curl ifconfig.me | Select-String -Pattern '.'
     ```
