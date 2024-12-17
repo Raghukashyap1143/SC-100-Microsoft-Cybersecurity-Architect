@@ -34,11 +34,6 @@ In the second step examine Contoso Ltd.'s existing environment. Defender for Clo
 
 In this task, you´ll create a log analytics workspace which is required to house the data that is send from different resources.
 
-1. Log into the Client 1 VM (LON-SC1) as the **lon-sc1\admin** account. The password should be provided by your lab hosting provider.
-1. Open **Microsoft Edge**, select the address bar, navigate to **`https://portal.azure.com`** and log into the Azure Portal as user **User1-*******@LODSUATMCA.onmicrosoft.com** (where ****** is your unique tenant ID provided by your lab hosting provider). User´s password should be provided by your lab hosting provider.
-1. On the Stay signed in? dialog box, select the Don’t show this again checkbox and then select **No**.
-1. Close the password save dialog from the bottom by selecting Never, to not save the default global admins credentials in your browser.
-1. Cancel Welcome to Microsoft Azure screen.
 1. Select **Create a resource** and search for **log analytics workspace**
 1. Find the **Log Analytics Workspace tile**, select **Create**.
 1. On Create Log Analytics workspace site, create a new **Resource Group** and name it **`ContosoRG`**.
