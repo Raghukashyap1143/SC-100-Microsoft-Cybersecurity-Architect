@@ -30,7 +30,7 @@ In the second step examine Contoso Ltd.'s existing environment. Defender for Clo
 
 ## Part 2: Implement the solution (optional)
 
-### Task 1: Create a Log Analytics Workspace
+<!-- ### Task 1: Create a Log Analytics Workspace
 
 In this task, you´ll create a log analytics workspace which is required to house the data that is send from different resources.
 
@@ -41,9 +41,9 @@ In this task, you´ll create a log analytics workspace which is required to hous
 1. Select **Review & Create**
 1. Select **Create** to start the deployment.
 
-You successfully created the log analytics workspace.
+You successfully created the log analytics workspace. -->
 
-### Task 2: Enable Defender for Cloud
+### Task 1: Enable Defender for Cloud
 
 Before Defender for Cloud can apply protections to your assets you have to enable the Defender plans for the resource types you want to secure.
 
