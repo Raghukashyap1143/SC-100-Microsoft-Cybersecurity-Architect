@@ -108,9 +108,8 @@ You successfully reviewed the Security posture and labeled an asset for further 
 
 In this task, you´ll manage and categorize the discovered assets.
 
-1. You should still be logged into the Azure portal **https://portal.azure.com**.
 1. On the search bar on the top, search for **`Microsoft Defender EASM`** and open it.
-1. Select your **EASM** workspace.
+1. Select your **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** workspace.
 1. In the left navigation pane, expand **General** and select **Inventory**.
 1. In the EASM | Inventory page, the Search tab is selected (underlined). In the search field use the dropdown menu to select **Labels**
 1. In the dropdown menu below choose the label you recently created, **Open ports**.
