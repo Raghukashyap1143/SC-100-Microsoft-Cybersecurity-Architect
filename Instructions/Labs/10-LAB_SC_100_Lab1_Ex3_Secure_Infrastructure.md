@@ -72,7 +72,7 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 1. Select **Add/Create** > **Add a Machine**.
 1. Under Add a single server, select **Generate script**.
 1. In the Resource group field, use the drop-down menu to select **sc-100-lab1**.
-1. In the Region field, use the drop-down menu to select **<inject key="Region" enableCopy="false" ></inject>**.
+1. In the Region field, use the drop-down menu to select **<inject key="Resource group Region" enableCopy="false" ></inject>**.
 1. Select **Download and run script**.
 1. Select **Download** and run script on your second Lab Client **VM1** to onboard the on-premise Server to Azure.
    >**Note**: If there is a pop-up regarding **OnboardingScript.ps1 could harm your device. Do you want to keep it anyway?**, click on **Keep**.
