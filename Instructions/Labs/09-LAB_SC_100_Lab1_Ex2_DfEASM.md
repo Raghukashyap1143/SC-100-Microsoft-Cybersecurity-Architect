@@ -152,11 +152,15 @@ In this task, you´ll manage and categorize the discovered assets.
 
 1. On the search bar on the top, search for **`Microsoft Defender EASM`** and open it.
 1. Select your **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** workspace.
-1. In the left navigation pane, expand **General** and select **Inventory**.
-1. In the EASM | Inventory page, the Search tab is selected (underlined). In the search field use the dropdown menu to select **Labels**
-1. In the dropdown menu below choose the label you recently created, **Open ports**.
-1. Select **Search**.
-1. Open the found asset **34.223.124.45**.
+1. In the left navigation pane, expand **General** (1) and select **Inventory** (2).
+
+    ![](../media/lab01/29.png)
+1. In the EASM | Inventory page, the Search tab is selected (underlined). In the search field use the dropdown menu to select **Labels** (1).
+1. In the dropdown menu below choose the label you recently created, **Open ports** (2).
+1. Select **Search** (3).
+1. Open the found asset **34.223.124.45** (4).
+
+    ![](../media/lab01/30.png)
 1. Select the **Web components** tab.
 1. You identify that this asset is hosted on Amazon, there are also open CVE´s on some of the components, but these are not active as you can see in the **Recent** and **Last seen** column. These originate from earlier discovery runs.
 Since this asset is hosted by a third party but still belongs to your attack surface, you categorize it based on their role in your organization.
