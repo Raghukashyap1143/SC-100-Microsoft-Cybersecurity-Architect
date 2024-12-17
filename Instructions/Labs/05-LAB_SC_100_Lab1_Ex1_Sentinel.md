@@ -34,17 +34,16 @@ In this scenario, you deploy the SIEM SOAR solution based on Microsoft Sentinel,
 
 In this task, you'll create a log analytics workspace which is required to house all of the data that Microsoft Sentinel will be ingesting and using for its detections and analytics.
 
-1. Log into the Client 1 VM (LON-SC1) as the **lon-sc1\admin** account. The password should be provided by your lab hosting provider.
-2. Open **Microsoft Edge**, select the address bar, navigate to **`https://portal.azure.com`** and log into the Azure Portal as user **User1-*******@LODSUATMCA.onmicrosoft.com** (where ****** is your unique tenant ID provided by your lab hosting provider). User´s password should be provided by your lab hosting provider.
-3. On the Stay signed in? dialog box, select the Don’t show this again checkbox and then select **No**.
-4. Close the password save dialog from the bottom by selecting Never, to not save the default global admins credentials in your browser.
-5. Cancel Welcome to Microsoft Azure screen.
-6. Select **Create a resource** and search for **log analytics workspace**
-7. Find the **Log Analytics Workspace tile**, select **Create**.
-8. On Create Log Analytics workspace site, create a new **Resource Group** and name it **`rg_eastus_soc`**.
-9. In Instance details enter the name **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**, select **East US** for region.
-10. Select **Review & Create**
-11. Select **Create** to start the deployment.
+1. Open Edge and sign into the Azure portal **`https://portal.azure.com`** using the following credentials:
+   - **Username**: <inject key="AzureAdUserEmail"></inject>
+   - **Password**: <inject key="AzureAdUserPassword"></inject>
+   >**Note**: If you are asked to **Stay Signed in**, Click on **Yes**.
+1. Search for **`log analytics workspace`** and open it.
+1. Find the **Log Analytics Workspace tile**, select **Create**.
+1. On Create Log Analytics workspace site, create a new **Resource Group** and name it **`rg_eastus_soc`**.
+1. In Instance details enter the name **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**, select **East US** for region.
+1. Select **Review & Create**
+1. Select **Create** to start the deployment.
 
 You successfully created the log analytics workspace for your Sentinel deployment.
 
