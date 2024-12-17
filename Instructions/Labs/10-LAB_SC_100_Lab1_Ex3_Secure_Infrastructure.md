@@ -66,7 +66,7 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 1. Open Edge and sign into the Azure portal **`https://portal.azure.com`** using the following credentials:
    - **Username**: <inject key="AzureAdUserEmail"></inject>
    - **Password**: <inject key="AzureAdUserPassword"></inject>
-   >**Note**:
+   >**Note**: If you are asked to **Stay Signed in**, Click on **Yes**.
 1. Search for **`Azure Arc`** and open it.
 1. In the left hand navigation pane, expand **Azure Arc resources** and select **Machines**.
 1. Select **Add/Create** > **Add Machine**.
