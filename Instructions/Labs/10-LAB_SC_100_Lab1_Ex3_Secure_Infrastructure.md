@@ -58,7 +58,7 @@ Before Defender for Cloud can apply protections to your assets you have to enabl
 
 When enabling the Plan for Servers you could see that Defender for Cloud supports many more resource types.
 
-### Task 3: Enable the on premise Server in Azure Arc
+### Task 2: Enable the on premise Server in Azure Arc
 
 Azure Arc is required so that it can be used to send data to the log analytics workspace that Defender for Cloud uses.
 
@@ -95,7 +95,7 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 
 You have successfully enabled Azure Arc on the test server and data should start to flow into the log analytics workspace. This process might take some time until you can see anything in the dashboard.
 
-### Task 4: Add Server to Defender for Cloud and gather Logs.
+### Task 3: Add Server to Defender for Cloud and gather Logs.
 
 You´ll deploy a Data collection rule to get event logs from the on premise server. The rule will automatically deploy the monitoring agent on the server and forward logs to the previously created log analytics workspace.
 
@@ -124,7 +124,7 @@ You´ll deploy a Data collection rule to get event logs from the on premise serv
 
 It may take a few hours till the resource is fully onboarded in Defender for Cloud. The next step is to look at the recommendation that Defender for Cloud generates for this resource.
 
-### Task 5: Add regulatory compliance standard
+### Task 4: Add regulatory compliance standard
 
 Based on the recommendation you can start to secure the resource and assign security policies e.g. NIST SP 800-53 Rev.5 to ensure that the resources of Tailwind traders comply with our compliance regulations.
 
