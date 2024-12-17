@@ -42,21 +42,45 @@ The third phase involves crafting the solution's concept. Upon investigation, it
 
 In this task you will restrict the level of access a user can grant to applications. You will also add the functionality for users to request access they are not able to permit themselves. 
 
-1. Log into the Client 1 VM (LON-Sc1) as the **lon-sc1\admin** account. The password should be provided by your lab hosting provider.
-1. Open **Microsoft Edge**, select the address bar, navigate to **`https://entra.microsoft.com`** and log into the Entra ID Portal as **MOD Administrator** admin@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). The admin password should be provided by your lab hosting provider.
-1. If you're asked to setup multifactor authentication, follow the instructions.
-1. On the **Stay signed in?** dialog box, select the **Don’t show this again** checkbox and then select **No**.
-1. Close the password save dialog box by selecting **Not now**, to not save the default global admin's credentials in your browser.
+1. Open a new tab in **Microsoft Edge**, select the address bar, navigate to **`https://entra.microsoft.com`** and log into the Entra ID Portal with the below credentials if prompted.
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+1. 1. If **Action required** pop-up window appears, click on **Ask Later**.
+
 1. On the left navigation pane, navigate to **Identity** > **Applications** > **Enterprise applications** > **Security** > **Consent and permissions**.
+
+   ![](../media/lab02/exc1-1.png)
+
 1. Navigate to **Permission classifications**.
+
 1. Entra will suggest the most used permissions for **low risk** permissions.
+
 1. Check all these permissions and select **Yes, add selected permissions** to classify them as **low risk** in your Entra ID tenant.
+
+   ![](../media/lab02/exc1-2.png)
+
 1. Navigate to **User consent settings**.
+
 1. Under **User consent for applications** select the recommended option **Allow user consent for apps from verified publishers, for selected permissions**. This enables users to consent for permissions classified as "low impact" (that you previously selected), for apps from verified publishers.
+
 1. Select **Save**.
-1. Navigate to **Admin consent settings** and enable Admin consent requests by selecting **Yes**, to allows users to request admin consent to aps they are unable to content to.
-1. Select **+ Add users** to add **`Lidia Holloway`** and **`MOD Administrator`** as users that can review admin consent requests.
+
+   ![](../media/lab02/exc1-3.png)
+
+1. Navigate to **Admin consent settings** and enable Admin consent requests by selecting **Yes**, to allows users to request admin consent to apps they are unable to consent to.
+
+   ![](../media/lab02/exc1-4.png)
+
+1. Select **+ Add users** to add **`Lidia Holloway`** and **ODL_User <inject key="DeploymentID" enableCopy="false"/>** as users that can review admin consent requests.
+
+   ![](../media/lab02/exc1-5.png)
+
 1. Select **Save** on the **Admin consent settings** window.
+
+   ![](../media/lab02/exc1-6.png)
+
 1. Keep this browser tab open for the next task.
 
 You have now configured the application consent settings limiting the access every user can grant to applications. Users can still request permission consent to applications and the application admin team can approve of them after evaluating the need and risk for the specific application.
@@ -66,18 +90,34 @@ You have now configured the application consent settings limiting the access eve
 In this Task you will use the Entra ID portal to create an own Authentication strength to restrict the use of SMS OTP within your organization. 
 
 1. You should still be logged into the Entra ID portal **https://entra.microsoft.com**.
+
 2. On the left navigation pane, navigate to **Protection** > **Authentication methods** > **Authentication strengths**.
+
+   ![](../media/lab02/exc1-7.png)
+
 3. Select **+ New authentication strength**.
+
 4. Enter the name **Hardened MFA**.
+
 5. Check **Phishing-resistant MFA**, **Passwordless MFA** and **Multifactor authentication**.
+
+   ![](../media/lab02/exc1-8.png)
+
 6. Under Multifactor authentication uncheck the following:
    - **Temporary Access Pass (Multi-use)**
    - **Password + SMS**
    - **Password + Voice**
    - **Federated Single factor + SMS**
    - **Federated Single factor + Voice**.
+
+     ![](../media/lab02/exc1-9.png)
+
 7. Select **Next**.
+
 8. Review and check, that none of the above factors are left in the authentication strength.
-9.  Select **Create**.
+
+9. Select **Create**.
+
+    ![](../media/lab02/exc1-10.png)
 
 You have now created an authentication strength that restricts the use of SMS OTP as an authentication factor.
