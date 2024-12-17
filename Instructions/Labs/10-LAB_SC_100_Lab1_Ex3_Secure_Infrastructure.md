@@ -90,7 +90,7 @@ Azure Arc is required so that it can be used to send data to the log analytics w
    - **Username**: <inject key="AzureAdUserEmail"></inject>
    - **Password**: <inject key="AzureAdUserPassword"></inject>
 1. Wait till the script is successfully completed.
-1. Go back to LON-SC1 and open Azure Arc.
+1. Go back to Azure Portal and open Azure Arc.
 1. Select **Machines**, select **Refresh** on top of the page and validate your server is successfully deployed to Azure Arc.
 
 You have successfully enabled Azure Arc on the test server and data should start to flow into the log analytics workspace. This process might take some time until you can see anything in the dashboard.
