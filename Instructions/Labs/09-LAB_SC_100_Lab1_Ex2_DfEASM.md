@@ -127,12 +127,22 @@ In this Task, you´ll review the Defender EASM Security posture and get informat
 
     ![](../media/lab01/23.png)
 1. Select the found ip address **34.223.124.45**.
+
+    ![](../media/lab01/24.png)
 1. You decide to label the asset for further investigation.
 1. Select **Modify Asset**.
+
+    ![](../media/lab01/25.png)
 1. Select **Create new label**.
-1. Name it **Open ports** and select **Add**.
-1. Assign the newly created label in the field **Labels**.
-1. Select **Update**.
+
+    ![](../media/lab01/26.png)
+1. Name it **Open ports** (1) and select **Add** (2).
+
+    ![](../media/lab01/27.png)
+1. Assign the newly created label in the field **Labels** (1).
+1. Select **Update** (2).
+
+    ![](../media/lab01/26.png)
 
 You successfully reviewed the Security posture and labeled an asset for further investigation.
 
