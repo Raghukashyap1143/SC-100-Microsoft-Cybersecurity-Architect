@@ -115,11 +115,17 @@ In this Task, you´ll review the Defender EASM Security posture and get informat
 
 1. On the search bar on the top, search for **`Microsoft Defender EASM`** and open it.
 1. Select your **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** workspace.
-1. In the left navigation pane, expand **Dashboards** and select **Attack surface summary**. The Attack Surface Summary dashboards provide key insights and high level overview of the impacted core assets of your attack surface.
+1. In the left navigation pane, expand **Dashboards (1)** and select **Attack surface summary (2)**. The Attack Surface Summary dashboards provide key insights and high level overview of the impacted core assets of your attack surface.
+
+    ![](../media/lab01/21.png)
 1. Review the **Attack surface summary** Dashboard.
 1. In the left navigation pane, select **Security posture**.
+
+    ![](../media/lab01/22.png)
 1. Review the different categories for open vulnerabilities.
 1. Under the category **Open ports**, select **Web servers**.
+
+    ![](../media/lab01/23.png)
 1. Select the found ip address **34.223.124.45**.
 1. You decide to label the asset for further investigation.
 1. Select **Modify Asset**.
