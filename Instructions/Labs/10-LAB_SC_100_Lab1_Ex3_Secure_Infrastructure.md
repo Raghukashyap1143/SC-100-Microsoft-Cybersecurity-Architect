@@ -62,7 +62,8 @@ When enabling the Plan for Servers you could see that Defender for Cloud support
 
 Azure Arc is required so that it can be used to send data to the log analytics workspace that Defender for Cloud uses.
 
-1. Swap to VM **Microsoft Azure: VM1** and sign into the Azure portal **`https://portal.azure.com`** using the following credentials:
+1. Swap to VM **Microsoft Azure: VM1**, use <inject key="VM1 Password"></inject> to sign in into the machine.
+1. Open Edge and sign into the Azure portal **`https://portal.azure.com`** using the following credentials:
    - **Username**: <inject key="AzureAdUserEmail"></inject>
    - **Password**: <inject key="AzureAdUserPassword"></inject>
    >**Note**:
