@@ -126,22 +126,35 @@ You´ll deploy a Data collection rule to get event logs from the on premise serv
 1. Expand the **Tenant Root Group** and the **Subscrtiption**, now you will see the previously created log analytics workspace, **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** listed. Select the ellipses (...) next to the **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** and select **Edit settings** (2).  This will take you to the **Defender plan** page of law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>.  
 
    ![](../media/lab01/47.png)
-1. On the **Servers** plan, select **On**, then select **Save**, from the top of the page.
+1. On the **Servers** plan, select **On** (1), then select **Save** (2), from the top of the page.
+
+   ![](../media/lab01/48.png)
 1. Use the search bar at the top to search for **Data collection rules**, then select it from the search results.
+
+   ![](../media/lab01/49.png)
 1. Select **Create**.
-1. - Rule Name: **`ContosoDCR`**
-   - Resource group: **sc-100-lab1**
-1. Select **Next: Resources**.
-1. Select **Add resources**. Choose **Machines - Azure Arc** under the droupdown for **Resource types** and Expand the scope of the resource group. Check the previously onboarded Azure Arc machine, select **Apply**.
+1. Add the following details, and select **Next: Resources** (4):
+   - Rule Name: **`ContosoDCR`** (1)
+   - Resource group: **sc-100-lab1** (2)
+   - Region - **<inject key="Resource group Region" enableCopy="false" ></inject>** (3)
+
+      ![](../media/lab01/50.png)
+1. Select **Add resources** (1). Choose **Machines - Azure Arc** (2) under the droupdown for **Resource types** and Expand the scope of the resource group. Check the previously onboarded **Azure Arc machine** (3), select **Apply** (4).
+
+   ![](../media/lab01/51.png)
 1. Select **Next: Collect and deliver**.
-1. Select **Add data source**.
-1. Choose Data Source type **Windows Event Logs**.
-1. Select every option under **Configure the event logs and levels to collect:**.
-1. Select **Next: Destination**.
-1. Select **Add Destination**.
-   - Destination type: **Azure Monitor Logs**
-   - Destination Details: **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**
-1. Select **Add data source**.
+1. Select **Add data source** (1).
+1. Choose Data Source type **Windows Event Logs** (2).
+1. Select every option under **Configure the event logs and levels to collect:** (3).
+1. Select **Next: Destination** (4).
+
+   ![](../media/lab01/52.png)
+1. Select **Add Destination** (1).
+   - Destination type: **Azure Monitor Logs** (2).
+   - Destination Details: **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** (3).
+1. Select **Add data source** (4).
+
+   ![](../media/lab01/53.png)
 1. Select **Review & create**.
 1. Select **Create**.
 
@@ -152,11 +165,15 @@ It may take a few hours till the resource is fully onboarded in Defender for Clo
 Based on the recommendation you can start to secure the resource and assign security policies e.g. NIST SP 800-53 Rev.5 to ensure that the resources of Tailwind traders comply with our compliance regulations.
 
 1. Search for **Microsoft Defender for Cloud** and open it.
-1. Expand **Management** and select **Environment settings**.
+1. Expand **Management** and select **Environment settings** (1).
 1. Select **Expand all**.
-1. Select the ellipses (...) next to the subscription and select **Edit settings**.
-1. Select **Security policies** in the navigation menu on the left. The list might take a while to load.
-1. Search for **`NIST SP 800-53 Rev. 5`**. Change the status slider to **On**.
+1. Select the ellipses (...) next to the subscription and select **Edit settings** (2).
+
+   ![](../media/lab01/54.png)
+1. Select **Security policies** (!) in the navigation menu on the left. The list might take a while to load.
+1. Search for **`NIST SP 800-53 Rev. 5`** (2). Change the status slider to **On** (3).
+
+   ![](../media/lab01/55.png)
 1. Go back to Defender for Cloud and select **Regulatory compliance** under Cloud Security.
 
 Due to limitation off the lab environment, you are not able to see the resources as well as the compliance recommendations. It takes a while until the deployed resources are visible in Defender for Cloud.
