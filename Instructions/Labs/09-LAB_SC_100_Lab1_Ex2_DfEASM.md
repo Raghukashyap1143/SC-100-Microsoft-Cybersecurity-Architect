@@ -63,6 +63,8 @@ You successfully created the Defender EASM workspace.
 In this Task, you´ll create a Discovery on Contoso Ltd. outside facing assets. After you have created an instance you need to populate it with actual data. Therefore you will now create a discovery.
 
 1. On the search bar on the top, search for **`Microsoft Defender EASM`** and open it.
+
+    ![](../media/lab01/13.png)
 1. Select the **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** workspace you created in the last task.
 1. Search for **Contoso** in the **Search for an organization** search field.
 1. Select **Contoso Ltd.**.
