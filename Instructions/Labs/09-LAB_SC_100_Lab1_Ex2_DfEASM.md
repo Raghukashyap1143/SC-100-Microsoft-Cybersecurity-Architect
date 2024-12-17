@@ -62,16 +62,14 @@ You successfully created the Discovery of Contoso´s External Attack Surface and
 
 In this Task, you´ll configure a data connection from Defender EASM to an log analytics workspace that will be used for Sentinel. Defender EASM asset or insights information can be used in Log Analytics to enrich existing workflows with other security data.
 
-1. You should still be logged into the Azure portal **https://portal.azure.com**.
 1. In the top search bar, search for **`Log Analytics Workspaces`**.
-1. Select your **law-sentinel** workspace from the last exercise.
-    >[!NOTE] If the law-sentinel workspace is not listed, you'll need to create it again, as opening a new lab instance does not preserve previous work. Refer to the Security Operations Center exercise, part 2, task 1.
+1. Select your **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** workspace from the last exercise.
 1. Leave the page as it is and open another tab and log into the Azure portal **`https://portal.azure.com`**.
 1. On the search bar on the top, search for **`Microsoft Defender EASM`** and open it.
-1. Select your **EASM** workspace.
+1. Select your **EASM<inject key="DeploymentID" enableCopy="false" /></inject>** workspace.
 1. In the left navigation pane, expand **Manage** and select **Data connections**.
 1. Under Log Analytics, select **Add connection**.
-1. Name it **law-sentinel**
+1. Name it **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
 1. Switch to the previous tab with the log analytics workspace that should be open.
 1. Expand **Log Analytics agent instructions**.
 1. Copy the **Workspace ID** into the corresponding field of the Add data connection window.
