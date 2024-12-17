@@ -107,9 +107,9 @@ You´ll deploy a Data collection rule to get event logs from the on premise serv
 1. Use the search bar at the top to search for **Data collection rules**, then select it from the search results.
 1. Select **Create**.
 1. - Rule Name: **`ContosoDCR`**
-   - Resource group: **ContosoRG**
+   - Resource group: **sc-100-lab1**
 1. Select **Next: Resources**.
-1. Select **Add resources**. Expand the scope of the resource group. Check the previously onboarded Azure Arc machine, select **Apply**.
+1. Select **Add resources**. Choose **Machines - Azure Arc** under the droupdown for **Resource types** and Expand the scope of the resource group. Check the previously onboarded Azure Arc machine, select **Apply**.
 1. Select **Next: Collect and deliver**.
 1. Select **Add data source**.
 1. Choose Data Source type **Windows Event Logs**.
@@ -117,7 +117,7 @@ You´ll deploy a Data collection rule to get event logs from the on premise serv
 1. Select **Next: Destination**.
 1. Select **Add Destination**.
    - Destination type: **Azure Monitor Logs**
-   - Account or namespace: **ContosoLA**
+   - Destination Details: **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**
 1. Select **Add data source**.
 1. Select **Review & create**.
 1. Select **Create**.
