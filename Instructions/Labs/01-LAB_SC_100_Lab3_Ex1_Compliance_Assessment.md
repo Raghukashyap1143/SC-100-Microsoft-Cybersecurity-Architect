@@ -29,8 +29,11 @@ Compliance Manager assessments from Microsoft are groupings of controls from spe
 
 Your first step is to analyse the company's current environment. You carry out a compliance assessment to analyse the extent to which Contoso's environment complies with the ISO-27001 regulations.
 
-1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as Allan Deyoung using his administrator account **MOD Administrator**.
-1. If you're asked to setup multifactor authentication, follow the instructions.
+1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials provided below:
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
 1. You're taken to the new Microsoft Purview portal landing page. Select the box next to the statement, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.
 
     ![alt text](../media/lab3/image-01.png)
