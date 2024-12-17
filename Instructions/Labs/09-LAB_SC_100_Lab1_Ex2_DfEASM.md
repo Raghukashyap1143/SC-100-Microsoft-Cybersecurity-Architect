@@ -179,7 +179,7 @@ Since this asset is hosted by a third party but still belongs to your attack sur
 1. Select **Search** (4).
 1. Select all Assets (5).
 
-    ![](../media/lab01/32.png)
+    ![](../media/lab01/33.png)
 1. Select, **Modify assets** (1).
 
     ![](../media/lab01/34.png)
