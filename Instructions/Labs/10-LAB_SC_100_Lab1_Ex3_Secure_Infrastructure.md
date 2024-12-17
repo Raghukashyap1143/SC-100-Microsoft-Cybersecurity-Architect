@@ -128,13 +128,13 @@ It may take a few hours till the resource is fully onboarded in Defender for Clo
 
 Based on the recommendation you can start to secure the resource and assign security policies e.g. NIST SP 800-53 Rev.5 to ensure that the resources of Tailwind traders comply with our compliance regulations.
 
-1. You should still be logged into the Azure portal **https://portal.azure.com**.
-1. Open Defender for Cloud expand **Management** and select **Environment settings**.
+1. Search for **Microsoft Defender for Cloud** and open it.
+1. Expand **Management** and select **Environment settings**.
 1. Select **Expand all**.
 1. Select the ellipses (...) next to the subscription and select **Edit settings**.
 1. Select **Security policies** in the navigation menu on the left. The list might take a while to load.
 1. Search for **`NIST SP 800-53 Rev. 5`**. Change the status slider to **On**.
-1. Go back to Defender for Cloud and select **Regulatory compliance**.
+1. Go back to Defender for Cloud and select **Regulatory compliance** under Cloud Security.
 
 Due to limitation off the lab environment, you are not able to see the resources as well as the compliance recommendations. It takes a while until the deployed resources are visible in Defender for Cloud.
 
