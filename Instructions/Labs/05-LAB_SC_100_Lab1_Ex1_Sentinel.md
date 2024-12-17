@@ -101,7 +101,6 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
 
 ---
 
-1. You should still be logged into the Azure portal **https://portal.azure.com**.
 1. In the top searchbar, search for **Resoure groups** and select **sc-100-lab1** resource group.
 1. In the left navigation pane, select **Access control (IAM)**.
 1. Select **Add**, from the dropdown select **Add role assignment**.
