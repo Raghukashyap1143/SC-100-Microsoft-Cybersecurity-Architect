@@ -217,26 +217,39 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
    ![](../media/lab01/68.png)
 
 1. Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
-1. In the left navigation pane, expand **Threat management** and select **Workbooks**.
-1. Select **Add Workbook**.
-1. Select **Edit**.
+1. In the left navigation pane, expand **Threat management** (1) and select **Workbooks** (2).
+1. Select **Add Workbook** (3).
+
+   ![](../media/lab01/69.png)
+
+1. Select **Edit** (1).
+
+   ![](../media/lab01/70.png)
 1. Select the first **Edit** button on the right side.
+
+    ![](../media/lab01/71.png)
 1. Select **Add** > **Add parameters**.
+
+    ![](../media/lab01/72.png)
 1. Select **Add parameter** and fill out the following information:
-   - **Parameter name:** TimeRange
-   - **Parameter type:** Time range picker
+   - **Parameter name:** TimeRange (1)
+   - **Parameter type:** Time range picker (2)
 1. Check the following settings:
-   - **Required?**
-1. Select **Save**.
+   - **Required?** (3)
+1. Select **Save** (4).
+
+    ![](../media/lab01/73.png)
 1. In the **TimeRange:** dropdown menu in the lower left, select **Last 7 days**.
+
+    ![](../media/lab01/74.png)
 1. Select **Add parameter** and fill out the following information:
-   - **Parameter name:** AlertSeverity
-   - **Parameter type:** Drop down
+   - **Parameter name:** AlertSeverity (1)
+   - **Parameter type:** Drop down (2)
 1. Check the following settings:
-   - **Required?**
-   - **Allow multiple selections**
-   - **Hide parameter in reading mode**
-1. Under **Log Analytics workspace Logs Query** paste in:
+   - **Required?** (3)
+   - **Allow multiple selections** (4)
+   - **Hide parameter in reading mode** (5)
+1. Under **Log Analytics workspace Logs Query** paste in (6):
 
    ```KQL
    SecurityAlert
@@ -245,9 +258,13 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
    | project Value = AlertSeverity, Label = strcat(AlertSeverity, ' - ', Count)
    ```
 
-1. In the **Time Range** dropdown menu Select **TimeRange**.
+1. In the **Time Range** dropdown menu Select **TimeRange** (7).
 1. Scroll down to **Include in the drop down**, check **All** and set **Default selected item** to **All**.
-1. Select **Save**.
+
+    ![](../media/lab01/75.png)
+1. Select **Save** (8).
+
+    ![](../media/lab01/76.png)
 1. Select **Add parameter** and fill out the following information:
    - **Parameter name:** ProductName
    - **Parameter type:** Drop down
