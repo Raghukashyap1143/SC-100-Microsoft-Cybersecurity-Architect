@@ -169,8 +169,10 @@ Since this asset is hosted by a third party but still belongs to your attack sur
 1. Select **Modify Asset** (2).
 
     ![](../media/lab01/31.png)
-1. In the Modify Asset window, use the drop-down the **State** field to select **Dependency**.
-1. Select **Update**.
+1. In the Modify Asset window, use the drop-down the **State** field to select **Dependency** (1).
+1. Select **Update** (2).
+
+    ![](../media/lab01/32.png)
     >**NOTE**: In this Case you choose Dependency, because the asset is Infrastructure that is owned by a third party but is part of your attack surface because it directly supports the operation of your owned assets.
 1. Go back to Inventory by selecting **X** in the top right and create a new Search.
 1. Modify the search query to **Web Component Name - contains - Amazon**.
