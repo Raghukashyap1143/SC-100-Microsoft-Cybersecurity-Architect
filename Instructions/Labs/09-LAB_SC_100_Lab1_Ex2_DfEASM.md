@@ -40,7 +40,7 @@ In this Task, you´ll create a Defender EASM workspace.
 1. In the top search bar, search for **`Microsoft Defender EASM`**.
 1. Select **Create**.
 1. On Create Microsoft Defender EASM Resource, select the existing resource group **sc-100-lab1**.
-1. In Instance details enter the name **EASM-<inject key="DeploymentID" enableCopy="false" /></inject>**, select **East US** for region.
+1. In Instance details enter the name **EASM<inject key="DeploymentID" enableCopy="false" /></inject>**, select **East US** for region.
 1. Select **Review & Create**.
 1. Select **Create**.
 
