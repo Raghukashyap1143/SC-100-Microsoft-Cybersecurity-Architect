@@ -51,7 +51,7 @@ In this task, you'll create a log analytics workspace which is required to house
     | Region | **<inject key="Resource group Region" enableCopy="false" ></inject>** (4) | 
 
     ![](../media/lab01/2.png)
-1. Select **Review & Create**.
+1. Select **Review & Create (5)**.
 1. Select **Create** to start the deployment.
 
 You successfully created the log analytics workspace for your Sentinel deployment.
