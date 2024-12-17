@@ -175,11 +175,17 @@ Since this asset is hosted by a third party but still belongs to your attack sur
     ![](../media/lab01/32.png)
     >**NOTE**: In this Case you choose Dependency, because the asset is Infrastructure that is owned by a third party but is part of your attack surface because it directly supports the operation of your owned assets.
 1. Go back to Inventory by selecting **X** in the top right and create a new Search.
-1. Modify the search query to **Web Component Name - contains - Amazon**.
-1. Select **Search**.
-1. Select all Assets.
-1. Select, **Modify assets**.
-1. Choose **Dependency** in State and select **Update**.
+1. Modify the search query to **Web Component Name (1) - contains (2) - Amazon (3)**.
+1. Select **Search** (4).
+1. Select all Assets (5).
+
+    ![](../media/lab01/32.png)
+1. Select, **Modify assets** (1).
+
+    ![](../media/lab01/34.png)
+1. Choose **Dependency** (1) in State and select **Update** (2).
+
+    ![](../media/lab01/35.png)
 
 Only if the State is set to **Approved Inventory**, assets are represented in dashboard charts and are scanned daily. For that reason its important to review newly discovered assets and changed their state accordingly.
 
