@@ -161,12 +161,14 @@ In this task, you´ll manage and categorize the discovered assets.
 1. Open the found asset **34.223.124.45** (4).
 
     ![](../media/lab01/30.png)
-1. Select the **Web components** tab.
+1. Select the **Web components** (1) tab.
 
     ![](../media/lab01/31.png)
 1. You identify that this asset is hosted on Amazon, there are also open CVE´s on some of the components, but these are not active as you can see in the **Recent** and **Last seen** column. These originate from earlier discovery runs.
 Since this asset is hosted by a third party but still belongs to your attack surface, you categorize it based on their role in your organization.
-1. Select **Modify Asset**.
+1. Select **Modify Asset** (2).
+
+    ![](../media/lab01/31.png)
 1. In the Modify Asset window, use the drop-down the **State** field to select **Dependency**.
 1. Select **Update**.
     >**NOTE**: In this Case you choose Dependency, because the asset is Infrastructure that is owned by a third party but is part of your attack surface because it directly supports the operation of your owned assets.
