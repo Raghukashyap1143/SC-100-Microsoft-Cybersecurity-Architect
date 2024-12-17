@@ -65,12 +65,21 @@ In this task, you will add Sentinel to the created log analytics workspace and a
     ![](../media/lab01/3.png)
 1. From the **Microsoft Sentinel** page, select **Create**.
 1. In the **Add a Microsoft Sentinel to a workspace page** the previously created log analytics workspace should be listed.  Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** then select **Add**.
-1. It may take a few minutes to add Sentinel to the workspace.  Once it's added, the **Microsoft Sentinel | New & guides** page is displayed.  You're notified that the Microsoft Sentinel fre trial is activated.  Select **Ok**.
-1. From the center of the page, select **Go to content hub**.  Alternatively, from the left navigation panel expand **Content management** then select **Content hub**.
-1. Search for **Microsoft Sentinel Training Lab**, select it from the search results, and **install** the solution.
-1. Select **Create**.
-1. Choose the resource group **sc-100-lab1** and workspace **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
-1. Select **Review & Create** then select **Create**.
+1. It may take a few minutes to add Sentinel to the workspace.  Once it's added, the **Microsoft Sentinel | New & guides (1)** page is displayed.  You're notified that the Microsoft Sentinel fre trial is activated.  Select **Ok**.
+1. From the center of the page, select **Go to content hub (2)**.  Alternatively, from the left navigation panel expand **Content management** then select **Content hub**.
+
+    ![](../media/lab01/4.png)
+
+1. Search for **Microsoft Sentinel Training Lab (1)**, select it from the search results, and **install (2)** the solution.
+
+    ![](../media/lab01/5.png)
+1. Select **Create (1)**.
+
+    ![](../media/lab01/6.png)
+1. Choose the resource group **sc-100-lab1 (1)** and workspace **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject> (2)**.
+1. Select **Review & Create (3)** then select **Create**.
+
+    ![](../media/lab01/7.png)
 1. Wait till the solution is successfully installed.
 
 You have successfully deployed Sentinel to the log analytics workspace and added data. 
