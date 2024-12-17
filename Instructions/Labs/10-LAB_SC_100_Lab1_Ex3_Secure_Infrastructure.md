@@ -69,7 +69,7 @@ Azure Arc is required so that it can be used to send data to the log analytics w
    >**Note**: If you are asked to **Stay Signed in**, Click on **Yes**.
 1. Search for **`Azure Arc`** and open it.
 1. In the left hand navigation pane, expand **Azure Arc resources** and select **Machines**.
-1. Select **Add/Create** > **Add Machine**.
+1. Select **Add/Create** > **Add a Machine**.
 1. Under Add a single server, select **Generate script**.
 1. In the Resource group field, use the drop-down menu to select **ContosoRG**.
 1. In the Region field, use the drop-down menu to select **East US**.
