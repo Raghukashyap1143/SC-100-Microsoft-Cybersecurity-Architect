@@ -114,6 +114,14 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 
 You have successfully enabled Azure Arc on the test server and data should start to flow into the log analytics workspace. This process might take some time until you can see anything in the dashboard.
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+ - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+ - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+ - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+<validation step="7905e87b-74c6-4ccc-92fc-21b2e51da913" />
+
 ### Task 3: Add Server to Defender for Cloud and gather Logs.
 
 You´ll deploy a Data collection rule to get event logs from the on premise server. The rule will automatically deploy the monitoring agent on the server and forward logs to the previously created log analytics workspace.
@@ -159,6 +167,14 @@ You´ll deploy a Data collection rule to get event logs from the on premise serv
 1. Select **Create**.
 
 It may take a few hours till the resource is fully onboarded in Defender for Cloud. The next step is to look at the recommendation that Defender for Cloud generates for this resource.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+ - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+ - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+ - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+<validation step="883a42a8-fd6a-4cf4-9b39-da3e203dc093" />
 
 ### Task 4: Add regulatory compliance standard
 
