@@ -44,7 +44,7 @@ In this Task, you´ll create a Defender EASM workspace.
 
     ![](../media/lab01/14.png)
 1. On Create Microsoft Defender EASM Resource, select the existing resource group **sc-100-lab1**.
-1. In Instance details enter the following details and select on **Review & Create**:
+1. In Instance details enter the following details and select on **Review & Create** (5):
     | Settings | Values |
     |  -- | -- |
     | Subscription | *Leave default subscription* (1)|
