@@ -58,6 +58,14 @@ In this Task, you´ll create a Defender EASM workspace.
 
 You successfully created the Defender EASM workspace.
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+ - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+ - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+ - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+<validation step="f10c8d8e-403f-40ca-8055-fb57c65221e1" />
+
 ### Task 2 - Create Discovery
 
 In this Task, you´ll create a Discovery on Contoso Ltd. outside facing assets. After you have created an instance you need to populate it with actual data. Therefore you will now create a discovery.
@@ -145,6 +153,14 @@ In this Task, you´ll review the Defender EASM Security posture and get informat
     ![](../media/lab01/26.png)
 
 You successfully reviewed the Security posture and labeled an asset for further investigation.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+ - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+ - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+ - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+<validation step="3923d260-f803-495e-8b59-018c7ab6f6bc" />
 
 ### Task 5 - Manage Assets
 
