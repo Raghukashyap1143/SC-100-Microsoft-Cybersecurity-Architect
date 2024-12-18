@@ -42,7 +42,7 @@ In this task, you'll create a log analytics workspace which is required to house
 
    ![](../media/lab01/1.png)
 
-1. Click On Create.
+1. Click On **+ Create**.
 1. On Create Log Analytics workspace tab, please enter the following details:
    | Settings | Values |
    | -- | -- |
