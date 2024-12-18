@@ -34,7 +34,7 @@ This introduction of a new project ID necessitates the creation of a correspondi
 
 You will create a custom sensitive information type to detect documents that contain project IDs.
 
-1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials provided below:
+1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
     - **Password:** <inject key="AzureAdUserPassword"></inject>
     

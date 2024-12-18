@@ -52,7 +52,10 @@ In this task, you will familiarize yourself with your company's existing retenti
     ![altext](../media/lab3/image-35.png)
 
 1. Confirm the untrusted repository security dialog with **Y** for Yes and press **Enter**.  This process may take some time to complete.
-1. Enter the following cmdlet to connect to Security & Compliance PowerShell then when prompted, login with your MOD administrator credentials:
+1. Enter the following cmdlet to connect to Security & Compliance PowerShell then when prompted, login using the credentials mentioned below:
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
     ```powershell
     Connect-IPPSSession
@@ -79,7 +82,7 @@ You have effectively assessed Contoso Ltd.'s retention policies, uncovering an o
 
 Your plan involves implementing a new company-wide retention policy with a five-year retention period. Following this timeframe, data may be retained but is not mandatory for deletion. This adjustment satisfies the legal requirements for minimum retention periods and reduces data overhead.
 
-1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials provided below:
+1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
     - **Password:** <inject key="AzureAdUserPassword"></inject>
