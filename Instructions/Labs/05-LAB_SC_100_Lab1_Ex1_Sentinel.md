@@ -66,7 +66,7 @@ In this task, you will add Sentinel to the created log analytics workspace and a
 
    ![](../media/lab01/3.png)
 
-1. From the **Microsoft Sentinel** page, select **Create**.
+1. From the **Microsoft Sentinel** page, select **+ Create**.
 1. In the **Add a Microsoft Sentinel to a workspace page** the previously created log analytics workspace should be listed. Select **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>** then select **Add**.
 1. It may take a few minutes to add Sentinel to the workspace. Once it's added, the **Microsoft Sentinel | New & guides (1)** page is displayed. You're notified that the Microsoft Sentinel fre trial is activated. Select **Ok**.
 1. From the center of the page, select **Go to content hub (2)**. Alternatively, from the left navigation panel expand **Content management** then select **Content hub**.
