@@ -29,17 +29,38 @@ Compliance Manager assessments from Microsoft are groupings of controls from spe
 
 Your first step is to analyse the company's current environment. You carry out a compliance assessment to analyse the extent to which Contoso's environment complies with the ISO-27001 regulations.
 
-1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as Allan Deyoung using his administrator account **MOD Administrator**.
-1. If you're asked to setup multifactor authentication, follow the instructions.
+1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
 1. You're taken to the new Microsoft Purview portal landing page. Select the box next to the statement, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.
+
+    ![alt text](../media/lab3/image-01.png)
+
 1. From the left navigation panel, select **Solutions** then select **Compliance Manager**. Alternatively, from the main window you can select the **View all solutions** tile, then select the **Compliance Manager** tile listed under Risk & Compliance.
+
+    ![alt text](../media/lab3/image-02.png)
+
 1. From the **Compliance Manager** panel on the left, select **Assessments**.
 1. From the **Assessments** window, select **+ Add assessment**.
+
+    ![alt text](../media/lab3/image-03.png)
+
 1. From the **Base your assessment on a regulation** window, select **Select regulation**.
-1. In the search text box enter **`ISO/IEC 27001:2022`**, then select the regulation then select **Save** and then select **Next**.
-1. On the **Add name and group** page, in the text box **Assessment name** , enter **`ISO-27001 Audit assessment`**. Leave the **Assessment group** setting to **Use existing group** with the **Default group**, then select **Next**.
+1. In the search text box enter **`ISO/IEC 27001:2022`**(1), then **select the regulation**(2) then select **Save**(3) and then select **Next**.
+
+    ![alt text](../media/lab3/image-04.png)
+
+1. On the **Add name and group** page, in the text box **Assessment name** , enter **`ISO-27001 Audit assessment`**(1). Leave the **Assessment group** setting to **Use existing group**(2) with the **Default group**, then select **Next**(3).
+
+    ![alt text](../media/lab3/image-07.png)
+
 1. On the **Select services** page, the **Microsoft 365** service should already be listed.  If not, select **Select services** and select **Microsoft 365** and select **Add**. Select **Next**.
 1. On the **Review and finish** page, select **Create the assessment**. It will take a few seconds to create the assessment, then select **Done** .
+
+    ![alt text](../media/lab3/image-08.png)
+
 1. You should now be on the newly created **ISO-27001 Audit assessment** page.
 1. Leave this browser tab open for the next task.
 
@@ -52,9 +73,18 @@ The results of the assessment shows you different areas and actions that are ess
 1. You should still be on the page for the assessment you just created, **ISO-27001 Audit assessment**.  If not, navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment**
 1. From the **ISO-27001 Audit assessment** page, select **Your improvement actions**.
 1. Set the filter for **Control family** to **Physical controls**.
+
+    ![alt text](../media/lab3/image-09.png)
+
 1. Select the box next to **Improvement action** to select all shown improvement actions, then select **Assign to user** (listed above the filters options).
-1. In the new **Assign improvement actions** window, in the search text box enter **`Nestor`** and press enter.
-1. Select the user and select **Assign**.
+
+    ![alt text](../media/lab3/image-10.png)
+
+1. In the new **Assign improvement actions** window, in the search text box enter **`Nestor`**(1) and press enter.
+1. Select the user and select **Assign**(2).
+
+    ![alt text](../media/lab3/image-11.png)
+
 1. Keep this browser tab open for the next task.
 
 You have successfully viewed and assigned an improvement action to a technical engineer
@@ -65,9 +95,15 @@ Users need access to view the tasks assigned to them. You will grant Nestor Wilk
 
 1. You should still be on the **Your improvement actions** tab for **ISO-27001 Audit assessment** page.  If not, navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment** > **Your improvement actions**.
 1. From the upper right corner of the **ISO/IEC 27001:Assessment** page, select **Manage user access**.
+
+    ![alt text](../media/lab3/image-12.png)
+
 1. From the new **Manage user access** window, select the **Assessor** tab and select **Add assessors**.
 1. In the **Search for users** text box, enter **`Nestor`** and press enter.
 1. Select the user and then select **Apply**, then select **Save**.
+
+    ![alt text](../media/lab3/image-14.png)
+
 1. You have successfully granted Nestor Wilke the Assessor role for this assessment.
 1. You can now exit out of the Microsoft Purview portal by closing the browser tab.
 

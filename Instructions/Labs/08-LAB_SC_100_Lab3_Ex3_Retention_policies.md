@@ -39,18 +39,29 @@ In this task, you will familiarize yourself with your company's existing retenti
 >[!NOTE] You should have already installed the Exchange Online PowerShell module. If the module is missing follow the instructions for installing the module.
 
 1. Open an elevated Windows PowerShell window by selecting the Windows button with the right mouse button and then select **Terminal (Admin)**.
+
+    ![altext](../media/lab3/image-34.png)
+
 1. Confirm the **User Account Control** window with **Yes**.
 1. Enter the following cmdlet to install the latest Exchange Online PowerShell module version:
 
     ```powershell
     Install-Module ExchangeOnlineManagement
     ```
+
+    ![altext](../media/lab3/image-35.png)
+
 1. Confirm the untrusted repository security dialog with **Y** for Yes and press **Enter**.  This process may take some time to complete.
-1. Enter the following cmdlet to connect to Security & Compliance PowerShell then when prompted, login with your MOD administrator credentials:
+1. Enter the following cmdlet to connect to Security & Compliance PowerShell then when prompted, login using the credentials mentioned below:
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
     ```powershell
     Connect-IPPSSession
     ```
+    ![altext](../media/lab3/image-37.png)
+
 
 1. Enter the following cmdlet to view existing retention policies and settings:
 
@@ -59,6 +70,7 @@ In this task, you will familiarize yourself with your company's existing retenti
     ```
 
 1. Take some time to assess the resulting table.
+    ![altext](../media/lab3/image-38.png)
 
     >[!NOTE] You can also access the Microsoft Purview Compliance portal to view retention policies but you have to look into each policy one by one instead of getting an overview over all your policies at a glance.
 
@@ -70,19 +82,33 @@ You have effectively assessed Contoso Ltd.'s retention policies, uncovering an o
 
 Your plan involves implementing a new company-wide retention policy with a five-year retention period. Following this timeframe, data may be retained but is not mandatory for deletion. This adjustment satisfies the legal requirements for minimum retention periods and reduces data overhead.
 
-1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as Allan Deyoung using his administrator account **MOD Administrator**.
-1. If you're asked to setup multifactor authentication, follow the instructions.
+1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
 1. You're taken to the new Microsoft Purview portal landing page. Select the box next to the statement, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.
 1. From the left navigation panel, select **Solutions** then select **Data Lifecycle Management**. Alternatively, from the main window you can select the **View all solutions** tile, then select the ***Data Lifecycle Management** tile listed under Data Governance.
 
+    ![altext](../media/lab3/image-39.png)
+
 1. On the **Data lifecycle management** pane, expand **Policies** and select **Retention policies**.
 1. On the **Retention policies** page select **+ New retention policy**.
+
+    ![altext](../media/lab3/image-40.png)
+
 1. On the **Name your retention policy** page enter the following information:
     - **Name**: **`General retention policy`**
     - **Description**: **`This policy is the default retention policy for the entire organization. All data must be retained for at least 5 years.`**
 1. Select **Next**.
+
+    ![altext](../media/lab3/image-41.png)
+
 1. On the **Policy Scope** page select **Next**.
 1. On the **Choose the type of retention policy to create** page select **Static** and select **Next**.
+
+    ![altext](../media/lab3/image-42.png)
+
 1. On the **Choose where to apply this policy** page enable following locations:
 
     - Exchange mailboxes
@@ -98,7 +124,12 @@ Your plan involves implementing a new company-wide retention policy with a five-
     - At the end of the retention period: **Do nothing**
 
 1. Select **Next**.
+
+    ![altext](../media/lab3/image-43.png)
+
 1. On the **Review and finish** page select **Submit**, then select **Done**.
+
+    ![altext](../media/lab3/image-44.png)
 
 You have successfully created a retention policy. You can now delete all remaining retention policies as they do not meet the company's requirements.
 
@@ -109,6 +140,9 @@ To adhere to german regulations you will now create a retention label with a ret
 1. You should still be logged into the **Data Lifecycle Management** solution in the Microsoft Purview portal.  If not, navigate to **`https://purview.microsoft.com/`** > **Solutions** > **Data Lifecycle Management**.
 1. On the **Data lifecycle management** pane, select **Retention policies**.
 1. On the **Labels** page, select **+ Create a label**.
+
+    ![altext](../media/lab3/image-45.png)
+
 1. On the **Name your retention label** page enter the following information:
 
     - Name: **`German financial data`**
@@ -116,6 +150,9 @@ To adhere to german regulations you will now create a retention label with a ret
     - Description for admins: **`The label retains all financial data for 10 years and it is automatically applied.`**
 
 1. Select **Next**.
+
+    ![altext](../media/lab3/image-46.png)
+
 1. On the **Define label settings** page select **Enforce actions after a specific period** and select **Next**.
 1. On the **Define the period** page enter the following information:
 
@@ -124,6 +161,9 @@ To adhere to german regulations you will now create a retention label with a ret
 
 1. Select **Next**.
 1. On the **Choose what happens after the period** page select **Delete items automatically**. Click **Next**.
+
+    ![altext](../media/lab3/image-47.png)
+
 1. On the **Review and finish** page select **Create label**.
 1. On the **Your retention label is created** page select **Auto-apply this label to a specific type of content** and select **Done**.
 1. On the **Let´s get started** page enter the following information:
@@ -132,8 +172,14 @@ To adhere to german regulations you will now create a retention label with a ret
     - Descriptions: **`This policy auto-applies the label German financial data.`**
 
 1. Select **Next**.
+
+    ![altext](../media/lab3/image-48.png)
+
 1. On the **Choose the type of content you want to apply this label to** page select **Apply label to content that contains sensitive info** and select **Next**.
 1. On the **Content that contains sensitive info** page set the filter to **Germany** and select **Financial** and then **Germany Financial Data** then select **Next**.
+
+    ![altext](../media/lab3/image-49.png)
+
 1. On the **Define content that contains sensitive info** page, leave all existing settings (no change) and select **Next**.
 1. On the **Policy scope** page select **Next**.
 1. On the **Choose the type of retention policy to create**, page select **Static**.
@@ -146,7 +192,12 @@ To adhere to german regulations you will now create a retention label with a ret
 
 1. Select **Next**.
 1. On the **Choose a label to auto-apply** page make sure that the  **German Financial Data** label is already present. Otherwise add it using the **+ Add label** button. Select **Next**.
+
+    ![altext](../media/lab3/image-50.png)
+
 1. On the **Decide whether to test or run your policy** page select **Turn on policy** then select **Next**.
 1. On the **Review and finish** page select **Submit** then select **Done**.
+
+    ![altext](../media/lab3/image-51.png)
 
 You have successfully created and auto-applied a retention label.
