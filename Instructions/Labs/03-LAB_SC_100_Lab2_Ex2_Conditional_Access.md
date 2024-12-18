@@ -145,8 +145,8 @@ In a real world scenario you would do a longer testing period with a larger, mor
 
 1. Select the address bar, navigate to **`https://portal.microsoft.com`** and log into the M365 Portal as **Allan Deyoung** using below credentials
 
-  - Email : <inject key="User 02 UPN" enableCopy="true"/>
-  - Password : <inject key="User 02 Password" enableCopy="true"/>
+    - Email : <inject key="User 02 UPN" enableCopy="true"/>
+    - Password : <inject key="User 02 Password" enableCopy="true"/>
 
 1. On the Stay signed in? dialog box, select the **Don’t show this again** checkbox and then select **No**.
 
