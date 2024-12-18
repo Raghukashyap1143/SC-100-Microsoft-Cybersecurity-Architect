@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b9008517-4a5a-4344-b967-523ff1f32d30)# Conditional Access
+# Conditional Access
 
 You have discovered that employees are accessing Microsoft 365 from unknown locations, despite your Conditional Access policies only allowing access from specific locations and devices. Your investigation has revealed that these employees are accessing Microsoft 365 while traveling home from their office on public transportation. This behavior is in violation of industry regulations, and you want to use Continuous Access Evaluation to prevent it. Additionally, you want to implement the authentication strength you prepared in the previous exercise to secure certain applications that handle customer data. 
 
@@ -84,31 +84,53 @@ As you have successfully created a trusted network you will now use this to crea
 
 3. Select **+ New policy**.
 
+   ![](../media/lab02/exc2-4.png)
+
 4. Enter the name **Block access outside Trusted Network**.
+
+   ![](../media/lab02/exc2-5.png)
 
 5. Select **0 users and groups selected**.
 
 6. Under **Include** select **Select users and groups** and tick **Users and groups**.
 
+   ![](../media/lab02/exc2-6.png)
+
 7. Select **Allan Deyoung** as the sole test user for the policy.
+
+   ![](../media/lab02/exc2-7.png)
 
 8. Select **No target resources selected** and under **Include** select **All resources (formerly All cloud apps)**.
 
+   ![](../media/lab02/exc2-8.png)
+
 9. Select **0 conditions selected** and under **Locations** select **Not configured**.
+
+   ![](../media/lab02/exc2-9.png)
 
 10. Select **Yes** to configure the location condition.
 
 11. Under **Include** select **Any network or location**.
 
+   ![](../media/lab02/exc2-10.png)
+
 12. Under **Exclude** select **All trusted networks and locations**.
 
+   ![](../media/lab02/exc2-11.png)
+
 13. Under **Grant** select **0 controls selected** and switch it from **Grant access** to **Block access** then choose **Select** at the bottom of the page.
+
+   ![](../media/lab02/exc2-12.png)
 
 14. Under **Session** select **0 controls selected**.
 
 15. Enable **Customize continuous access evaluation** and select **Strictly enforce location policies (preview)** and choose **Select** at the bottom to confirm.
 
+   ![](../media/lab02/exc2-13.png)
+
 16. Where it says **Enable Policy**, select **On**, then select **Create**.
+
+   ![](../media/lab02/exc2-14.png)
 
 You have now created and enabled your CA policy to restrict access outside trusted networks only affecting your own test user account.
 
@@ -120,7 +142,11 @@ Since you have created a Conditional Access policy limiting access to all cloud 
 In a real world scenario you would do a longer testing period with a larger, more representative group to make sure that no unforeseeable incidents distort the result.
 
 1. Open a new **InPrivate** window in your **Microsoft Edge** browser by selecting its task bar icon with your right mouse button and then select **New InPrivate window**.
-1. Select the address bar, navigate to **`https://portal.microsoft.com`** and log into the M365 Portal as **Allan Deyoung** alland@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). The user's password should be provided by your lab hosting provider.
+
+1. Select the address bar, navigate to **`https://portal.microsoft.com`** and log into the M365 Portal as **Allan Deyoung** using below credentials
+
+  - Email : <inject key="User 02 UPN" enableCopy="true"/>
+  - Password : <inject key="User 02 Password" enableCopy="true"/>
 
 1. On the Stay signed in? dialog box, select the **Don’t show this again** checkbox and then select **No**.
 
@@ -130,17 +156,23 @@ In a real world scenario you would do a longer testing period with a larger, mor
 
 1. On the left navigation pane, navigate to **Protection** > **Conditional Access** > **Monitoring** > **Sign-in logs**.
 
+   ![](../media/lab02/exc2-16.png)
+
 1. Select **Add filters** and filter by the **User** of **Allan Deyoung**.
 
 1. Select the latest log entry of **Allan Deyoung**.
 
 1. Under the **Conditional Access** tab, select **Block access outside Trusted Network**.
 
+   ![](../media/lab02/exc2-17.png)
+
 1. Select the **User** assignment and you should see, that it **Matched** by **Direct assignment**.
 
 1. Select the **Application** assignment and you should see, that it **Matched** by **All apps included**.
 
 1. You should also see, that the **Location** condition was **Not matched** since it is within the trusted network that is excluded.
+
+   ![](../media/lab02/exc2-18.png)
 
 If you tried to log in from a network with a different external IP address, this condition would match and block the login attempt.
 
