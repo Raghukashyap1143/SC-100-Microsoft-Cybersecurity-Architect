@@ -94,7 +94,7 @@ As you have successfully created a trusted network you will now use this to crea
 
 6. Under **Include** select **Select users and groups** and tick **Users and groups**.
 
-   ![](../media/lab02/exc2-6.png)
+    ![](../media/lab02/exc2-6.png)
 
 7. Select **Allan Deyoung** as the sole test user for the policy.
 
@@ -106,31 +106,31 @@ As you have successfully created a trusted network you will now use this to crea
 
 9. Select **0 conditions selected** and under **Locations** select **Not configured**.
 
-   ![](../media/lab02/exc2-9.png)
+    ![](../media/lab02/exc2-9.png)
 
 10. Select **Yes** to configure the location condition.
 
 11. Under **Include** select **Any network or location**.
 
-   ![](../media/lab02/exc2-10.png)
+    ![](../media/lab02/exc2-10.png)
 
 12. Under **Exclude** select **All trusted networks and locations**.
 
-   ![](../media/lab02/exc2-11.png)
+    ![](../media/lab02/exc2-11.png)
 
 13. Under **Grant** select **0 controls selected** and switch it from **Grant access** to **Block access** then choose **Select** at the bottom of the page.
 
-   ![](../media/lab02/exc2-12.png)
+    ![](../media/lab02/exc2-12.png)
 
 14. Under **Session** select **0 controls selected**.
 
 15. Enable **Customize continuous access evaluation** and select **Strictly enforce location policies (preview)** and choose **Select** at the bottom to confirm.
 
-   ![](../media/lab02/exc2-13.png)
+    ![](../media/lab02/exc2-13.png)
 
 16. Where it says **Enable Policy**, select **On**, then select **Create**.
 
-   ![](../media/lab02/exc2-14.png)
+    ![](../media/lab02/exc2-14.png)
 
 You have now created and enabled your CA policy to restrict access outside trusted networks only affecting your own test user account.
 
