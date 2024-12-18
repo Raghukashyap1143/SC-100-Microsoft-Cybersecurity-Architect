@@ -25,10 +25,18 @@ Defender for Cloud Apps is a security solution designed to address Shadow IT ris
 
 In order to control the use of application on users company owned devices you must integrate Defender for Endpoint with Defender for Cloud Apps.
 
-1. Sign-in to the Microsoft Defender portal **`https://security.microsoft.com`** as Allan Deyoung using his administrator account **MOD Administrator**.
+1. Sign-in to the Microsoft Defender portal **`https://security.microsoft.com`** using below credentials
+
+      - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+      - **Password:** <inject key="AzureAdUserPassword"></inject>
+
 1. In the Microsoft Defender portal, expand **Investigation & response** then expand **Hunting** and select **Advanced Hunting**. Wait for the completion of the new spaces preparation.  This step is only for the purpose of setting up the new spaces, there is no hunting in this step.
+
 1. In the Microsoft Defender portal, in the left navigation page expand **System** then select **Settings**.
+
 1. On the **Settings** page select **Endpoints**. NOTE: It can take anywhere from 10 minutes to 1 hour for this option to appear. If after 10 minutes, you don't see it, continue with another exercise and then come back to this step.
+
 1. Under **Endpoints**, select **Advanced features**. Scroll down until you see Microsoft Defender for Cloud Apps.  Select the slider to set it to **On**.
 1. At the bottom of the page, select **Save preferences**.
 
