@@ -174,7 +174,7 @@ In a real world scenario you would do a longer testing period with a larger, mor
 
    ![](../media/lab02/exc2-18.png)
 
-If you tried to log in from a network with a different external IP address, this condition would match and block the login attempt.
+1. If you tried to log in from a network with a different external IP address, this condition would match and block the login attempt.
 
 1. Close the **Conditional Access Policy details** and the **Activity Details: Sign-ins**.
 
