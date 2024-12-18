@@ -79,8 +79,5 @@ Learner Support Contacts:
 - Email Support: labs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on **Next** from the lower right corner to move on to the next page.
-
-![Launch Azure Portal](../media/lc-image(3).png)
 
 ## Happy Learning!!
