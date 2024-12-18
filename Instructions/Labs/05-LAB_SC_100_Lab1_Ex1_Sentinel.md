@@ -99,6 +99,14 @@ In this task, you will add Sentinel to the created log analytics workspace and a
 
 You have successfully deployed Sentinel to the log analytics workspace and added data.
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+ - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+ - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+ - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+<validation step="dd739dbe-ab7d-4545-b085-2890cfd574ee" />
+
 ### Task 3 - Setup RBAC
 
 You have to secure the access based on least privilege, you´ll create role assignments for the specific role requirements. In your upcoming productive deployment, there´ll be two different roles in the Security Operation Center.
@@ -217,6 +225,14 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
 1. Select **Review + assign** twice.
 
 You successfully created role based access model for the role requirements for Contoso´s security operations team and created a custom role for the network team and assigned the role on the specific table in your log analytics workspace.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+ - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+ - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+ - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+<validation step="d2819e37-068f-437c-9026-013869aa3f4c" />
 
 ### Task 4 - Create Workbook
 
@@ -353,3 +369,11 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. In the **Save as** window, enter a title for your new workbook, select the **sc-100-lab1** resource group from the drop-down, then select **Save as**.
 
 You successfully created a dashboard with custom views for incidents and the associated alerts.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+ - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+ - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+ - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+<validation step="80e42d63-07d4-44b8-bce9-022ddf79ca4d" />
