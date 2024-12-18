@@ -17,12 +17,8 @@
                 "Order": 3
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/04-LAB_SC_100_Lab2_Ex3_B2B_collaboration.md",
-                "Order": 4
-            },
-            {
                 "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/06-LAB_SC_100_Lab2_Ex4_Shadow_IT.md",
-                "Order": 5
+                "Order": 4
             }
         ]
     }
