@@ -181,6 +181,7 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
 
        ![](../media/lab01/63.png)
 
+1. Click on **Add**.
 1. Select **Review + Create**.
 1. Select **Create**, then select **Ok**
 1. In the top search bar, search for **`Resource groups`** and select **sc-100-lab1**.
