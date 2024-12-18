@@ -133,7 +133,7 @@ Furthermore, the network team needs access to Cisco umbrella logs. You must ensu
    ![](../media/lab01/11.png)
 
 1. Select **+Select members (1)**.
-1. On the **Select members** blade, search for the **SOC Engineers (2)** Group. From the search results select **SOC Engineers** press **Select (3)** to add the role assignment.
+1. On the **Select members** blade, search for the **`SOC Engineers`** (2) Group. From the search results select **SOC Engineers** press **Select (3)** to add the role assignment.
 
    ![](../media/lab01/12.png)
 
