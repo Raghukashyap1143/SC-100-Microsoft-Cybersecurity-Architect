@@ -186,7 +186,7 @@ Based on the recommendation you can start to secure the resource and assign secu
 1. Select the ellipses (...) next to the subscription and select **Edit settings** (2).
 
    ![](../media/lab01/54.png)
-1. Select **Security policies** (!) in the navigation menu on the left. The list might take a while to load.
+1. Select **Security policies** (1) in the navigation menu on the left. The list might take a while to load.
 1. Search for **`NIST SP 800-53 Rev. 5`** (2). Change the status slider to **On** (3).
 
    ![](../media/lab01/55.png)
