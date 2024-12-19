@@ -257,7 +257,10 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Add** > **Add parameters**.
 
     ![](../media/lab01/72.png)
-1. Select **Add parameter** and fill out the following information:
+1. Select **Add parameter**.
+
+    ![](../media/lab01/77.png)
+1. Fill out the following information:
    - **Parameter name:** TimeRange (1)
    - **Parameter type:** Time range picker (2)
 1. Check the following settings:
@@ -268,7 +271,10 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. In the **TimeRange:** dropdown menu in the lower left, select **Last 7 days**.
 
     ![](../media/lab01/74.png)
-1. Select **Add parameter** and fill out the following information:
+1. Select **Add parameter**.
+
+    ![](../media/lab01/77.png)
+1. Fill out the following information:
    - **Parameter name:** AlertSeverity (1)
    - **Parameter type:** Drop down (2)
 1. Check the following settings:
