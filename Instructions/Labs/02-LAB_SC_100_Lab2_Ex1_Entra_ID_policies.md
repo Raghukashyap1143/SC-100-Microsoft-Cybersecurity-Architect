@@ -87,21 +87,19 @@ You have now configured the application consent settings limiting the access eve
 
 In this Task you will use the Entra ID portal to create an own Authentication strength to restrict the use of SMS OTP within your organization. 
 
-1. You should still be logged into the Entra ID portal **https://entra.microsoft.com**.
-
-2. On the left navigation pane, navigate to **Protection** > **Authentication methods** > **Authentication strengths**.
+1. On the left navigation pane, navigate to **Protection** > **Authentication methods** > **Authentication strengths**.
 
    ![](../media/lab02/exc1-7.png)
 
-3. Select **+ New authentication strength**.
+1. Select **+ New authentication strength**.
 
-4. Enter the name **Hardened MFA**.
+1. Enter the name **Hardened MFA**.
 
-5. Check **Phishing-resistant MFA**, **Passwordless MFA** and **Multifactor authentication**.
+1. Check **Phishing-resistant MFA**, **Passwordless MFA** and **Multifactor authentication**.
 
    ![](../media/lab02/exc1-8.png)
 
-6. Under Multifactor authentication uncheck the following:
+1. Under Multifactor authentication uncheck the following:
    - **Temporary Access Pass (Multi-use)**
    - **Password + SMS**
    - **Password + Voice**
@@ -110,11 +108,11 @@ In this Task you will use the Entra ID portal to create an own Authentication st
 
      ![](../media/lab02/exc1-9.png)
 
-7. Select **Next**.
+1. Select **Next**.
 
-8. Review and check, that none of the above factors are left in the authentication strength.
+1. Review and check, that none of the above factors are left in the authentication strength.
 
-9. Select **Create**.
+1. Select **Create**.
 
     ![](../media/lab02/exc1-10.png)
 
