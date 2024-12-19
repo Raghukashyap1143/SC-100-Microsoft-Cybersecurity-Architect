@@ -323,7 +323,9 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 
     ![](../media/lab01/75.png)
 1. Select **Save**.
-1. Select **Add** and choose **Add query**.
+1. Select **Add** (1) and choose **Add query** (2).
+
+    ![](../media/lab01/78.png)
 1. Under **Log Analytics workspace Logs Query** paste in:
 
    ```KQL
