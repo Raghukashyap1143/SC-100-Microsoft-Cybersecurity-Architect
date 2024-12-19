@@ -180,7 +180,7 @@ As Joni Shermann, you successfully edited the status for the recommended action.
 
 In this task, Adele Vance access the Mark 8 Project Team channel and selects the link in the posted message.
 
-1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as Adele Vance, **AdeleV@WWLxZZZZZZ.onmicrosoft.com**.
+1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as Adele Vance, **<inject key="User 06 UPN"></inject>**.
 
 1. If the landing page appears blurred out, refresh the page.
 
