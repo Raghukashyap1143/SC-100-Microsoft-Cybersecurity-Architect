@@ -326,7 +326,7 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Add** (1) and choose **Add query** (2).
 
     ![](../media/lab01/78.png)
-1. Under **Log Analytics workspace Logs Query** paste in:
+1. Under **Log Analytics workspace Logs Query** paste in (1):
 
    ```KQL
    SecurityIncident
@@ -346,8 +346,9 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
    | order by Severity
    ```
 
-1. Choose **TimeRange** in the Time Range drop down menu.
-   You´ll setup dynamic content to get all alerts for the selected incident. Alerts will be exported and available outside this query.
+1. Choose **TimeRange** (2) in the Time Range drop down menu.You´ll setup dynamic content to get all alerts for the selected incident. Alerts will be exported and available outside this query.
+
+    ![](../media/lab01/79.png)
 1. Select the **Advanced Settings** tab at the top of the **Editing query** window.
 1. Check the following settings:
    - **When items are selected, export parameters**
