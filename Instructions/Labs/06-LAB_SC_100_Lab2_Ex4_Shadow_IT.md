@@ -31,7 +31,7 @@ In order to control the use of application on users company owned devices you mu
 
       - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. In the Microsoft Defender portal, expand **Investigation & response** then expand **Hunting** and select **Advanced Hunting**. Wait for the completion of the new spaces preparation.  This step is only for the purpose of setting up the new spaces, there is no hunting in this step.
+1. In the Microsoft Defender portal, expand **Hunting** and select **Advanced Hunting**. Wait for the completion of the new spaces preparation.  This step is only for the purpose of setting up the new spaces, there is no hunting in this step.
 
 1. In the Microsoft Defender portal, in the left navigation page expand **System** then select **Settings**.
 
