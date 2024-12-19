@@ -373,7 +373,7 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
     
     ![](../media/lab01/83.png)
 1. Next, You´ll create the alerts view based on which incident is selected.
-1. Select **+ Add** on the bottom of the **Editing query item** window. Select **Add query**.
+1. Select **+ Add** (1) on the bottom of the **Editing query item** window. Select **Add query** (2).
 1. Paste the KQL in the Log Analytics workspace Logs Query
 
    ```KQL
