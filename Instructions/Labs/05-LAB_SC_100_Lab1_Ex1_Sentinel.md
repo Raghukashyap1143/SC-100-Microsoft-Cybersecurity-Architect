@@ -362,9 +362,9 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
     ![](../media/lab01/81.png)
 1. Go back to the **Settings** (1) tab.
 1. Select **Run Query** (2).
+1. Select **Column Settings** (3).
 
     ![](../media/lab01/81.png)
-1. Select **Column Settings**.
 1. Select **IncidentUrl**.
 1. Set Column renderer to **Link**.
 1. Under Link Settings set **View to open** to **Url**.
