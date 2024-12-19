@@ -297,7 +297,10 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Save** (8).
 
     ![](../media/lab01/76.png)
-1. Select **Add parameter** and fill out the following information:
+1. Select **Add parameter**. 
+
+    ![](../media/lab01/77.png)
+1. Fill out the following information:
    - **Parameter name:** ProductName
    - **Parameter type:** Drop down
 1. Check the following settings:
