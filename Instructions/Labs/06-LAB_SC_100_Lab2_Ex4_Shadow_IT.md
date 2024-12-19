@@ -31,15 +31,20 @@ In order to control the use of application on users company owned devices you mu
 
       - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. In the Microsoft Defender portal, expand **Hunting** and select **Advanced Hunting**. Wait for the completion of the new spaces preparation.  This step is only for the purpose of setting up the new spaces, there is no hunting in this step.
+1. In the Microsoft Defender portal, expand **Hunting** (1) and select **Advanced Hunting** (2). Wait for the completion of the new spaces preparation.  This step is only for the purpose of setting up the new spaces, there is no hunting in this step.
+    ![](../media/lab02/1.png)
 
-1. In the Microsoft Defender portal, in the left navigation page and select **Settings**.
+1. In the Microsoft Defender portal, in the left navigation page and select **Settings** (1).
 
-1. On the **Settings** page select **Endpoints**. 
+1. On the **Settings** page select **Endpoints** (2). 
+
+    ![](../media/lab02/2.png)
     >**NOTE**: It can take anywhere from 10 minutes to 1 hour for this option to appear. If after 10 minutes, you don't see it, continue with another exercise and then come back to this step.
 
-1. Under **Endpoints**, select **Advanced features**. Scroll down until you see Microsoft Defender for Cloud Apps.  Select the slider to set it to **On**.
-1. At the bottom of the page, select **Save preferences**.
+1. Under **Endpoints**, select **Advanced features** (1). Scroll down until you see Microsoft Defender for Cloud Apps.  Select the slider to set it to **On** (2).
+1. At the bottom of the page, select **Save preferences** (3).
+
+    ![](../media/lab02/3.png)
 
 You have successfully enabled Microsoft Defender for Cloud Apps for Endpoints. With this set-up all signals coming from Microsoft Defender for Endpoints are forwarded to Defender for Cloud Apps giving you the ability to block unsecure applications. All applications tagged as **Unsanctoned** will now be blocked.
 
