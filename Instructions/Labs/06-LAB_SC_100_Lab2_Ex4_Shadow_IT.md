@@ -53,7 +53,6 @@ You have successfully enabled Microsoft Defender for Cloud Apps for Endpoints. W
 
 In this task, you will analyze all the applications currently used in your company. You will take a closer look at various applications and their respective risk assessment as well as their assessment structure.
 
-1. You should still be logged into the Microsoft Defender portal **https://security.microsoft.com/**.
 1. In the Microsoft Defender portal, in the left navigation page expand **Cloud apps** and select **Cloud app catalog** (1).
 
    ![](../media/lab02/4.png)
@@ -68,7 +67,6 @@ You have successfully reviewed several applications that are currently used at C
 
 Once you have successfully gained an overview of the use of applications in your environment, your first remediation action is to block unsafe applications.
 
-1. You should still be logged into the Microsoft Defender portal **https://security.microsoft.com/**.
 1. In the Microsoft Defender portal, in the left navigation page expand **Cloud apps** and select **Cloud app catalog** (1).
 1. Set the filter for **Risk score** to 0 - 4 (2).
 1. Select **Bulk selection** (3) then select **All in page** (4).
