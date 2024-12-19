@@ -24,7 +24,7 @@ To ensure that the security ambassadors have the necessary role permissions, you
 |Control access to security posture information and the data sources that feed it. | Microsoft Defender XDR Unified RBAC | Activate Microsoft Defender XDR Unified RBAC for custom role. |
 |Share Secure Score recommendd action |Secure Score | Share recommended action. |
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution 
 
 ### Task 1 - Create a custom role to manage security posture for Exposure Management
 
@@ -124,7 +124,10 @@ Share a Microsoft Secure Score recommended action. In this task you'll post the 
 1. On the left navigation pane, expand **Exposure management** then select **Secure Score**.
 
 1. Select the **Recommended actions** tab.
-1. Search for **`Only invited users should be automatically admitted to Teams meetings`** and select it.
+
+1. Select any recommended action with a status of **To address**
+
+   ![](../media/lab4/t31.png)
 
 1. Select **Share**, and in the dropdown menu select **Microsoft Teams**.
 
@@ -155,9 +158,13 @@ In this task, you´ll manage recommended action and document your solutions.
 
 1. Review the message posted from the previous task.
 
-1. From the posted message, select the link **https://security.microsoft.com/securescore?viewid=actions&actionId=meeting_autoadmitusers_v1**.  Because you, Joni Shermann, have been granted permission through the custom role, you are able to access Secure Score.  Other members of the Mark 8 project team can see teh post, but do not have access to Secure Score.
+1. From the posted message, select the link.  Because you, Joni Shermann, have been granted permission through the custom role, you are able to access Secure Score.  Other members of the Mark 8 project team can see teh post, but do not have access to Secure Score.
+  
+    ![](../media/lab4/t3i2.png)
 
 1. Select **Edit status & action plan**.
+
+     ![](../media/lab4/t3i3.png)
 
 1. Check **Resolved through third party**.
 
@@ -169,7 +176,7 @@ In this task, you´ll manage recommended action and document your solutions.
 
 As Joni Shermann, you successfully edited the status for the recommended action.
 
-### Task 5 (Optional) - Adele Vance accesses the Teams post
+### Task 5  - Adele Vance accesses the Teams post
 
 In this task, Adele Vance access the Mark 8 Project Team channel and selects the link in the posted message.
 
@@ -185,7 +192,10 @@ In this task, Adele Vance access the Mark 8 Project Team channel and selects the
 
 1. Review the message posted from the previous task.
 
-1. Select the link in the posted message **https://security.microsoft.com/securescore?viewid=actions&actionId=meeting_autoadmitusers_v1**.
+1. Select the link in the posted message 
+
+    ![](../media/lab4/t3i4.png)
+
 1. You are taken directly to Microsoft Secure Score, but you don't have permission to access this data, as Adele Vance was not added as a member to the custom role that you created.
 
 1. Close the InPrivate browser tabs.
