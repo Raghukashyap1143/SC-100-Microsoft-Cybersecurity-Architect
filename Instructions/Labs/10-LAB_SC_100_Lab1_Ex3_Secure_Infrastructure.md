@@ -89,7 +89,8 @@ Azure Arc is required so that it can be used to send data to the log analytics w
 1. Select **Download and run script** (3).
 
    ![](../media/lab01/43.png)
-1. Select **Download** and run script on your second Lab Client **VM1** to onboard the on-premise Server to Azure.
+1. Select **Download** 
+<!-- and run script on your second Lab Client **VM1** to onboard the on-premise Server to Azure. -->
    >**Note**: If there is a pop-up regarding **OnboardingScript.ps1 could harm your device. Do you want to keep it anyway?**, click on **Keep** (1).
 
       ![](../media/lab01/44.png)

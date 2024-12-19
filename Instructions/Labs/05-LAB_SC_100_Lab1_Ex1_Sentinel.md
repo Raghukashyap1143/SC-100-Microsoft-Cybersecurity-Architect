@@ -257,7 +257,10 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Add** > **Add parameters**.
 
     ![](../media/lab01/72.png)
-1. Select **Add parameter** and fill out the following information:
+1. Select **Add parameter**.
+
+    ![](../media/lab01/77.png)
+1. Fill out the following information:
    - **Parameter name:** TimeRange (1)
    - **Parameter type:** Time range picker (2)
 1. Check the following settings:
@@ -268,7 +271,10 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. In the **TimeRange:** dropdown menu in the lower left, select **Last 7 days**.
 
     ![](../media/lab01/74.png)
-1. Select **Add parameter** and fill out the following information:
+1. Select **Add parameter**.
+
+    ![](../media/lab01/77.png)
+1. Fill out the following information:
    - **Parameter name:** AlertSeverity (1)
    - **Parameter type:** Drop down (2)
 1. Check the following settings:
@@ -291,7 +297,10 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Save** (8).
 
     ![](../media/lab01/76.png)
-1. Select **Add parameter** and fill out the following information:
+1. Select **Add parameter**. 
+
+    ![](../media/lab01/77.png)
+1. Fill out the following information:
    - **Parameter name:** ProductName
    - **Parameter type:** Drop down
 1. Check the following settings:
@@ -311,9 +320,13 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 
 1. In the **Time Range** dropdown menu Select **TimeRange**
 1. Scroll down to **Include in the drop down**, check **All** and set **Default selected item** to **All**.
+
+    ![](../media/lab01/75.png)
 1. Select **Save**.
-1. Select **Add** and choose **Add query**.
-1. Under **Log Analytics workspace Logs Query** paste in:
+1. Select **Add** (1) and choose **Add query** (2).
+
+    ![](../media/lab01/78.png)
+1. Under **Log Analytics workspace Logs Query** paste in (1):
 
    ```KQL
    SecurityIncident
@@ -333,25 +346,37 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
    | order by Severity
    ```
 
-1. Choose **TimeRange** in the Time Range drop down menu.
-   You´ll setup dynamic content to get all alerts for the selected incident. Alerts will be exported and available outside this query.
-1. Select the **Advanced Settings** tab at the top of the **Editing query** window.
-1. Check the following settings:
-   - **When items are selected, export parameters**
-1. Select **Add Parameter** and fill in the following information:
-   - **Field to export:** Alerts
-   - **Parameter name:** Alerts
-1. Select **Save**.
-1. Go back to the **Settings** tab.
-1. Select **Run Query**.
-1. Select **Column Settings**.
-1. Select **IncidentUrl**.
-1. Set Column renderer to **Link**.
-1. Under Link Settings set **View to open** to **Url**.
-1. Select **Save and Close**.
+1. Choose **TimeRange** (2) in the Time Range drop down menu.You´ll setup dynamic content to get all alerts for the selected incident. Alerts will be exported and available outside this query.
+
+    ![](../media/lab01/79.png)
+1. Select the **Advanced Settings** (1) tab at the top of the **Editing query** window.
+1. Check the following settings and select **Add Parameter** (3):
+   - **When items are selected, export parameters** (2)
+
+    ![](../media/lab01/80.png)
+1. Fill in the following information:
+   - **Field to export:** Alerts (1)
+   - **Parameter name:** Alerts (2)
+1. Select **Save** (3). 
+
+    ![](../media/lab01/81.png)
+1. Go back to the **Settings** (1) tab.
+1. Select **Run Query** (2).
+1. Select **Column Settings** (3).
+
+    ![](../media/lab01/81.png)
+1. Select **IncidentUrl** (1).
+1. Set Column renderer to **Link** (2).
+1. Under Link Settings set **View to open** to **Url** (3).
+1. Select **Save and Close** (4).
+
+    
+    ![](../media/lab01/83.png)
 1. Next, You´ll create the alerts view based on which incident is selected.
-1. Select **+ Add** on the bottom of the **Editing query item** window. Select **Add query**.
-1. Paste the KQL in the Log Analytics workspace Logs Query
+1. Select **+ Add** (1) on the bottom of the **Editing query item** window. Select **Add query** (2).
+
+    ![](../media/lab01/84.png)
+1. Paste the KQL in the Log Analytics workspace Logs Query (1):
 
    ```KQL
    SecurityAlert
@@ -360,13 +385,16 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
    | sort by EndTime desc
    ```
 
-1. Choose **TimeRange** in the Time Range drop down.
-1. Select **Done Editing**.
-1. Select **Done Editing** in the top bar of the **New workbook** window.
+1. Choose **TimeRange** (2) in the Time Range drop down.
+1. Select **Done Editing** (3) in the top bar of the **New workbook** window.
+
+    ![](../media/lab01/85.png)
 1. Select an **Incident**.
 1. Alerts to the linked Incident will show up below.
 1. Save your query by selecting the Save icon.
-1. In the **Save as** window, enter a title for your new workbook, select the **sc-100-lab1** resource group from the drop-down, then select **Save as**.
+1. In the **Save as** window, enter a title for your new workbook (1), select the **sc-100-lab1** (2) resource group from the drop-down, then select **Save as** (3).
+
+    ![](../media/lab01/86.png)
 
 You successfully created a dashboard with custom views for incidents and the associated alerts.
 

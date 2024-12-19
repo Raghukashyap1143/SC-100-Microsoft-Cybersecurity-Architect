@@ -102,8 +102,8 @@ In this Task, you´ll configure a data connection from Defender EASM to an log a
 1. Name it **law-sentinel-<inject key="DeploymentID" enableCopy="false" /></inject>**.
 1. Switch to the previous tab with the log analytics workspace that should be open.
 1. Expand **Agents** under Settings.
-1. Copy the **Workspace ID** into the corresponding field of the Add data connection window.
-1. Copy the ** **Primary key** into the API key field of the Add data connection window.
+1. Expand **Log Analytics agent instructions** and Copy the **Workspace ID** into the corresponding field of the Add data connection window.
+1. Copy the **Primary key** into the API key field of the Add data connection window.
 
     ![](../media/lab01/19.png)
 1. In Content select **All**.
