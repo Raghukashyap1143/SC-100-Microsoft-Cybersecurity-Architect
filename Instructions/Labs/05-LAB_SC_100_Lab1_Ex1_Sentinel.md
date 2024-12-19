@@ -374,7 +374,9 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
     ![](../media/lab01/83.png)
 1. Next, You´ll create the alerts view based on which incident is selected.
 1. Select **+ Add** (1) on the bottom of the **Editing query item** window. Select **Add query** (2).
-1. Paste the KQL in the Log Analytics workspace Logs Query
+
+    ![](../media/lab01/84.png)
+1. Paste the KQL in the Log Analytics workspace Logs Query (1):
 
    ```KQL
    SecurityAlert
@@ -383,13 +385,16 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
    | sort by EndTime desc
    ```
 
-1. Choose **TimeRange** in the Time Range drop down.
-1. Select **Done Editing**.
-1. Select **Done Editing** in the top bar of the **New workbook** window.
+1. Choose **TimeRange** (2) in the Time Range drop down.
+1. Select **Done Editing** (3) in the top bar of the **New workbook** window.
+
+    ![](../media/lab01/85.png)
 1. Select an **Incident**.
 1. Alerts to the linked Incident will show up below.
 1. Save your query by selecting the Save icon.
-1. In the **Save as** window, enter a title for your new workbook, select the **sc-100-lab1** resource group from the drop-down, then select **Save as**.
+1. In the **Save as** window, enter a title for your new workbook (1), select the **sc-100-lab1** (2) resource group from the drop-down, then select **Save as** (3).
+
+    ![](../media/lab01/86.png)
 
 You successfully created a dashboard with custom views for incidents and the associated alerts.
 
