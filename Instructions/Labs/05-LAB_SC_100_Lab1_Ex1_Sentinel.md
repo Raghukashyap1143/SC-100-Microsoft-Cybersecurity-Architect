@@ -365,10 +365,13 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Column Settings** (3).
 
     ![](../media/lab01/81.png)
-1. Select **IncidentUrl**.
-1. Set Column renderer to **Link**.
-1. Under Link Settings set **View to open** to **Url**.
-1. Select **Save and Close**.
+1. Select **IncidentUrl** (1).
+1. Set Column renderer to **Link** (2).
+1. Under Link Settings set **View to open** to **Url** (3).
+1. Select **Save and Close** (4).
+
+    
+    ![](../media/lab01/83.png)
 1. Next, You´ll create the alerts view based on which incident is selected.
 1. Select **+ Add** on the bottom of the **Editing query item** window. Select **Add query**.
 1. Paste the KQL in the Log Analytics workspace Logs Query
