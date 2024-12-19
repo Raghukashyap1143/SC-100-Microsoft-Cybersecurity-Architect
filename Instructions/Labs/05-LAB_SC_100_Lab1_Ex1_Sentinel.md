@@ -360,8 +360,10 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Select **Save** (3). 
 
     ![](../media/lab01/81.png)
-1. Go back to the **Settings** tab.
-1. Select **Run Query**.
+1. Go back to the **Settings** (1) tab.
+1. Select **Run Query** (2).
+
+    ![](../media/lab01/81.png)
 1. Select **Column Settings**.
 1. Select **IncidentUrl**.
 1. Set Column renderer to **Link**.
