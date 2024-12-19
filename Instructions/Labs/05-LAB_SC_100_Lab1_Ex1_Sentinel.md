@@ -320,6 +320,8 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 
 1. In the **Time Range** dropdown menu Select **TimeRange**
 1. Scroll down to **Include in the drop down**, check **All** and set **Default selected item** to **All**.
+
+    ![](../media/lab01/75.png)
 1. Select **Save**.
 1. Select **Add** and choose **Add query**.
 1. Under **Log Analytics workspace Logs Query** paste in:
