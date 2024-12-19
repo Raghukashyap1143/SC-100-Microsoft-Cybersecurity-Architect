@@ -349,13 +349,17 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 1. Choose **TimeRange** (2) in the Time Range drop down menu.You´ll setup dynamic content to get all alerts for the selected incident. Alerts will be exported and available outside this query.
 
     ![](../media/lab01/79.png)
-1. Select the **Advanced Settings** tab at the top of the **Editing query** window.
-1. Check the following settings:
-   - **When items are selected, export parameters**
-1. Select **Add Parameter** and fill in the following information:
-   - **Field to export:** Alerts
-   - **Parameter name:** Alerts
-1. Select **Save**.
+1. Select the **Advanced Settings** (1) tab at the top of the **Editing query** window.
+1. Check the following settings and select **Add Parameter** (3):
+   - **When items are selected, export parameters** (2)
+
+    ![](../media/lab01/80.png)
+1. Fill in the following information:
+   - **Field to export:** Alerts (1)
+   - **Parameter name:** Alerts (2)
+1. Select **Save** (3). 
+
+    ![](../media/lab01/81.png)
 1. Go back to the **Settings** tab.
 1. Select **Run Query**.
 1. Select **Column Settings**.
