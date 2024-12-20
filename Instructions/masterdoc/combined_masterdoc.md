@@ -1,0 +1,61 @@
+[
+    {
+        "Name": "SC-100: Lab-2: Identity and Access Management",
+        "Language": "English",
+        "BaseURL": "https://github.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/tree/prod",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/getting-started.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/05-LAB_SC_100_Lab1_Ex1_Sentinel.md",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/09-LAB_SC_100_Lab1_Ex2_DfEASM.md",
+                "Order": 3
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/10-LAB_SC_100_Lab1_Ex3_Secure_Infrastructure.md",
+                "Order": 4
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/02-LAB_SC_100_Lab2_Ex1_Entra_ID_policies.md",
+                "Order": 5
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/03-LAB_SC_100_Lab2_Ex2_Conditional_Access.md",
+                "Order": 6
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/06-LAB_SC_100_Lab2_Ex4_Shadow_IT.md",
+                "Order": 7
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/01-LAB_SC_100_Lab3_Ex1_Compliance_Assessment.md",
+                "Order": 8
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/07-LAB_SC_100_Lab3_Ex2_Data%20classification%20framework.md",
+                "Order": 9
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/08-LAB_SC_100_Lab3_Ex3_Retention_policies.md",
+                "Order": 10
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/11-LAB_SC_100_Lab4_Ex1_SecureScore.md",
+                "Order": 11
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/13-LAB-SC_100_Lab4_Ex2_Global_Secure_Access.md",
+                "Order": 12
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-100-Microsoft-Cybersecurity-Architect/prod/Instructions/Labs/12-LAB_SC_100_Lab4_Ex4_Endpoint_Security.md",
+                "Order": 13
+            }
+        ]
+    }
+]
