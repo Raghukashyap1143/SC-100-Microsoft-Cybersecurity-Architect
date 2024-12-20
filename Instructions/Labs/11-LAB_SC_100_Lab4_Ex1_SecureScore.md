@@ -22,7 +22,7 @@ To ensure that the security ambassadors have the necessary role permissions, you
 |----|----|----|
 |Joni Shermann will manage actions and status associated with Security Score recommendations. |Exposure Management - Secure Score and Defender XDR unified RBAC | Create role to manage security posture and grant access to Joni Shermann. |
 |Control access to security posture information and the data sources that feed it. | Microsoft Defender XDR Unified RBAC | Activate Microsoft Defender XDR Unified RBAC for custom role. |
-|Share Secure Score recommendd action |Secure Score | Share recommended action. |
+|Share Secure Score recommended action |Secure Score | Share recommended action. |
 
 ## Part 2: Implement the solution 
 
@@ -30,7 +30,9 @@ To ensure that the security ambassadors have the necessary role permissions, you
 
 In this task, you'll set up custom role focused on security posture and more specifically on Exposure Management. As part of the custom role, you'll grant Joni Shermann access to the data source for Exposure Management.
 
-1. Log into the Windows client VM **MICROSOFT AZURE:lON-SC1** with the local **Administrator** account. The password should be provided by your lab hosting provider.
+1. Ensure you are logged into the **MICROSOFT AZURE: lON-SC1** VM by default. To switch between virtual machines, select the desired VM from the dropdown menu. 
+
+   ![](../media/lab4/vm.png)
 
 1. Open a new tab in **Microsoft Edge**, select the address bar, navigate to **`https://security.microsoft.com`** and log into the Entra ID Portal with the below credentials if prompted.
 
@@ -43,7 +45,7 @@ In this task, you'll set up custom role focused on security posture and more spe
 
 1. If you see an information box on the top right of the screen that says **Manage multifactor authentication**, close it by selecting the **X**.
 
-1. On the left navigation pane, expand **System** then select **Permissions**.
+1. On the left navigation pane, scroll down to bottom then select **Permissions**.
 
 1. If this is the first time you are accessing Microsoft Defender settings, you will have to wait a few minutes while Defender prepares new spaces for your data and connects them.  Once that completes, refresh the permissions page until you see a listing that includes Microsoft Defender XDR, Microsoft Entra ID, Endpoints roles & groups, Email & collaboration roles, and Cloud Apps. It may take some time for all of these to show up.
 
@@ -123,9 +125,17 @@ Share a Microsoft Secure Score recommended action. In this task you'll post the 
 
 1. On the left navigation pane, expand **Exposure management** then select **Secure Score**.
 
+1. If a pop-up page appears with the message **Welcome to Microsoft Defender for Business**, click **Get Started** and follow steps 4 and 5. If it does not appear, proceed directly to step 6.
+
+    ![](../media/lab4/getstarted.png)
+
+1. Click **Skip** on the **Assign User Permission** page and the **Setup Email Notification** page.
+
+1. Click **Continue** on the **Onboard and Configure Windows Device** page, and then click **Submit**.
+
 1. Select the **Recommended actions** tab.
 
-1. Select any recommended action with a status of **To address**
+1. Select any **Recommended actions** with a status of **To address**
 
    ![](../media/lab4/t31.png)
 
@@ -143,7 +153,10 @@ As Joni Sherman you received the teams notification that a specific action to in
 
 In this task, you´ll manage recommended action and document your solutions.
 
-1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as **JoniS@WWLxZZZZZZ.onmicrosoft.com**.
+1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as 
+    - **Email/Username:** **<inject key="User 10 UPN"></inject>**
+
+    - **Password:** **<inject key="User 10 Password"></inject>**
 
 1. If the landing page appears blurred out, refresh the page.
 
@@ -180,7 +193,11 @@ As Joni Shermann, you successfully edited the status for the recommended action.
 
 In this task, Adele Vance access the Mark 8 Project Team channel and selects the link in the posted message.
 
-1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as Adele Vance, **<inject key="User 06 UPN"></inject>**.
+1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as Adele Vance, 
+
+- **Email/Username:** **<inject key="User 06 UPN"></inject>**.
+
+- **Password:** **<inject key="User 06 Password"></inject>**
 
 1. If the landing page appears blurred out, refresh the page.
 
@@ -197,6 +214,8 @@ In this task, Adele Vance access the Mark 8 Project Team channel and selects the
     ![](../media/lab4/t3i4.png)
 
 1. You are taken directly to Microsoft Secure Score, but you don't have permission to access this data, as Adele Vance was not added as a member to the custom role that you created.
+
+    ![](../media/lab4/t3i5.png)
 
 1. Close the InPrivate browser tabs.
 
