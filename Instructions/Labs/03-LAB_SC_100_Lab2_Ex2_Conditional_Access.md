@@ -181,15 +181,44 @@ You have now successfully tested and ensured access to all cloud applications fr
 
 After the successful test in the previous task, you can now enable the policy for the entire company. To do this you will edit the user scope of the existing policy.
 
->**ALERT**: The actions implemented in this task can lead to Account lockout!
+>[!ALERT] The actions implemented in this task can lead to Account lockout!
 Make sure, that you have at least one emergency admin account that is excluded from this policy in a productive, real world scenario. 
 
-1. On the left navigation pane, navigate to **Protection** > **Conditional Access** > **Policies**.
+1. You should still be logged into the Entra ID portal **https://entra.microsoft.com**.
+
+1. On the left naviagtion panel, navigate to **identity** > **Application**> **Enterprise applications**
+
+    ![](../media/lab02/Extra-01.png)
+
+1. Click on **New Application**. 
+
+    ![](../media/lab02/Extra-02.png)
+
+1. Seach for **salesforce**. Once you find it, click on **Salesforce**. 
+
+    ![](../media/lab02/Extra-03.png)
+
+1. click on **create**, this will add the application.
+
+    ![](../media/lab02/Extra-04.png)
+
+1. Next, on the left navigation panel, navigate to **Protection** > **Conditional Access** > **Policies**.
+
+    ![](../media/lab02/image-01.png)
+
 1. Select the policy **Block access outside Trusted Network**.
+
+    ![](../media/lab02/image-02.png)
+
 1. Under Users select **Specific users included**.
+
 1. Select **All users**.
-1. In the warning that appeared on the bottom of the window select **Exclude current user, admin@WWLxZZZZZZ.onmicrosoft.com, from this policy**.
+
+1. In the warning that appeared on the bottom of the window select **Exclude current user, <inject key="AzureAdUserEmail"></inject>, from this policy**.
+
 1. Select **Save**.
+
+    ![](../media/lab02/image-03.png)
 
 You have now configured an active working Conditional Access policy that prevents users from logging in outside the trusted network you defined as the company's external IP address. This was tested using a limited user scope to ensure that all cloud applications remain accessible. Lastly you have rolled out the CA policy to all users.
 
@@ -199,23 +228,59 @@ You have successfully restricted access from outside the trusted network.
 
 In this Task you create a CA policy to enforce the authentication strenth you created in the previous exercise when signing into Salesforce. 
 
->Z**Important**:This task will skip the testing phase. In a real world scenario you would test with a limited user scope first as seen in the previous tasks and perform a full rollout after a successful testing phase.
+>[!IMPORTANT] Important:
+This task will skip the testing phase. In a real world scenario you would test with a limited user scope first as seen in the previous tasks and perform a full rollout after a successful testing phase.
 
-1. On the left navigation pane, navigate to **Protection** > **Conditional Access** > **Policies**.
-1. Select **+ New policy**.
-1. Enter the name **Salesforce authentication strength**.
-1. Select **0 users and groups selected**.
-1. Under **Include** select **Select users and groups** and tick **Users and groups**.
-1. Select **Alex Wilber** from Sales as the sole test user for the policy.
-1. Select **No target resources selected** and under **Include** select **Select apps**.
-1. Under **Select** select **None** and search for **Salesforce**.
-1. Confirm your choice with **Select**.
-1. Under **Grant** select **0 controls selected** and enable **Require authentication strength**.
-1. Select your custom created authentication strength **Hardened MFA** and confirm with the **Select** button.
-1. Now set the policy to **On** using the control bar at the bottom and select **Create**.
-1. After a successful testing phase with your limited user scope select **Salesforce authentication strength**.
-1. Under Users select **Specific users included**.
-1. Select **All users**.
-1. Select **Save**.
+1. You should still be logged into the Entra ID portal **https://entra.microsoft.com**.
+2. On the left navigation pane, navigate to **Protection** > **Conditional Access** > **Policies**.
+3. Select **+ New policy**.
+
+    ![](../media/lab02/image-04.png)
+
+4. Enter the name **Salesforce authentication strength**.
+5. Select **0 users and groups selected**.
+
+    ![](../media/lab02/image-05.png)
+
+6. Under **Include** select **Select users and groups** and tick **Users and groups**.
+
+    ![](../media/lab02/image-06.png)
+
+7. Select **Alex Wilber** from Sales as the sole test user for the policy.
+
+    ![](../media/lab02/image-07.png)
+
+8. Select **No target resources selected** and under **Include** select **Select apps**.
+
+    ![](../media/lab02/image-08.png)
+
+9. Under **Select** select **None** and search for **Salesforce**.
+10. Confirm your choice with **Select**.
+
+    ![](../media/lab02/image-09.png)
+
+
+11. Under **Grant** select **0 controls selected** and enable **Require authentication strength**.
+12. Select your custom created authentication strength **Hardened MFA** and confirm with the **Select** button.
+
+    ![](../media/lab02/image-10.png)
+
+
+13. Now set the policy to **On** using the control bar at the bottom and select **Create**.
+
+    ![](../media/lab02/image-11.png)
+
+
+14. After a successful testing phase with your limited user scope select **Salesforce authentication strength**.
+
+    ![](../media/lab02/image-12.png)
+
+
+15. Under Users select **Specific users included**.
+16. Select **All users**.
+17. Select **Save**.
+
+    ![](../media/lab02/image-13.png)
+
 
 You have now created a CA policy to enforce your authentication strength policy to Salesforce excluding SMS OTP and therefore prevent successful attacks using SMS interception.
