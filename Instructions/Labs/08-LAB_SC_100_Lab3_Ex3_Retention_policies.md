@@ -62,8 +62,8 @@ In this task, you will familiarize yourself with your company's existing retenti
     ```powershell
     Connect-IPPSSession
     ```
+    
     ![altext](../media/lab3/image-37.png)
-
 
 1. Enter the following cmdlet to view existing retention policies and settings:
 
