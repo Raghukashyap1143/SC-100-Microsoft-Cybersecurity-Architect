@@ -33,7 +33,7 @@ Your first step is to analyse the company's current environment. You carry out a
 
 1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
 
-    - **Email/Username:** <inject key="AzureAdUserPassword"></inject>
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
     - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 1. You're taken to the new Microsoft Purview portal landing page. Select the box next to the statement, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.
