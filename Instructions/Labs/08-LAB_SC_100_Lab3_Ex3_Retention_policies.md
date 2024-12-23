@@ -50,7 +50,6 @@ In this task, you will familiarize yourself with your company's existing retenti
     ```powershell
     Install-Module ExchangeOnlineManagement
     ```
-
     ![altext](../media/lab3/image-35.png)
 
 1. Confirm the untrusted repository security dialog with **Y** for Yes and press **Enter**.  This process may take some time to complete.
