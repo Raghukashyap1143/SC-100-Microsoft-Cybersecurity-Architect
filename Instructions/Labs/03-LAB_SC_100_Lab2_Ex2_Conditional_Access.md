@@ -1,6 +1,8 @@
-# Conditional Access
+# Excercise-2: Conditional Access
 
 You have discovered that employees are accessing Microsoft 365 from unknown locations, despite your Conditional Access policies only allowing access from specific locations and devices. Your investigation has revealed that these employees are accessing Microsoft 365 while traveling home from their office on public transportation. This behavior is in violation of industry regulations, and you want to use Continuous Access Evaluation to prevent it. Additionally, you want to implement the authentication strength you prepared in the previous exercise to secure certain applications that handle customer data. 
+
+### Estimated Duration: 45 Minutes
 
 ## Part 1: Design a solution (required)
 
@@ -74,6 +76,13 @@ In this task you will create a named location using your VM's external IP addres
 
 You have now defined your Company's external IP Address named and trusted location you can use to restrict access outside the company's network.
 
+**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+  
+<validation step="6023a971-27ce-41da-8a97-ea621ca2e8de" />
+
 ### Task 2 - Create new Conditional Access Policy with limited scope
 
 As you have successfully created a trusted network you will now use this to create the Conditional Access policy to restrict access outside the corporate network with a scope limited to your personal user to be able to test and prevent a company wide account lockout from Entra ID.
@@ -131,6 +140,13 @@ As you have successfully created a trusted network you will now use this to crea
     ![](../media/lab02/exc2-14.png)
 
 You have now created and enabled your CA policy to restrict access outside trusted networks only affecting your own test user account.
+
+**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+  
+<validation step="ab7de097-f109-48c9-82ef-c69c8122bc37" />
 
 ### Task 3 - Test the configured Policy
 
