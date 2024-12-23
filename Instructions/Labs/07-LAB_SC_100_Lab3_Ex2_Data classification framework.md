@@ -13,7 +13,7 @@ You were given following examples to classify Project IDs:
 |BaR#0418-ag|
 |dui0522-in|
 
-### Duration: 45 Minutes
+### Estimated Duration: 45 Minutes
 
 ## Part 1: Design a solution (required)
 
