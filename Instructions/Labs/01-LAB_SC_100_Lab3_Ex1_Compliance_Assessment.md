@@ -6,6 +6,8 @@ You are Allan Deyoung, a member of the IT department at Contoso Ltd. You have re
 
 Contoso Ltd. is expanding into Europe to increase sales, but is having trouble satisfying customer IT security demands. Customers want Contoso to maintain a secure environment to facilitate safe collaboration and minimize the risk of data leaks and compromised company assets. Many customers require evidence of well-established IT business processes and a robust security framework, which is often in the form of an ISO-27001 certification. To address this, Contoso has decided to hire an external audit firm to conduct the ISO-27001 Audit and obtain the certification. It is necessary to assess the current organizational stance and develop an action plan to meet the ISO-27001 requirements. As the company's cyber security architect, you are tasked with identifying the existing gaps and assigning specific tasks to people within the organization to resolve them.
 
+###Duration: 30 Minutes
+
 ## Part 1: Design a solution (required)
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.
