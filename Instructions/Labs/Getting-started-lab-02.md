@@ -73,6 +73,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 ### Disable the security defaults (Only if it set to Enabled)
 
 1. Navigate to: **Identity > Overview > Properties** in the Microsoft entra admin center.
+   https://entra.microsoft.com/
 
 2. Select: **Manage security defaults**.
 
