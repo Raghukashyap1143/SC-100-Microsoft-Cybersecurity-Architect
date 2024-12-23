@@ -1,4 +1,4 @@
-# Data classification framework
+# Excercise-2: Data classification framework
 
 You have been assigned the task of structuring data classification for Contoso Ltd. in preparation for an ISO-27001:2022 audit. The goal is to establish a robust framework that is crucial for ensuring effective data protection against leakage, deletion, and loss. Your role involves integrating a new project ID system for construction projects within the company. To comply with government regulations, all documents that contain a certain project-ID must be kept for 5 years.
 
@@ -12,6 +12,8 @@ You were given following examples to classify Project IDs:
 |sTr*1223-Se|
 |BaR#0418-ag|
 |dui0522-in|
+
+### Estimated Duration: 45 Minutes
 
 ## Part 1: Design a solution (required)
 
@@ -122,7 +124,6 @@ You will create a retention label to retain all documents related to constructio
 
     ![altext](../media/lab3/image-27.png)
 
-
 1. Keep the browser tab open for the next task.
 
 You have successfully created a retention label with a retention period of 5 years.
@@ -173,5 +174,11 @@ You will use the sensitive information type you created in this exercise to auto
 
     ![altext](../media/lab3/image-33.png)
 
-
 You have successfully published and auto-applied the retention label to all documents that contain project IDs.
+
+**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+  
+<validation step="8c2f8278-828f-407f-91b8-f930a4318959" />
