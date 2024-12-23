@@ -124,7 +124,6 @@ You will create a retention label to retain all documents related to constructio
 
     ![altext](../media/lab3/image-27.png)
 
-
 1. Keep the browser tab open for the next task.
 
 You have successfully created a retention label with a retention period of 5 years.
@@ -175,9 +174,11 @@ You will use the sensitive information type you created in this exercise to auto
 
     ![altext](../media/lab3/image-33.png)
 
-
-<validation step="8c2f8278-828f-407f-91b8-f930a4318959" />
-
-
-
 You have successfully published and auto-applied the retention label to all documents that contain project IDs.
+
+**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+  
+<validation step="8c2f8278-828f-407f-91b8-f930a4318959" />
