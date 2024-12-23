@@ -72,17 +72,22 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 ### Disable the security defaults (Only if it set to Enabled)
 
-1. Navigate to: **Identity > Overview > Properties** in the Microsoft entra admin center.
-   https://entra.microsoft.com/
+1. Navigate to: **Identity > Overview > Properties** in the [Microsoft entra admin center](https://entra.microsoft.com/).
 
-2. Select: **Manage security defaults**.
+   ![](../media/sc-100-getting-started/image-1.png)
 
-3. On the **Security defaults** side screen, if Security defaults are enabled, set them to **Disabled**.
+3. Select: **Manage security defaults**.
 
-4. From the drop-down list, select **My organization is using Conditional Access**.
+   ![](../media/sc-100-getting-started/image-2.png)
+
+4. On the **Security defaults** side screen, if Security defaults are enabled, set them to **Disabled**.
+
+5. From the drop-down list, select **My organization is using Conditional Access**.
 Select **Save**.
 
-5. A pop-up will appear to confirm disabling Security defaults. Select **Disable**.
+   ![](../media/sc-100-getting-started/image-3.png)
+
+6. A pop-up will appear to confirm disabling Security defaults. Select **Disable**.
 
 ## Support Contact
 
