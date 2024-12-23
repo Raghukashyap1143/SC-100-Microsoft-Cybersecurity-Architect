@@ -13,6 +13,8 @@ You were given following examples to classify Project IDs:
 |BaR#0418-ag|
 |dui0522-in|
 
+### Duration: 45 Minutes
+
 ## Part 1: Design a solution (required)
 
 In this task you will design a concept to address the issues Contoso Ltd. is facing.
