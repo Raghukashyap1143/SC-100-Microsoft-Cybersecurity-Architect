@@ -253,7 +253,8 @@ This task will skip the testing phase. In a real world scenario you would test w
 
     ![](../media/lab02/image-04.png)
 
-4. Enter the name **Salesforce authentication strength**.
+4. Enter the name **Salesforce authentication strength**
+
 5. Select **0 users and groups selected**.
 
     ![](../media/lab02/image-05.png)
