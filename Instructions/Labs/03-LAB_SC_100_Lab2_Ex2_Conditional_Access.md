@@ -2,6 +2,8 @@
 
 You have discovered that employees are accessing Microsoft 365 from unknown locations, despite your Conditional Access policies only allowing access from specific locations and devices. Your investigation has revealed that these employees are accessing Microsoft 365 while traveling home from their office on public transportation. This behavior is in violation of industry regulations, and you want to use Continuous Access Evaluation to prevent it. Additionally, you want to implement the authentication strength you prepared in the previous exercise to secure certain applications that handle customer data. 
 
+### Estimated Duration: 45 Minutes
+
 ## Part 1: Design a solution (required)
 
 In this task you will design a concept to address the risks Contoso Ltd. is facing.
