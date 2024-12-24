@@ -27,13 +27,13 @@ Global Secure Access integrates with the existing cloud infrastructure of Contos
 |Enable secure remote access for on premise servers| EntraID Global Secure Access | Enable Global Secure Access  |
 |Integrate with existing infrastructure | Application Proxy | Deploy Application proxy on Contoso´s Fileserver |
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution
 
 ### Task 1: Activate Global Secure Access
 
 The first step is to activate Global Secure Access in your tenant.
 
-1. Log into the **MICROSOFT AZURE:lON-SC1** VM (the client endpoint) as the local **Admin**. The password should be provided by your lab hosting provider.
+1. Make sure you are on the **MICROSOFT AZURE:lON-SC1** VM.
 
 1. Open a new tab in **Microsoft Edge**, select the address bar, navigate to **`https://entra.microsoft.com`** and log into the Entra ID Portal with the below credentials if prompted.
 
@@ -59,14 +59,6 @@ You have successfully activated Global Secure Access.
 ### Task 2: Enable TLS and install the private network connector
 
 The private network connector is a lightweight agent that is installed on a Windows Server, in your on-premise environment, that has access to the backend resources and applications, and is used to facilitate the connection to the Global Secure Access service.  The Windows server where the connector will be installed must have TLS 1.2 enabled before you install the private network connector.
-
-1. To Switch between the Virtual Machines, select the required VM from the dropdown.
-   
-    ![](../media/lab4/11.png)
-
-1. Log into the Server VM, **MICROSOFT AZURE: VM1**, using the username **Administrator** account and the  password **Pa55w.rd**.
-
-1. When you log in to the VM, Server Manager will open.  You can minimize this window.
 
 1. Before you install the private network connector on the server, you need to enable TLS 1.2.  There are several ways you can do this. For this exercise, you'll copy the commands to set the registry keys into a file and then run that file.
 
@@ -129,7 +121,7 @@ The private network connector is a lightweight agent that is installed on a Wind
 
    ![](../media/lab4/23.png)
 
-1. During the installation process you have to sign in with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject> for MOD Administrator. It can take a couple of minutes to complete the installation.
+1. During the installation process you have to sign in with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject> . It can take a couple of minutes to complete the installation.
 
    >**Note:** If you get pop-up that website is blocked by Internet explorer for below website then click on **Add** for both and then close as shown in below images.
 
@@ -195,7 +187,7 @@ Quick Access is the primary group of FQDNs and IP addresses that you want to sec
 
 In order for your users to access the resources the file server through the GSA client you need to enable Quick Access and assign it to your test users.
 
-1. You can stay in MICROSOFT AZURE: VM1 for this step.
+1. You can stay in MICROSOFT AZURE: lon-sc1 for this step.
 
 1. Naviaget back to **Entra Admin Center** and in the left navigation pane expand **Global Secure Access**, expand **Applications**, then select **Quick Access**. Enter the following information:
 
@@ -205,7 +197,7 @@ In order for your users to access the resources the file server through the GSA 
 1. Select **Add Quick Access application segment** and fill in the following information:
 
     - Destination type: **IP address**
-    - IP address: the private IP address of your server that you noted in the earlier step, **`192.168.2.100`**.
+    - IP address: the private IP address of your server that you noted in the earlier step,
     - Ports: **`445`**
 
 1. Select **Apply**.
@@ -236,33 +228,47 @@ You have successfully enabled quick access for your test user.
 
 ### Task 5: Device join Entra ID
 
-In order to use Global Secure Access, you need to join the client endpoint, the LON-SC1 VM, to Microsoft Entra ID. Otherwise the GSA client will not work.
+In order to use Global Secure Access, you need to join the client endpoint, the LON-SC2 VM, to Microsoft Entra ID. Otherwise the GSA client will not work.
 
-1. Switch back to the **LON-SC1** VM (this is your client endpoint VM)
+1. To Switch between the Virtual Machines, select the Microsoft AZURE: LON-SC2 VM from the dropdown.
+
+    ![](../media/lab4/sc2.png)
+
+1. Log into the MICROSOFT AZURE: LON-SC2 VM, using the username **Administrator** account and the password **Pa55w.rd**
 
 1. Using the right mouse key, select the Windows icon in the task bar and select **Settings**.
 
-1. From the left navigation panel, select **Accounts**.
+1. In the **Windows Settings** page, select **Accounts**.
 
-1. From the Accounts page, select  **Access work or school**.
+     ![](../media/lab4/settingpage.png)
+
+1. From the Accounts page from the left navigation pane, select  **Access work or school**.
+
+     ![](../media/lab4/access.png)
 
 1. To add a work or school account select **Connect**.
 
-1. From the bottom of the window, select **Join Device to Microsoft Entra ID**.
+1. From the bottom of the window, select **Join this device to Microsoft Entra ID**.
 
-1. Sign in with your **MOD Administrator** admin credentials provided by the lab provider.
+1. Sign in with your **ODL_USER** admin credentials provided by the lab provider.
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 1. From the **Make sure this is your organization** window, review the information then select **Join**.
 
+    ![](../media/lab4/join.png)
+
 1. Review the information on the **You're all set** window and select **Done**.
 
-1. Now that your device is Entra ID joined with you MOD administrator account, you need to log in using that account.
+1. Now that your device is Entra ID joined with you <inject key="AzureAdUserEmail"></inject> account, you need to log in using that account.
 
-1. From the taskbar, select the **Windows** icon, select **Admin**, then select **Switch user**.
+1. From the taskbar, select the **Windows** icon, select **Admin**, then select **Sign out**.
 
-1. From the bottom left of the window, select **Other user**, then log in with your MOD administrator account.
+1. Click on **Reconnect** and From the bottom left of the window, select **Other user**, then log in with your **Email/Username:** <inject key="AzureAdUserEmail"></inject> ,**Password:** <inject key="AzureAdUserPassword"></inject>.
 
-1. It will take a few minutes to set up the account, then you'll see a **More information required** window appear. This will initiate the process to setup multifactor authentication.  Follow the instructions to setup MFA.
+      ![](../media/lab4/otheruser.png)
+
 
 Once your endpoint is joined to Entra ID you will be able to set up the GSA client which is used to connect to any resources you are protecting with Global Secure Access.
 
@@ -274,15 +280,20 @@ You also need to download and install the Global Secure Access desktop client.
 
 Private access traffic can be forwarded to the service by connecting through the Global Secure Access desktop client.
 
-1. You should still be on **LON-SC1**, to which you have signed in with the your MOD Administrator account.
+1. You should still be on **LON-SC2**, to which you have signed in with the your <inject key="AzureAdUserEmail"></inject> account.
 
 1. Open **Microsoft Edge**. You'll be prompted to setup Microsoft Edge.
 
 1. From the Microsoft Edge, navigate to **`https://entra.microsoft.com`**.
 
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
 1. From the left navigation panel, expand **Global Secure Access**, expand **Connect** and choose **Traffic forwarding**.  You may need to expand the left navigation panel by selecting **>>** to view the options.
 
 1. Select the slider button next to **Private access profile** then select **OK**.
+
+    ![](../media/lab4/private.png)
 
 1. Now that you've enabled the private access profile, you'll need to assign users.
 
@@ -290,11 +301,13 @@ Private access traffic can be forwarded to the service by connecting through the
 
 1. Select where it says **0 users, 0 groups assigned**.
 
+   ![](../media/lab4/users.png)
+
 1. Select **Add user/group**.
 
 1. Select **None Selected**.
 
-1. In the search bar, enter **`MOD Administrator`**, select **MOD Administrator**, press **Select**, then select **Assign**.
+1. In the search bar, enter **<inject key="AzureAdUserEmail"></inject>**, select **<inject key="AzureAdUserEmail"></inject>**, press **Select**, then select **Assign**.
 
 1. In the left navigation pane under **Connect** choose **Client download**.
 
@@ -304,26 +317,26 @@ Private access traffic can be forwarded to the service by connecting through the
 
 1. Select **I agree to the license terms and conditions**, then select **Install**. In the User Account Control window that pops up, select **Yes**.
 
+     ![](../media/lab4/gsa.png)
+
 1. Once the installation successfully completes, **Close** the window.
 
-1. From the task bar, select the up arrow to show hidden icons.  Here you will see the Global Secure Access client icon. If it does not have a green checkmark, right-click the icon and select **Enable**. It may take several minutes to show with a green checkmark to indicate it is connected.
+1. From the task bar, select the up arrow to show hidden icons.  Here you will see the Global Secure Access client icon. If it does not have a green checkmark, right-click the icon and select **Enable**. It may take 60 minutes to show with a green checkmark to indicate it is connected.
+
+
 1. From the task bar, select **File Explorer** and navigate to **This PC**. Select the ellipses (**...**) and select **Map network drive**.
-1. In the Folder field, enter `\\192.168.2.100\Share`. Use the IP address you are noted earlier AND select **Connect using different credentials**.
+
+1. In the Folder field, enter `\\192.168.*.*\Share`. Use the IP address you are noted earlier AND select **Connect using different credentials**.
 
 1. Select **Finish**.
 
-1. To map the network drive, use the credentials for the local administrator account on MICROSOFT AZURE: VM1. 
+     ![](../media/lab4/ipconnect.png)
 
-1. Email field: **`Administrator`** (this may vary by lab hoster).
+1. To map the network drive, use the credentials for the local administrator account on MICROSOFT AZURE: lon-sc1. 
 
-1. Password field: **`Pa55w.rd`** (this may vary by lab hoster).
-    
-    >[!NOTE] It's acknowledged that using the local Administrator account is not a typical scenario. It's used in this exercise due to the simplified on-premises environment. A more realistic scenario, with a more involved on-premises environment, would have the user access the private resources with their Entra ID account.
+1. Email field: **<inject key="VM Username"></inject>**.
 
-1. Before moving to the next lab, its recommended that you switch user, for optimal screen size.
+1. Password field: **<inject key="VM Password"></inject>**.
 
-1. From the taskbar, select the **Windows** icon, select **MOD Administrator**, then select **Switch user**.
-
-1. From the bottom left of the window, select **Admin**, then log in with your local Administrator account.
 
 You have successfully connected to the file server by using Global Secure Access.

@@ -49,6 +49,14 @@ In this task, you'll set up custom role focused on security posture and more spe
 
 1. If this is the first time you are accessing Microsoft Defender settings, you will have to wait a few minutes while Defender prepares new spaces for your data and connects them.  Once that completes, refresh the permissions page until you see a listing that includes Microsoft Defender XDR, Microsoft Entra ID, Endpoints roles & groups, Email & collaboration roles, and Cloud Apps. It may take some time for all of these to show up.
 
+1. If a pop-up page appears with the message **Welcome to Microsoft Defender for Business**, click **Get Started** and follow steps 9 and 10. If it does not appear, proceed directly to step 6.
+
+    ![](../media/lab4/getstarted.png)
+
+1. Click **Skip** on the **Assign User Permission** page and the **Setup Email Notification** page.
+
+1. Click **Continue** on the **Add Windows devices and Apply security settings** page, and then click **Submit**.
+
 1. Under **Microsoft Defender XDR(1)**, select **Roles**.
 
    ![](../media/lab4/1.png)
@@ -85,7 +93,7 @@ In this task, you'll set up custom role focused on security posture and more spe
 
 1. In the Review and finish page review your settings, select **Submit**, then select **Done**.
 
-    ![](../media/lab4/5.png) 
+     ![](../media/lab4/submit.png)
 
 1. You should be on the **Permissions and roles** page and see the custom role you just created. Keep this tab open, you'll come back to it in the next task.
 
@@ -131,7 +139,7 @@ Share a Microsoft Secure Score recommended action. In this task you'll post the 
 
 1. Click **Skip** on the **Assign User Permission** page and the **Setup Email Notification** page.
 
-1. Click **Continue** on the **Onboard and Configure Windows Device** page, and then click **Submit**.
+1. Click **Continue** on the **Add Windows devices and Apply security settings** page, and then click **Submit**.
 
 1. Select the **Recommended actions** tab.
 
@@ -141,9 +149,11 @@ Share a Microsoft Secure Score recommended action. In this task you'll post the 
 
 1. Select **Share**, and in the dropdown menu select **Microsoft Teams**.
 
-1. In field **Team** select **Mark 8 Project Team** and in the **Channel** field select **Channel Research and Development**.
+1. In field **Team** select **Mark 8 Project Team (1)** and in the **Channel** field select **Channel Research and Development (2)**.
 
-1. Select **Post message to Teams**.
+1. Select **Post message to Teams (3)**.
+
+   ![](../media/lab4/teamch.png)
 
 Joni Sherman and her Mark 8 Project Team will be notified about the recommended action in the Teams channel.
 
