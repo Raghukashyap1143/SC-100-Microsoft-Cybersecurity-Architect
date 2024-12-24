@@ -8,7 +8,7 @@ Contoso Ltd. is expanding into Europe to increase sales, but is having trouble s
 
 ### Estimated Duration: 30 Minutes
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.
 
@@ -25,7 +25,7 @@ Compliance Manager assessments from Microsoft are groupings of controls from spe
 |Comparison of the M365 environment with the ISO 27001 regulations|Microsoft Purview Compliance Manager|Create an assessment|
 |Create an action plan|Microsoft Purview Compliance Manager|Assign tasks to a technical engineer|
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution 
 
 ### Task 1: Conduct an ISO-27001 assessment
 
