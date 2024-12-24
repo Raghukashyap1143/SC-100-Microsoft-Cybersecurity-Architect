@@ -4,7 +4,7 @@ Contoso's IT infrastructure has evolved over the past few decades, providing var
 
 ### Estimated Duration: 45 Minutes
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.
 
@@ -21,7 +21,7 @@ Defender for Cloud Apps is a security solution designed to address Shadow IT ris
 | Discover Shadow IT            | Microsoft Defender for Cloud Apps | Investigate all applications in the Contoso environment |
 | Block all unsafe applications | Microsoft Defender for Cloud Apps | Mark unsafe applications as unsanctioned                |
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution
 
 ### Task 1: Integrate Microsoft Defender for Endpoint with Defender for Cloud Apps
 

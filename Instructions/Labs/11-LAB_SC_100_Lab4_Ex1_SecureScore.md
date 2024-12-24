@@ -6,7 +6,7 @@ The security team reviews and delegates Secure Score recommended actions to its 
 
 Recently, there have been reports that uninvited associates were automatically being admitted to Teams calls to which they were not directly invited.  Due to the sensitive and confidential nature of calls, the security team want to control this.
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 ### Design approach
 

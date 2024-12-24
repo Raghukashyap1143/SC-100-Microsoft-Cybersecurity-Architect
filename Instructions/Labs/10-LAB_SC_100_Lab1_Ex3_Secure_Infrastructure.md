@@ -2,7 +2,7 @@
 
 Contoso Ltd. recently acquired Tailwind Traders, which still uses local file servers for storage. As the cybersecurity architect of Contoso Ltd., you want to evaluate a solution to secure these file servers with your existing cloud environment. Tailwind Traders provided you with a test server (The Lab VM 2) that you can use for the implementation of your POC. In this exercise, you will set up the server and integrate it into your cloud infrastructure and security environment using Azure Arc and send server logs to Defender for Cloud.
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 In this task you´ll design a concept to secure on premise environment inside your cloud infrastructure.
 
@@ -28,7 +28,7 @@ In the second step examine Contoso Ltd.'s existing environment. Defender for Clo
 |Logs need to be stored, that Contoso´s SIEM Solution can process them |Defender for Cloud, DataCollectionRules, AzureMonitoring Agent, Log Analytics workspace | Create a Data Collection Rule to gather logs from Contoso´s on premise Server |
 |Assess the compliance state of deploy resources | Defender for Cloud Security policies| Enable the NIST SP 800-53 Rev.5 Compliance and assesses your compliance state.|
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution
 
 <!-- ### Task 1: Create a Log Analytics Workspace
 
