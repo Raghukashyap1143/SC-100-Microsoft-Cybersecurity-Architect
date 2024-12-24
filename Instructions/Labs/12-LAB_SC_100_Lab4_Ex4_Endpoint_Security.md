@@ -32,9 +32,9 @@ A security baseline policy comprises a set of configuration settings recommended
 
 Your overall goal is to secure your endpoints appropriately and consolidate as many policies as possible in one place. You will achieve this by creating endpoint security baseline policies for Windows devices in Intune.
 
-1. Log into the Windows client VM **LON-SC1** with the local **Administrator** account. The password should be provided by your lab hosting provider.
+1. Log into the  VM **LON-SC1** with the local **Administrator** account. The password should be provided by your lab hosting provider.
 
-1. Sign-in to the Microsoft Intune admin center **`https://intune.microsoft.com`** as **MOD Administrator** 
+1. Sign-in to the Microsoft Intune admin center **`https://intune.microsoft.com`** as :
 
 - **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**  
 
