@@ -8,7 +8,7 @@ Since a partner organization was recently attacked using SMS interception, you w
 
 ### Estimated Duration: 45 Minutes
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 In this task you will design a concept to address the risks Contoso Ltd. is facing.
 
@@ -36,7 +36,7 @@ The third phase involves crafting the solution's concept. Upon investigation, it
 |Allow users to request access to SaaS products|Entra ID application policy|Define users that are eligible to approve of applications that are safe to use|
 |Restrict use of insecure authentication methods|Entra ID authentication methods|Create an authentication strength excluding SMS and Voice methods|
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution 
 
 **Note:** These lab steps must be executed on the M365 Lab Profile.
 
