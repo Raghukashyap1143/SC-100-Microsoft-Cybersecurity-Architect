@@ -4,7 +4,7 @@ The German government recently modified specific laws governing retention period
 
 ### Estimated Duration: 45 Minutes
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.
 
@@ -32,7 +32,7 @@ Based on above scenario, Microsoft Purview Data Lifecycle Management can be used
 |Retain all business correspondence for 5 years| Microsoft Purview Data Lifecycle Management|Deploy a retention policy|
 
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution
 
 ### Task 1: Analyse the current structure of the retention policy
 

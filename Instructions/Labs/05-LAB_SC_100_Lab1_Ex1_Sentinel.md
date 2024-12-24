@@ -4,7 +4,7 @@
 
 Contoso has a Security Operations Center (SOC) that monitors and responds to security incidents across the enterprise. The SOC is staffed with security analysts, security engineers, and network engineers. The SOC has decided to use Microsoft Sentinel as their Security Information and Event Management (SIEM) solution. To collect and analyze security logs from across the enterprise, the SOC has a log analytics workspace. The SOC has a requirement to secure access to the log analytics workspace based on the principle of least privilege. The SOC has two different roles, security analyst and security engineer, with different permission requirements. The network team has a requirement to access only the Cisco Umbrella logs.
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution 
 
 In this task, you'll design a concept for monitoring and responding to security events with specific access permissions for Contoso's Security Operations Center.
 
@@ -28,7 +28,7 @@ In this scenario, you deploy the SIEM SOAR solution based on Microsoft Sentinel,
 | Limit access to specific SOC roles                                  | Log Analytics Workspace, Role-based Access Control | Set up RBAC for Log Analytics Workspace                              |
 | Create a dashboard with custom views for incidents and their alerts | Microsoft Sentinel, Workbook                       | Create a workbook with a custom view on current incidents and alerts |
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution 
 
 ### Task 1 - Create Log Analytics Workspace
 

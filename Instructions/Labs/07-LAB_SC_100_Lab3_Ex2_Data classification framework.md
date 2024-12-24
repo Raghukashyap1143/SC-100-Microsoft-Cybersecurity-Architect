@@ -15,7 +15,7 @@ You were given following examples to classify Project IDs:
 
 ### Estimated Duration: 45 Minutes
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 In this task you will design a concept to address the issues Contoso Ltd. is facing.
 
@@ -30,7 +30,7 @@ This introduction of a new project ID necessitates the creation of a correspondi
 |Identify documents containing project IDs|Microsoft Purview Information Protection|Create a custom sensitive information type|
 |Comply with government regulation to retain data for 5 years| Microsoft Purview Data Lifecycle Management|Deploy a retention policy|
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution
 
 ### Task 1: Create a custom sensitive information Type
 

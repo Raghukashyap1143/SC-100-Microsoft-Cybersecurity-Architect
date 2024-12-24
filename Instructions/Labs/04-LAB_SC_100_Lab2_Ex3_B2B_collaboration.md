@@ -4,7 +4,7 @@ Contoso recently acquired Tailwind Traders and it has been difficult to determin
 
 As a Cybersecurity Architect, you must ensure that all requirements are met and implement the necessary changes to Entra ID to apply Zero Trust principles. In this exercise, you will team up with a lab partner to create a cross-tenant synchronization.
 
-## Part 1: Design a solution (required)
+## Part 1: Design a solution
 
 In this task you will design a concept to address the requirements Contoso Ltd. and Tailwind Traders are facing.
 
@@ -32,7 +32,7 @@ The third phase involves crafting the solution's concept. Upon investigation, it
 |Synchronize both company's users|Entra ID Cross-tenant synchronization|Establish access trust between both Entra ID tenants and create a configuration that synchronizes users to the other tenant|
 |Make external users identifiable as externals|Cross-tenant attribute mapping|Edit the displayName attribute of every user synchronized by creating a custom expression using the attribute mapping function of the Cross-tenant synchronization configuration|
 
-## Part 2: Implement the solution (optional)
+## Part 2: Implement the solution
 
 ### Task 1 - Team up and preparations
 
