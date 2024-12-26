@@ -38,8 +38,6 @@ Based on above scenario, Microsoft Purview Data Lifecycle Management can be used
 
 In this task, you will familiarize yourself with your company's existing retention policy. You will have a look into different retention policies, labels and label policies. You will use the Security & Compliance PowerShell module and view the existing policies. You will investigate the current set-up and decide whether the existing retention policies are enough for Contoso Ltd. to meet the legal requirements.
 
->[!NOTE] You should have already installed the Exchange Online PowerShell module. If the module is missing follow the instructions for installing the module.
-
 1. Open an elevated Windows PowerShell window by selecting the Windows button with the right mouse button and then select **Terminal (Admin)**.
 
     ![altext](../media/lab3/image-34.png)
@@ -138,7 +136,7 @@ You have successfully created a retention policy. You can now delete all remaini
 
 To adhere to german regulations you will now create a retention label with a retention period of 10 years and auto-apply it to all documents that contain german financial data.
 
-1. You should still be logged into the **Data Lifecycle Management** solution in the Microsoft Purview portal.  If not, navigate to **`https://purview.microsoft.com/`** > **Solutions** > **Data Lifecycle Management**.
+1. Navigate to **`https://purview.microsoft.com/`** > **Solutions** > **Data Lifecycle Management**.
 1. On the **Data lifecycle management** pane, select **Retention policies**.
 1. On the **Labels** page, select **+ Create a label**.
 
