@@ -17,9 +17,9 @@ Since a partner organization was recently attacked using SMS interception, you w
 
   The architecture for this lab involves the following key components:  
 
-   **Microsoft Verified Services**: Restricts the use of third-party applications, ensuring only trusted, Microsoft-verified services are utilized for enhanced security.  
+  - **Microsoft Verified Services**: Restricts the use of third-party applications, ensuring only trusted, Microsoft-verified services are utilized for enhanced security.  
 
-   **Authentication Strength**: Establishes customized authentication policies to enforce stronger and more secure access controls for sensitive resources.  
+   - **Authentication Strength**: Establishes customized authentication policies to enforce stronger and more secure access controls for sensitive resources.  
 
 ## Part 1: Design a solution
 

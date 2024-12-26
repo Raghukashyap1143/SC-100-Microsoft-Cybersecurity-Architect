@@ -14,13 +14,13 @@ Contoso Ltd. recently acquired Tailwind Traders, which still uses local file ser
 
   The architecture for this lab involves the following key components:  
 
-   **Defender for Cloud**: A comprehensive security solution that provides advanced threat protection and unified security management across hybrid cloud environments.  
+   - **Defender for Cloud**: A comprehensive security solution that provides advanced threat protection and unified security management across hybrid cloud environments.  
 
-   **Azure Arc for On-Premises Servers**: Enables seamless integration of on-premises servers into Azure for centralized management and monitoring.  
+   - **Azure Arc for On-Premises Servers**: Enables seamless integration of on-premises servers into Azure for centralized management and monitoring.  
 
-   **Server Logs and Defender Integration**: Collects logs from connected servers and integrates them with Defender for Cloud to monitor security events and detect threats.  
+   - **Server Logs and Defender Integration**: Collects logs from connected servers and integrates them with Defender for Cloud to monitor security events and detect threats.  
 
-   **Regulatory Compliance Standard**: Helps organizations align with industry compliance requirements by assessing and monitoring adherence to regulatory standards.  
+   - **Regulatory Compliance Standard**: Helps organizations align with industry compliance requirements by assessing and monitoring adherence to regulatory standards.  
 
 ## Part 1: Design a solution
 

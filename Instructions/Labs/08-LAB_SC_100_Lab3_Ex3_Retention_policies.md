@@ -13,11 +13,11 @@ The German government recently modified specific laws governing retention period
 
 The architecture for this lab involves the following key components:  
 
-**Retention Policy Analysis**: Reviews the existing retention policy structure to identify gaps and areas for improvement in data governance.  
+- **Retention Policy Analysis**: Reviews the existing retention policy structure to identify gaps and areas for improvement in data governance.  
 
-**Retention Policy Creation**: Develops a new retention policy to define rules for retaining or deleting content based on organizational compliance requirements.  
+- **Retention Policy Creation**: Develops a new retention policy to define rules for retaining or deleting content based on organizational compliance requirements.  
 
-**Retention Label Configuration**: Establishes retention labels to categorize and manage content effectively, ensuring adherence to lifecycle management policies.  
+- **Retention Label Configuration**: Establishes retention labels to categorize and manage content effectively, ensuring adherence to lifecycle management policies.  
 
 ## Part 1: Design a solution
 

@@ -12,15 +12,15 @@ To establish secure networking, you will start by creating an Azure App Proxy an
 
 The architecture for this lab involves the following key components:  
 
-**Global Secure Access Activation**: Enables secure access to organizational resources, ensuring that users can securely connect to resources regardless of their location.  
+- **Global Secure Access Activation**: Enables secure access to organizational resources, ensuring that users can securely connect to resources regardless of their location.  
 
-**TLS and Private Network Connector Setup**: Configures Transport Layer Security (TLS) for secure communication and installs the private network connector to establish secure network connections.  
+- **TLS and Private Network Connector Setup**: Configures Transport Layer Security (TLS) for secure communication and installs the private network connector to establish secure network connections.  
 
-**Folder Creation on the File Server**: Establishes a shared folder on the file server for centralized storage and secure file access.  
+- **Folder Creation on the File Server**: Establishes a shared folder on the file server for centralized storage and secure file access.  
 
-**Quick Access Setup and User Assignment**: Configures Quick Access for efficient access to important resources and assigns the appropriate user for seamless operations.   
+- **Quick Access Setup and User Assignment**: Configures Quick Access for efficient access to important resources and assigns the appropriate user for seamless operations.   
 
-**Traffic Forwarding Profile Activation and Desktop Client Setup**: Activates the traffic forwarding profile to direct traffic securely and sets up the GSA desktop client for user access to organizational resources.  
+- **Traffic Forwarding Profile Activation and Desktop Client Setup**: Activates the traffic forwarding profile to direct traffic securely and sets up the GSA desktop client for user access to organizational resources.  
 
 ## Part 1: Design a solution
 

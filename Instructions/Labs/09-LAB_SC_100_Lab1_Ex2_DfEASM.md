@@ -15,15 +15,15 @@ Contoso aims to enhance its cybersecurity posture by identifying and managing it
 
   The architecture for this lab involves the following key components:
 
-  **Defender External Attack Surface Management (EASM)**: Provides continuous monitoring and management of an organization's external attack surface to identify and mitigate vulnerabilities.  
+ - **Defender External Attack Surface Management (EASM)**: Provides continuous monitoring and management of an organization's external attack surface to identify and mitigate vulnerabilities.  
 
-**Discovery**: Automates the identification of internet-facing assets to uncover potential security risks and gaps.  
+ - **Discovery**: Automates the identification of internet-facing assets to uncover potential security risks and gaps.  
 
-**Data Connector and Log Analytics Workspace**: Integrates data from various sources into a centralized workspace for comprehensive analysis and security insights.  
+ - **Data Connector and Log Analytics Workspace**: Integrates data from various sources into a centralized workspace for comprehensive analysis and security insights.  
 
-**Dashboards and Asset Labeling**: Offers visual tools to review data, label assets, and track their status for effective security management.  
+ - **Dashboards and Asset Labeling**: Offers visual tools to review data, label assets, and track their status for effective security management.  
 
-**Asset Management**: Enables monitoring, organizing, and securing identified assets to maintain a strong security posture.
+ - **Asset Management**: Enables monitoring, organizing, and securing identified assets to maintain a strong security posture.
 
 
 ## Part 1: Design a solution

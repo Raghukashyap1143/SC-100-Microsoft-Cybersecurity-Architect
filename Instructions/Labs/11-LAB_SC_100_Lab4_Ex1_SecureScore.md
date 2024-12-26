@@ -14,13 +14,13 @@ Recently, there have been reports that uninvited associates were automatically b
 
 The architecture for this lab involves the following key components:
 
-**Custom Role Creation for Security Posture Management**: Defines a specialized role that allows specific users to manage and monitor security posture for exposure management across organizational resources.
+- **Custom Role Creation for Security Posture Management**: Defines a specialized role that allows specific users to manage and monitor security posture for exposure management across organizational resources.
 
-**Defender XDR Unified RBAC Activation**: Enables role-based access control (RBAC) for Defender XDR, granting appropriate permissions for managing security across targeted workloads.
+ - **Defender XDR Unified RBAC Activation**: Enables role-based access control (RBAC) for Defender XDR, granting appropriate permissions for managing security across targeted workloads.
 
-**Recommended Action Sharing**: Facilitates sharing of security recommendations with relevant stakeholders to enhance the organization’s security posture and remediation efforts.
+- **Recommended Action Sharing**: Facilitates sharing of security recommendations with relevant stakeholders to enhance the organization’s security posture and remediation efforts.
 
-**Recommendation Management**: Organizes and tracks security recommendations to ensure timely action and continuous improvement in security operations.
+- **Recommendation Management**: Organizes and tracks security recommendations to ensure timely action and continuous improvement in security operations.
 
 
 ## Part 1: Design a solution
