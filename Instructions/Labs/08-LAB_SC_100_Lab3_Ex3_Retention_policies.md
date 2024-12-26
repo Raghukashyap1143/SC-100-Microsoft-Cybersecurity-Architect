@@ -4,6 +4,11 @@ The German government recently modified specific laws governing retention period
 
 ### Estimated Duration: 45 Minutes
 
+## Architecture Diagram
+
+
+ ![](../media/lab3/lab3ex3.png)
+
 ## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.

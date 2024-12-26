@@ -4,6 +4,11 @@ Contoso uses Microsoft Intune to manage its devices and provides its employees w
 
 In addition, the analysis revealed that Tailwind Traders uses macOS devices in its environment. As part of the upcoming merger, you plan to prepare the Contoso tenant for the new macOS devices.
 
+## Architecture Diagram
+
+
+ ![](../media/lab4/lab4ex2.png)
+
 ## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.

@@ -8,6 +8,11 @@ Contoso Ltd. is expanding into Europe to increase sales, but is having trouble s
 
 ### Estimated Duration: 30 Minutes
 
+## Architecture Diagram
+
+
+ ![](../media/lab3/lab3ex1.png)
+
 ## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.

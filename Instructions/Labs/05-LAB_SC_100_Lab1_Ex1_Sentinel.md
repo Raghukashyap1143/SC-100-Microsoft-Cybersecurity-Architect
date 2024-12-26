@@ -4,6 +4,11 @@
 
 Contoso has a Security Operations Center (SOC) that monitors and responds to security incidents across the enterprise. The SOC is staffed with security analysts, security engineers, and network engineers. The SOC has decided to use Microsoft Sentinel as their Security Information and Event Management (SIEM) solution. To collect and analyze security logs from across the enterprise, the SOC has a log analytics workspace. The SOC has a requirement to secure access to the log analytics workspace based on the principle of least privilege. The SOC has two different roles, security analyst and security engineer, with different permission requirements. The network team has a requirement to access only the Cisco Umbrella logs.
 
+## Architecture Diagram
+
+
+   ![](../media/lab01/lab1ex1.png)
+
 ## Part 1: Design a solution 
 
 In this task, you'll design a concept for monitoring and responding to security events with specific access permissions for Contoso's Security Operations Center.

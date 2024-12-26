@@ -4,6 +4,11 @@ Contoso's IT infrastructure has evolved over the past few decades, providing var
 
 ### Estimated Duration: 45 Minutes
 
+## Architecture Diagram
+
+
+   ![](../media/lab02/lab2ex3.png)
+
 ## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.

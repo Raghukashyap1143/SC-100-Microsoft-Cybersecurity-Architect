@@ -4,6 +4,11 @@ You have discovered that employees are accessing Microsoft 365 from unknown loca
 
 ### Estimated Duration: 45 Minutes
 
+## Architecture Diagram
+
+
+   ![](../media/lab02/lab2ex2.png)
+
 ## Part 1: Design a solution
 
 In this task you will design a concept to address the risks Contoso Ltd. is facing.
