@@ -72,7 +72,7 @@ You have successfully created an assessment based on ISO-27001.
 
 The results of the assessment shows you different areas and actions that are essential to comply with ISO-27011 regulations. You will investigate improvement actions and assign a task to a technical engineer.
 
-1. You should still be on the page for the assessment you just created, **ISO-27001 Audit assessment**.  If not, navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment**
+1. Navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment**
 1. From the **ISO-27001 Audit assessment** page, select **Your improvement actions**.
 1. Set the filter for **Control family** to **Physical controls**.
 
