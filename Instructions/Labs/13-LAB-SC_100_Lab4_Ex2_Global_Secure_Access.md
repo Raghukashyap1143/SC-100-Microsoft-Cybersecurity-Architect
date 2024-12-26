@@ -3,10 +3,24 @@
 After setting up a monitoring server, you need to establish secure networking to the file server using Global Secure Access (GSA). You want to ensure that access to these machines is secured until these file servers can be migrated to secure cloud storage, especially if Tailwind Traders is bringing local servers into your company IT infrastructure. You decided against reworking the VPN infrastructure of Tailwind Traders to allow your employees access to the servers. 
 
 To establish secure networking, you will start by creating an Azure App Proxy and enrolling the client to Entra ID, before creating a connector. After that, you will configure an access policy and install the GSA client. Finally, you will test the GSA connection to ensure that everything is working properly.
+
 ## Architecture Diagram
 
+ ![](../media/lab4/lab4ex2.png)
 
- ![](../media/lab4/lab4ex3.png)
+## Explanation of Components
+
+The architecture for this lab involves the following key components:  
+
+**Global Secure Access Activation**: Enables secure access to organizational resources, ensuring that users can securely connect to resources regardless of their location.  
+
+**TLS and Private Network Connector Setup**: Configures Transport Layer Security (TLS) for secure communication and installs the private network connector to establish secure network connections.  
+
+**Folder Creation on the File Server**: Establishes a shared folder on the file server for centralized storage and secure file access.  
+
+**Quick Access Setup and User Assignment**: Configures Quick Access for efficient access to important resources and assigns the appropriate user for seamless operations.   
+
+**Traffic Forwarding Profile Activation and Desktop Client Setup**: Activates the traffic forwarding profile to direct traffic securely and sets up the GSA desktop client for user access to organizational resources.  
 
 ## Part 1: Design a solution
 
