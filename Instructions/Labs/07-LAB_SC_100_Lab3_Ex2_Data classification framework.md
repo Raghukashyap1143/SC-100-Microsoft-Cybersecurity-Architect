@@ -88,7 +88,6 @@ You have successfully created a new sensitive information type to identify proje
 
 You will create a retention label to retain all documents related to construction projects for 5 years.
 
-1. You should still be logged into the Microsoft Purview portal **https://purview.microsoft.com/**.
 1. From the left navigation panel, select **Solutions** then select **Data Lifecycle Management**.
 
     ![altext](../media/lab3/image-23.png)
@@ -132,7 +131,7 @@ You have successfully created a retention label with a retention period of 5 yea
 
 You will use the sensitive information type you created in this exercise to auto-apply the retention label.
 
-1. You should still be logged into the Data Lifecycle Management solution in the Microsoft Purview portal.  If not, navigate to **`https://purview.microsoft.com/`** > **Solutions** > **Data Lifecycle Management**.
+1. Navigate to **`https://purview.microsoft.com/`** > **Solutions** > **Data Lifecycle Management**.
 1. On the **Data lifecycle management** pane, select **Label policies**.
 1. On the **Label policies** blade, select **Auto-apply a label**.
 
