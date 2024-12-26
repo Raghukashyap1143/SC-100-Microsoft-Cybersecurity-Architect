@@ -197,10 +197,9 @@ You have now successfully tested and ensured access to all cloud applications fr
 
 After the successful test in the previous task, you can now enable the policy for the entire company. To do this you will edit the user scope of the existing policy.
 
->[!ALERT] The actions implemented in this task can lead to Account lockout!
+>**ALERT**: The actions implemented in this task can lead to Account lockout!
 Make sure, that you have at least one emergency admin account that is excluded from this policy in a productive, real world scenario. 
 
-1. You should still be logged into the Entra ID portal **https://entra.microsoft.com**.
 
 1. On the left naviagtion panel, navigate to **identity** > **Application**> **Enterprise applications**
 
@@ -244,10 +243,8 @@ You have successfully restricted access from outside the trusted network.
 
 In this Task you create a CA policy to enforce the authentication strenth you created in the previous exercise when signing into Salesforce. 
 
->[!IMPORTANT] Important:
-This task will skip the testing phase. In a real world scenario you would test with a limited user scope first as seen in the previous tasks and perform a full rollout after a successful testing phase.
+>**IMPORTANT**: This task will skip the testing phase. In a real world scenario you would test with a limited user scope first as seen in the previous tasks and perform a full rollout after a successful testing phase.
 
-1. You should still be logged into the Entra ID portal **https://entra.microsoft.com**.
 2. On the left navigation pane, navigate to **Protection** > **Conditional Access** > **Policies**.
 3. Select **+ New policy**.
 
