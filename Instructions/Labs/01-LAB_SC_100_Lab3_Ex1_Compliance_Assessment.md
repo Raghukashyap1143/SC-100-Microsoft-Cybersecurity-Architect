@@ -95,7 +95,7 @@ You have successfully viewed and assigned an improvement action to a technical e
 
 Users need access to view the tasks assigned to them. You will grant Nestor Wilke access to the assessment.
 
-1. You should still be on the **Your improvement actions** tab for **ISO-27001 Audit assessment** page.  If not, navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment** > **Your improvement actions**.
+1. Navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment** > **Your improvement actions**.
 1. From the upper right corner of the **ISO/IEC 27001:Assessment** page, select **Manage user access**.
 
     ![alt text](../media/lab3/image-12.png)
