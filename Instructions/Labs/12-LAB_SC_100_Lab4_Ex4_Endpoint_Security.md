@@ -173,8 +173,6 @@ You have successfully configured and deployed antivirus for macOS devices.
 
 In this task you will encrypt macOS devices.
 
-1. You should still be logged into the Microsoft Intune admin center **https://intune.microsoft.com**.
-
 1. In the Microsoft Intune admin center, in the left navigation pane select **Endpoint Security**.
 
 1. On the **Endpoint security | Overview** page, under **Manage** select **Disk encryption**.
