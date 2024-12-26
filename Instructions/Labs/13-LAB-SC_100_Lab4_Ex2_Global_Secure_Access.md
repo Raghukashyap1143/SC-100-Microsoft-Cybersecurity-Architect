@@ -33,8 +33,6 @@ Global Secure Access integrates with the existing cloud infrastructure of Contos
 
 The first step is to activate Global Secure Access in your tenant.
 
-1. Make sure you are on the **MICROSOFT AZURE:lON-SC1** VM.
-
 1. Open a new tab in **Microsoft Edge**, select the address bar, navigate to **`https://entra.microsoft.com`** and log into the Entra ID Portal with the below credentials if prompted.
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -149,8 +147,6 @@ The private network connector is a lightweight agent that is installed on a Wind
 
 In this task, you´ll create an SMB Share on the on-premise file server that will be accessed thru GSA.
 
-1. You should still be logged in to .
-
 1. From the task bar, open **File Explorer**, navigate to the C: Drive and create a folder named **Share**.
 
     ![](../media/lab4/29.png)
@@ -186,8 +182,6 @@ Private Access provides two ways to configure the private resources that you wan
 Quick Access is the primary group of FQDNs and IP addresses that you want to secure. When you configure the Quick Access, you're creating a new enterprise application that serves as a container for the private resources that you want to secure.
 
 In order for your users to access the resources the file server through the GSA client you need to enable Quick Access and assign it to your test users.
-
-1. You can stay in MICROSOFT AZURE: lon-sc1 for this step.
 
 1. Naviaget back to **Entra Admin Center** and in the left navigation pane expand **Global Secure Access**, expand **Applications**, then select **Quick Access**. Enter the following information:
 

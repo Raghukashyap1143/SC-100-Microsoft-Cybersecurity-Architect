@@ -129,8 +129,6 @@ You learned where to activate the Microsoft Defender XDR Unified RBAC model for 
 
 Share a Microsoft Secure Score recommended action. In this task you'll post the action on a Teams channel. By posting it on Teams, users on the channel will see a notice but will not have access to the data source to edit the status or manage the action. Only Joni Shermann who is a member of the Teams channel and has role permissions can access the recommended action.
 
-1. You should still be logged into Microsoft Defender XDR portal.
-
 1. On the left navigation pane, expand **Exposure management** then select **Secure Score**.
 
 1. If a pop-up page appears with the message **Welcome to Microsoft Defender for Business**, click **Get Started** and follow steps 4 and 5. If it does not appear, proceed directly to step 6.

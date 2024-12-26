@@ -134,8 +134,6 @@ After securing Windows devices with endpoint security baseline policies you will
     - Enable passive mode: **Disabled (Default) (2)**
     - Exclusion merge: **admin_only (3)**
 
-
-
 1. Under **Threat type settings** select **+ Add**:
     - In the text box for Threat type, ensure **potentially_unwanted_application** is selected.
     - Action to take: **block**
