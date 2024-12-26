@@ -8,6 +8,22 @@ Contoso Ltd. is expanding into Europe to increase sales, but is having trouble s
 
 ### Estimated Duration: 30 Minutes
 
+## Architecture Diagram
+
+
+ ![](../media/lab3/lab3ex1.png)
+
+## Explanation of Components
+
+The architecture for this lab involves the following key components:  
+
+**ISO-27001 Assessment**: Conducts a comprehensive evaluation of organizational security practices to identify gaps and align with ISO-27001 standards.  
+
+**Task Assignment for Improvement Actions**: Delegates specific improvement tasks to a technical engineer to address identified gaps and enhance compliance.  
+
+**Access Provision for Technical Engineers**: Grants necessary permissions to the technical engineer to implement and monitor improvement actions effectively.  
+
+
 ## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.

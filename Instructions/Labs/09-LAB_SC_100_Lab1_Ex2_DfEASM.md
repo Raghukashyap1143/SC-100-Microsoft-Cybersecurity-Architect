@@ -4,6 +4,28 @@
 
 Contoso aims to enhance its cybersecurity posture by identifying and managing its external attack surface. This surface includes assets that are hosted on different cloud providers. To achieve this goal, Contoso wants to integrate its attack surface data with Sentinel, its cloud-native SIEM solution. This integration will enhance its security monitoring and incident response capabilities. 
 
+## Estimated Duration:
+
+## Architecture Diagram
+
+
+   ![](../media/lab01/lab1ex2.png)
+
+## Explanation of Components
+
+  The architecture for this lab involves the following key components:
+
+  **Defender External Attack Surface Management (EASM)**: Provides continuous monitoring and management of an organization's external attack surface to identify and mitigate vulnerabilities.  
+
+**Discovery**: Automates the identification of internet-facing assets to uncover potential security risks and gaps.  
+
+**Data Connector and Log Analytics Workspace**: Integrates data from various sources into a centralized workspace for comprehensive analysis and security insights.  
+
+**Dashboards and Asset Labeling**: Offers visual tools to review data, label assets, and track their status for effective security management.  
+
+**Asset Management**: Enables monitoring, organizing, and securing identified assets to maintain a strong security posture.
+
+
 ## Part 1: Design a solution
 
 In this task you´ll design a concept to get an overview on your outside facing assets and their attack surface.

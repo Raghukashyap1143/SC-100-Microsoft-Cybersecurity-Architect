@@ -2,6 +2,26 @@
 
 Contoso Ltd. recently acquired Tailwind Traders, which still uses local file servers for storage. As the cybersecurity architect of Contoso Ltd., you want to evaluate a solution to secure these file servers with your existing cloud environment. Tailwind Traders provided you with a test server (The Lab VM 2) that you can use for the implementation of your POC. In this exercise, you will set up the server and integrate it into your cloud infrastructure and security environment using Azure Arc and send server logs to Defender for Cloud.
 
+## Estimated Duration:
+
+
+## Architecture Diagram
+
+
+   ![](../media/lab01/labex3.png)
+
+## Explanation of Components
+
+  The architecture for this lab involves the following key components:  
+
+   **Defender for Cloud**: A comprehensive security solution that provides advanced threat protection and unified security management across hybrid cloud environments.  
+
+   **Azure Arc for On-Premises Servers**: Enables seamless integration of on-premises servers into Azure for centralized management and monitoring.  
+
+   **Server Logs and Defender Integration**: Collects logs from connected servers and integrates them with Defender for Cloud to monitor security events and detect threats.  
+
+   **Regulatory Compliance Standard**: Helps organizations align with industry compliance requirements by assessing and monitoring adherence to regulatory standards.  
+
 ## Part 1: Design a solution
 
 In this task you´ll design a concept to secure on premise environment inside your cloud infrastructure.
@@ -47,7 +67,7 @@ You successfully created the log analytics workspace. -->
 
 Before Defender for Cloud can apply protections to your assets you have to enable the Defender plans for the resource types you want to secure.
 
-1. Search for **Microsoft Defender for Cloud** (1) and open it (2).
+1. Search for **Microsoft Defender for Cloud** (1) and Select it (2).
 
    ![](../media/lab01/36.png)
 1. In the left navigation pane, expand **Management** (1) and select **Environment settings** (2).

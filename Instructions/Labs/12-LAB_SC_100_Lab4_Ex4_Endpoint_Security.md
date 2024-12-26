@@ -4,6 +4,21 @@ Contoso uses Microsoft Intune to manage its devices and provides its employees w
 
 In addition, the analysis revealed that Tailwind Traders uses macOS devices in its environment. As part of the upcoming merger, you plan to prepare the Contoso tenant for the new macOS devices.
 
+## Architecture Diagram
+
+
+ ![](../media/lab4/lab4ex3.png)
+
+## Explanation of Components
+
+The architecture for this lab involves the following key components:
+
+**Endpoint Security Baseline Policy Deployment**: Configures and deploys security baseline policies to ensure consistent security configurations across organizational endpoints.
+
+**Antivirus Deployment on macOS Devices**: Installs and configures antivirus software on macOS devices to provide real-time protection against malware and security threats.
+
+**macOS Device Encryption**: Encrypts macOS devices to protect sensitive data and ensure that information remains secure in the event of device loss or theft.
+
 ## Part 1: Design a solution
 
 In this task you will design a concept to address the challenges Contoso Ltd. is facing.

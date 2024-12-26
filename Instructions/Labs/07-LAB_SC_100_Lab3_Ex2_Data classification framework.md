@@ -14,6 +14,20 @@ You were given following examples to classify Project IDs:
 |dui0522-in|
 
 ### Estimated Duration: 45 Minutes
+## Architecture Diagram
+
+
+ ![](../media/lab3/lab3ex2.png)
+
+## Explanation of Components
+
+The architecture for this lab involves the following key components:  
+
+**Custom Sensitive Information Type**: Defines tailored criteria for identifying and classifying sensitive data specific to organizational needs.  
+
+**Retention Label**: Establishes rules for managing the lifecycle of content, ensuring compliance with data retention policies.  
+
+**Automatic Retention Label Application**: Configures automation to apply retention labels to content based on predefined criteria, streamlining data governance processes.  
 
 ## Part 1: Design a solution
 
