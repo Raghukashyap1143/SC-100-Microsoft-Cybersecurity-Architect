@@ -13,11 +13,11 @@ In addition, the analysis revealed that Tailwind Traders uses macOS devices in i
 
 The architecture for this lab involves the following key components:
 
-**Endpoint Security Baseline Policy Deployment**: Configures and deploys security baseline policies to ensure consistent security configurations across organizational endpoints.
+- **Endpoint Security Baseline Policy Deployment**: Configures and deploys security baseline policies to ensure consistent security configurations across organizational endpoints.
 
-**Antivirus Deployment on macOS Devices**: Installs and configures antivirus software on macOS devices to provide real-time protection against malware and security threats.
+- **Antivirus Deployment on macOS Devices**: Installs and configures antivirus software on macOS devices to provide real-time protection against malware and security threats.
 
-**macOS Device Encryption**: Encrypts macOS devices to protect sensitive data and ensure that information remains secure in the event of device loss or theft.
+- **macOS Device Encryption**: Encrypts macOS devices to protect sensitive data and ensure that information remains secure in the event of device loss or theft.
 
 ## Part 1: Design a solution
 

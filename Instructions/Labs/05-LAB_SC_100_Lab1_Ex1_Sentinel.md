@@ -16,13 +16,13 @@ Contoso has a Security Operations Center (SOC) that monitors and responds to sec
 
 The architecture for this lab involves the following key components:
 
-   **Log Analytics Workspace**: Centralized environment for collecting, storing, and analyzing logs from Azure resources.  
+   - **Log Analytics Workspace**: Centralized environment for collecting, storing, and analyzing logs from Azure resources.  
 
-   **Azure Sentinel**: Security analytics tool integrated with Log Analytics for real-time threat detection and response.  
+   - **Azure Sentinel**: Security analytics tool integrated with Log Analytics for real-time threat detection and response.  
 
-   **Role-Based Access Control (RBAC)**: Manages access securely by assigning roles to users and groups.  
+   - **Role-Based Access Control (RBAC)**: Manages access securely by assigning roles to users and groups.  
 
-   **Workbooks**: Interactive dashboards for visualizing and analyzing data trends and security insights.
+   - **Workbooks**: Interactive dashboards for visualizing and analyzing data trends and security insights.
 
 ## Part 1: Design a solution 
 

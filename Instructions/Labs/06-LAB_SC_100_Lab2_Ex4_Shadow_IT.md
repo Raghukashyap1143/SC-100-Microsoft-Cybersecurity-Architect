@@ -13,13 +13,13 @@ Contoso's IT infrastructure has evolved over the past few decades, providing var
 
 The architecture for this lab involves the following key components:  
 
-**Integration of Defender for Endpoint with Defender for Cloud Apps**: Connects endpoint protection with cloud security to provide enhanced visibility and control over applications and user activities.  
+- **Integration of Defender for Endpoint with Defender for Cloud Apps**: Connects endpoint protection with cloud security to provide enhanced visibility and control over applications and user activities.  
 
-**Shadow IT Investigation**: Identifies and analyzes unauthorized or unmanaged applications within Contoso Ltd's environment to uncover potential security risks.  
+- **Shadow IT Investigation**: Identifies and analyzes unauthorized or unmanaged applications within Contoso Ltd's environment to uncover potential security risks.  
 
-**Blocking Unsecure Applications**: Implements policies to restrict access to applications that fail to meet security standards, protecting organizational resources.  
+- **Blocking Unsecure Applications**: Implements policies to restrict access to applications that fail to meet security standards, protecting organizational resources.  
 
-**Automated Application Blocking**: Configures automation to detect and block unsecure applications proactively, ensuring continuous compliance and reducing manual intervention. 
+- **Automated Application Blocking**: Configures automation to detect and block unsecure applications proactively, ensuring continuous compliance and reducing manual intervention. 
 
 ## Part 1: Design a solution
 

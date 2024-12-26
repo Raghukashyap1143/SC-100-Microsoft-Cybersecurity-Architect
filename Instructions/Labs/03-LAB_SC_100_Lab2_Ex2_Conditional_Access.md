@@ -13,15 +13,15 @@ You have discovered that employees are accessing Microsoft 365 from unknown loca
 
   The architecture for this lab involves the following key components:  
 
-**Trusted Network**: Defines a secure network boundary to ensure only authorized traffic from trusted locations can access organizational resources.  
+- **Trusted Network**: Defines a secure network boundary to ensure only authorized traffic from trusted locations can access organizational resources.  
 
-**Conditional Access Policy**: Configures policies with limited scope to enforce access controls based on specific conditions, such as user identity, location, or device state.  
+- **Conditional Access Policy**: Configures policies with limited scope to enforce access controls based on specific conditions, such as user identity, location, or device state.  
 
-**Policy Testing**: Validates the effectiveness and functionality of configured policies before broader implementation to ensure compliance and security.  
+- **Policy Testing**: Validates the effectiveness and functionality of configured policies before broader implementation to ensure compliance and security.  
 
-**Company-Wide Policy Rollout**: Expands the tested policies across the organization to standardize access control measures and enhance overall security.  
+- **Company-Wide Policy Rollout**: Expands the tested policies across the organization to standardize access control measures and enhance overall security.  
 
-**Multi-Factor Authentication (MFA) for Salesforce**: Enforces MFA for Salesforce access to protect sensitive data and ensure secure authentication practices.  
+- **Multi-Factor Authentication (MFA) for Salesforce**: Enforces MFA for Salesforce access to protect sensitive data and ensure secure authentication practices.  
 
 ## Part 1: Design a solution
 
