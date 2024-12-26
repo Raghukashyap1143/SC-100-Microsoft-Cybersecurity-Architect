@@ -38,7 +38,7 @@ Based on above scenario, Microsoft Purview Data Lifecycle Management can be used
 
 In this task, you will familiarize yourself with your company's existing retention policy. You will have a look into different retention policies, labels and label policies. You will use the Security & Compliance PowerShell module and view the existing policies. You will investigate the current set-up and decide whether the existing retention policies are enough for Contoso Ltd. to meet the legal requirements.
 
-1. Open an elevated Windows PowerShell window by selecting the Windows button with the right mouse button and then select **Terminal (Admin)**.
+<!-- 1. Open an elevated Windows PowerShell window by selecting the Windows button with the right mouse button and then select **Terminal (Admin)**.
 
     ![altext](../media/lab3/image-34.png)
 
@@ -50,7 +50,7 @@ In this task, you will familiarize yourself with your company's existing retenti
     ```
     ![altext](../media/lab3/image-35.png)
 
-1. Confirm the untrusted repository security dialog with **Y** for Yes and press **Enter**.  This process may take some time to complete.
+1. Confirm the untrusted repository security dialog with **Y** for Yes and press **Enter**.  This process may take some time to complete. -->
 1. Enter the following cmdlet to connect to Security & Compliance PowerShell then when prompted, login using the credentials mentioned below:
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
