@@ -180,9 +180,9 @@ In this task, you´ll manage recommended action and document your solutions.
 
 1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as
 
-   - **Email/Username:** **<inject key="User 10 UPN"></inject>**
+   - **Email/Username:** **<inject key="User 01 UPN"></inject>**
 
-   - **Password:** **<inject key="User 10 Password"></inject>**
+   - **Password:** **<inject key="User 01 Password"></inject>**
 
 1. If the landing page appears blurred out, refresh the page.
 
@@ -220,9 +220,9 @@ In this task, Adele Vance access the Mark 8 Project Team channel and selects the
 
 1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as Adele Vance,
 
-- **Email/Username:** **<inject key="User 06 UPN"></inject>**.
+- **Email/Username:** **<inject key="User 02 UPN"></inject>**.
 
-- **Password:** **<inject key="User 06 Password"></inject>**
+- **Password:** **<inject key="User 02 Password"></inject>**
 
 1. If the landing page appears blurred out, refresh the page.
 
