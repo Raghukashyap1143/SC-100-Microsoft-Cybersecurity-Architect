@@ -300,7 +300,7 @@ You also need to download and install the Global Secure Access desktop client.
 
 Private access traffic can be forwarded to the service by connecting through the Global Secure Access desktop client.
 
-1. You should still be on **LON-SC2**, to which you have signed in with the your <inject key="AzureAdUserEmail"></inject> account.
+1. You should still be on **LON-SC2**, to which you have signed in with the your <inject key="AzureAdUserEmail"></inject> account using the password <inject key="AzureAdUserPassword"></inject>.
 
 1. Open **Microsoft Edge**. You'll be prompted to setup Microsoft Edge.
 
