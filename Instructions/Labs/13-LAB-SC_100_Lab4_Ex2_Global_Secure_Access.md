@@ -161,6 +161,14 @@ The private network connector is a lightweight agent that is installed on a Wind
 
     ![](../media/lab4/28.png)
 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="8103ca0e-2b22-4651-b73c-fa4473d89ae8" />
+
 ### Task 3: Create a folder on the File Server
 
 In this task, you´ll create an SMB Share on the on-premise file server that will be accessed thru GSA.
