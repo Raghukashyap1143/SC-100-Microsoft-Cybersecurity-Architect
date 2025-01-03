@@ -110,7 +110,7 @@ The private network connector is a lightweight agent that is installed on a Wind
 
     ![](../media/lab4/19.png)
 
- 1. Since you updated the registry, you'll need to restart the server. From the taskbar of the Server VM, select the  **Windows icon**, select **Power**, select **Restart**.
+ 1. Since you updated the registry, you'll need to restart the server. From the taskbar of the Server VM, select the  **Windows icon**, select **Power**, select **Restart** and select **Continue**.
 
     ![](../media/lab4/20.png)
 
