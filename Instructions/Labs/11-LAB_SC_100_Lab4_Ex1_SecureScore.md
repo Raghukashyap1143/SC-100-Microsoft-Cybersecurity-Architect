@@ -179,9 +179,7 @@ As Joni Sherman you received the teams notification that a specific action to in
 In this task, you´ll manage recommended action and document your solutions.
 
 1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as
-
    - **Email/Username:** **<inject key="User 01 UPN"></inject>**
-
    - **Password:** **<inject key="User 01 Password"></inject>**
 
 1. If the landing page appears blurred out, refresh the page.
@@ -219,10 +217,8 @@ As Joni Shermann, you successfully edited the status for the recommended action.
 In this task, Adele Vance access the Mark 8 Project Team channel and selects the link in the posted message.
 
 1. Open a Microsoft Edge InPrivate window, navigate to **`https://office.com`** and sign in as Adele Vance,
-
-- **Email/Username:** **<inject key="User 02 UPN"></inject>**.
-
-- **Password:** **<inject key="User 02 Password"></inject>**
+   - **Email/Username:** **<inject key="User 02 UPN"></inject>**.
+   - **Password:** **<inject key="User 02 Password"></inject>**
 
 1. If the landing page appears blurred out, refresh the page.
 
