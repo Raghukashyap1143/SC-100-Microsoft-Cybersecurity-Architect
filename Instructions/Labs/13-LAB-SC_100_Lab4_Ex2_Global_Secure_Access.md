@@ -343,7 +343,7 @@ Private access traffic can be forwarded to the service by connecting through the
 
 1. From the task bar, select the up arrow to show hidden icons.  Here you will see the Global Secure Access client icon. If it does not have a green checkmark, right-click the icon and select **Enable**. It may take 60 minutes to show with a green checkmark to indicate it is connected.
 
-1. From the task bar, select **File Explorer** and navigate to **This PC**. Select the ellipses (**...**) and select **Map network drive**.
+1. From the task bar, select **File Explorer** and navigate to **This PC**. Right click on **Network** and select **Map network drive**.
 
 1. In the Folder field, enter `\\192.168.*.*\Share`. Use the IP address you are noted earlier AND select **Connect using different credentials**.
 
