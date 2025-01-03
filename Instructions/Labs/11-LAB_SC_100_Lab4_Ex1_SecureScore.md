@@ -62,7 +62,7 @@ In this task, you'll set up custom role focused on security posture and more spe
 
 1. If you see an information box on the top right of the screen that says **Manage multifactor authentication**, close it by selecting the **X**.
 
-1. On the left navigation pane, scroll down to bottom then select **Permissions**.
+1. On the left navigation pane, scroll down to bottom then select **Permissions** under System.
 
 1. If this is the first time you are accessing Microsoft Defender settings, you will have to wait a few minutes while Defender prepares new spaces for your data and connects them.  Once that completes, refresh the permissions page until you see a listing that includes Microsoft Defender XDR, Microsoft Entra ID, Endpoints roles & groups, Email & collaboration roles, and Cloud Apps. It may take some time for all of these to show up.
 
