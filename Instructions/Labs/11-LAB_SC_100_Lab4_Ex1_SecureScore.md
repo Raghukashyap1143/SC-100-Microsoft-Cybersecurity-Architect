@@ -49,7 +49,7 @@ In this task, you'll set up custom role focused on security posture and more spe
 
 1. Ensure you are logged into the **MICROSOFT AZURE: lON-SC1** VM by default. To switch between virtual machines, select the desired VM from the dropdown menu. 
 
-   ![](../media/lab4/vm.png)
+   ![](../media/lab4/vm-1.png)
 
 1. Open a new tab in **Microsoft Edge**, select the address bar, navigate to **`https://security.microsoft.com`** and log into the Entra ID Portal with the below credentials if prompted.
 
