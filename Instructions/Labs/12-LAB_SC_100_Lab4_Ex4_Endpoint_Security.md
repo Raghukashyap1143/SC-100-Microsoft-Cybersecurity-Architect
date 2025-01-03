@@ -50,10 +50,8 @@ Your overall goal is to secure your endpoints appropriately and consolidate as m
 1. Log into the  VM **LON-SC1** with the local **Administrator** account. The password should be provided by your lab hosting provider.
 
 1. Sign-in to the Microsoft Intune admin center **`https://intune.microsoft.com`** as :
-
-- **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**  
-
-- **Password:** <inject key="AzureAdUserPassword"></inject>
+    - **Email/Username:** **<inject key="AzureAdUserEmail"></inject>**  
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 1. If you see an information box on the top right of the screen that says **Manage multifactor authentication**, close it by selecting the **X**.
 
