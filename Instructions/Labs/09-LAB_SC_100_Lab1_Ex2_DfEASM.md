@@ -4,7 +4,7 @@
 
 Contoso aims to enhance its cybersecurity posture by identifying and managing its external attack surface. This surface includes assets that are hosted on different cloud providers. To achieve this goal, Contoso wants to integrate its attack surface data with Sentinel, its cloud-native SIEM solution. This integration will enhance its security monitoring and incident response capabilities. 
 
-## Estimated Duration:
+## Estimated Duration: 40 Minutes
 
 ## Architecture Diagram
 
