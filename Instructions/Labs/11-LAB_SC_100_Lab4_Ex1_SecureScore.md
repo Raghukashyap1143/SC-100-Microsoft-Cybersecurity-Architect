@@ -1,4 +1,4 @@
-# # Excercise 1: Security Posture Management
+## Excercise 1: Security Posture Management
 
 ## Exercise Overview
 Contoso's security team wants to improve its security posture by using Microsoft Secure Score, a tool that provides recommendations and guidance on how to reduce the attack surface and protect against threats.

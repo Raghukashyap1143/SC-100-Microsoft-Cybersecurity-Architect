@@ -1,4 +1,4 @@
-# # Excercise 2: Global Secure Access
+## Excercise 2: Global Secure Access
 
 ## Exercise Overview
 After setting up a monitoring server, you need to establish secure networking to the file server using Global Secure Access (GSA). You want to ensure that access to these machines is secured until these file servers can be migrated to secure cloud storage, especially if Tailwind Traders is bringing local servers into your company IT infrastructure. You decided against reworking the VPN infrastructure of Tailwind Traders to allow your employees access to the servers. 
