@@ -1,4 +1,4 @@
-## Excercise 3: Endpoint Security
+# Excercise 3: Endpoint Security
 
 ## Exercise Overview
 Contoso uses Microsoft Intune to manage its devices and provides its employees with Windows 10 and Windows 11 devices. The company has implemented several configuration profiles in the past. However, a company-wide infrastructure analysis revealed that the existing policies were created independently, making it difficult to view them holistically and trace them. As the company's cyber security architect, you have decided to consolidate all the necessary and critical configurations in one place. 
