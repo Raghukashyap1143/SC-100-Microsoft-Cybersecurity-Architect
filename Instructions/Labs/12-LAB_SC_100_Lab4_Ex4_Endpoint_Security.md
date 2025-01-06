@@ -183,7 +183,7 @@ enter **All users** and select it.
 
 You have successfully configured and deployed antivirus for macOS devices.
 
-### Task 3 Encrypt macOS devices
+### Task 3: Encrypt macOS devices
 
 In this task you will encrypt macOS devices.
 
@@ -225,10 +225,9 @@ You have successfully configured and deployed a FileVault profile to encrypt mac
 
 ### Review
 In this lab, you have completed the following:
-- Enabled Defender for Cloud.
-- Enabled Azure Arc on the test server.
-- Added Server to Defender for Cloud and gather Logs.
-- Added regulatory compliance standard.
+- Deployed endpoint security baseline policies.
+- Deployed antivirus on macOS devices.
+- Encrypted macOS devices.
 
 
 ### You have successfully completed the lab.
