@@ -129,8 +129,11 @@ You have successfully deployed Sentinel to the log analytics workspace and added
 
 ### Task 3 - Setup RBAC
 
-You have to secure the access based on least privilege, you´ll create role assignments for the specific role requirements. In your upcoming productive deployment, there´ll be two different roles in the Security Operation Center.
-Furthermore, the network team needs access to Cisco umbrella logs. You must ensure that the network team can only access these logs.
+In this task, you will design a security strategy for a hybrid environment using Microsoft solutions, focusing on Zero Trust, Identity & Access, Platform Protection, Data & AI Security, and GRC.
+
+You will implement least privilege access by creating role assignments for the Security Operations Center (SOC) and Network Team, ensuring proper access control.
+
+Additionally, you'll restrict the Network Team to only access Cisco Umbrella logs, enforcing strict access policies.
 
 #### Permission requirements
 

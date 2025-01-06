@@ -65,7 +65,7 @@ You successfully created the log analytics workspace. -->
 
 ### Task 1: Enable Defender for Cloud
 
-Before Defender for Cloud can apply protections to your assets you have to enable the Defender plans for the resource types you want to secure.
+In this task, you will enable Defender plans for the resource types you want to secure, ensuring that **Defender for Cloud** can apply the necessary protections to your assets.
 
 1. Search for **Microsoft Defender for Cloud** (1) and Select it (2).
 
@@ -85,7 +85,7 @@ When enabling the Plan for Servers you could see that Defender for Cloud support
 
 ### Task 2: Enable the on premise Server in Azure Arc
 
-Azure Arc is required so that it can be used to send data to the log analytics workspace that Defender for Cloud uses.
+In this task, you will configure **Azure Arc** to send data to the **Log Analytics Workspace** used by **Defender for Cloud**, enabling seamless integration and enhanced security monitoring.
 
 1. Swap to VM **Microsoft Azure: VM1**, use <inject key="VM1 Password"></inject> to sign in into the machine.
 
@@ -145,7 +145,7 @@ You have successfully enabled Azure Arc on the test server and data should start
 
 ### Task 3: Add Server to Defender for Cloud and gather Logs.
 
-You´ll deploy a Data collection rule to get event logs from the on premise server. The rule will automatically deploy the monitoring agent on the server and forward logs to the previously created log analytics workspace.
+In this task, you will deploy a **Data Collection Rule** to gather event logs from the on-premises server. The rule will automatically install the monitoring agent on the server and forward the logs to the pre-configured **Log Analytics Workspace**.
 
 1. Search for **Microsoft Defender for Cloud** and open it.
 
@@ -199,7 +199,7 @@ It may take a few hours till the resource is fully onboarded in Defender for Clo
 
 ### Task 4: Add regulatory compliance standard
 
-Based on the recommendation you can start to secure the resource and assign security policies e.g. NIST SP 800-53 Rev.5 to ensure that the resources of Tailwind traders comply with our compliance regulations.
+In this task, you will secure the resources based on recommendations and assign security policies, such as **NIST SP 800-53 Rev.5**, to ensure that **Tailwind Traders'** resources comply with regulatory requirements.
 
 1. Search for **Microsoft Defender for Cloud** and open it.
 1. Expand **Management** and select **Environment settings** (1).
