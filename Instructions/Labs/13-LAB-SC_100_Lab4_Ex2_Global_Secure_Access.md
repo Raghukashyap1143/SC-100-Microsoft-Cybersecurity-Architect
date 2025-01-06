@@ -1,5 +1,6 @@
-# Global Secure Access
+# # Excercise 2: Global Secure Access
 
+## Exercise Overview
 After setting up a monitoring server, you need to establish secure networking to the file server using Global Secure Access (GSA). You want to ensure that access to these machines is secured until these file servers can be migrated to secure cloud storage, especially if Tailwind Traders is bringing local servers into your company IT infrastructure. You decided against reworking the VPN infrastructure of Tailwind Traders to allow your employees access to the servers. 
 
 To establish secure networking, you will start by creating an Azure App Proxy and enrolling the client to Entra ID, before creating a connector. After that, you will configure an access policy and install the GSA client. Finally, you will test the GSA connection to ensure that everything is working properly.
@@ -359,3 +360,13 @@ Private access traffic can be forwarded to the service by connecting through the
 
 
 You have successfully connected to the file server by using Global Secure Access.
+
+
+### Review
+In this lab, you have completed the following:
+- Created the log analytics workspace for your Sentinel deployment.
+- Deployed Sentinel to the log analytics workspace and added data.
+- Created role based access model for the role requirements for Contoso´s security operations team.
+- Created a dashboard with custom views for incidents and the associated alerts.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.

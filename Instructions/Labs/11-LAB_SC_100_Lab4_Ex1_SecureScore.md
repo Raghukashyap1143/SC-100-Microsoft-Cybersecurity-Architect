@@ -1,5 +1,6 @@
-# Security Posture Management
+# # Excercise 1: Security Posture Management
 
+## Exercise Overview
 Contoso's security team wants to improve its security posture by using Microsoft Secure Score, a tool that provides recommendations and guidance on how to reduce the attack surface and protect against threats.
 
 The security team reviews and delegates Secure Score recommended actions to its extended team members (security ambassadors) that manage the status and action plan associated with improvement actions. The security team also wants to control access to security posture information and the data sources that feed it. Joni Shermann is one of the security ambassadors and needs access to exposure management.
@@ -241,3 +242,13 @@ In this task, Adele Vance access the Mark 8 Project Team channel and selects the
 1. Close the InPrivate browser tabs.
 
 In this task, you confirmed that members of the Mark 8 Project can see the message posted for the recommended action to help improve the organization's security posture, but only those associates that have been added to the custom role can access the Secure Score information.
+
+
+### Review
+In this lab, you have completed the following:
+- Created the log analytics workspace for your Sentinel deployment.
+- Deployed Sentinel to the log analytics workspace and added data.
+- Created role based access model for the role requirements for Contoso´s security operations team.
+- Created a dashboard with custom views for incidents and the associated alerts.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.

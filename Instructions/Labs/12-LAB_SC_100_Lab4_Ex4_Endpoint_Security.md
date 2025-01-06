@@ -1,5 +1,6 @@
-# Endpoint Security
+# # Excercise 3: Endpoint Security
 
+## Exercise Overview
 Contoso uses Microsoft Intune to manage its devices and provides its employees with Windows 10 and Windows 11 devices. The company has implemented several configuration profiles in the past. However, a company-wide infrastructure analysis revealed that the existing policies were created independently, making it difficult to view them holistically and trace them. As the company's cyber security architect, you have decided to consolidate all the necessary and critical configurations in one place. 
 
 In addition, the analysis revealed that Tailwind Traders uses macOS devices in its environment. As part of the upcoming merger, you plan to prepare the Contoso tenant for the new macOS devices.
@@ -220,3 +221,14 @@ In this task you will encrypt macOS devices.
 1. On the **Review + create** blade select **Create**.
 
 You have successfully configured and deployed a FileVault profile to encrypt macOS devices.
+
+
+### Review
+In this lab, you have completed the following:
+- Enabled Defender for Cloud.
+- Enabled Azure Arc on the test server.
+- Added Server to Defender for Cloud and gather Logs.
+- Added regulatory compliance standard.
+
+
+### You have successfully completed the lab.
