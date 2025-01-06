@@ -46,7 +46,7 @@ A security baseline policy comprises a set of configuration settings recommended
 
 ### Task 1: Deploy endpoint security baseline policies
 
-Your overall goal is to secure your endpoints appropriately and consolidate as many policies as possible in one place. You will achieve this by creating endpoint security baseline policies for Windows devices in Intune.
+In this task, you will create **endpoint security baseline policies** for **Windows devices** in **Intune** to secure your endpoints and consolidate multiple policies in one place.
 
 1. Log into the  VM **LON-SC1** with the local **Administrator** account. The password should be provided by your lab hosting provider.
 
@@ -110,7 +110,7 @@ You have successfully created two security baseline policies for Windows devices
 
 ### Task 2: Deploy antivirus on macOS devices
 
-After securing Windows devices with endpoint security baseline policies you will deploy antivirus and enable encryption on macOS devices to prepare your environment for merging with Trailwind Traders.
+In this task, after securing **Windows devices** with endpoint security baseline policies, you will deploy **antivirus** and enable **encryption** on **macOS devices** to prepare your environment for merging with **Tailwind Traders**.
 
 1. You should still be logged into the Microsoft Intune admin center **https://intune.microsoft.com**.
 

@@ -50,7 +50,7 @@ Global Secure Access integrates with the existing cloud infrastructure of Contos
 
 ### Task 1: Activate Global Secure Access
 
-The first step is to activate Global Secure Access in your tenant.
+In this task, you will activate **Global Secure Access** in your tenant as the first step to enhance security and access management.
 
 1. Open a new tab in **Microsoft Edge**, select the address bar, navigate to **`https://entra.microsoft.com`** and log into the Entra ID Portal with the below credentials if prompted.
 
@@ -75,7 +75,7 @@ You have successfully activated Global Secure Access.
 
 ### Task 2: Enable TLS and install the private network connector
 
-The private network connector is a lightweight agent that is installed on a Windows Server, in your on-premise environment, that has access to the backend resources and applications, and is used to facilitate the connection to the Global Secure Access service.  The Windows server where the connector will be installed must have TLS 1.2 enabled before you install the private network connector.
+In this task, you will install the **Private Network Connector** on a Windows Server in your on-premises environment. This lightweight agent will enable connection to the **Global Secure Access** service. Before installation, ensure that **TLS 1.2** is enabled on the Windows Server hosting the connector.
 
 1. Before you install the private network connector on the server, you need to enable TLS 1.2.  There are several ways you can do this. For this exercise, you'll copy the commands to set the registry keys into a file and then run that file.
 
@@ -204,11 +204,9 @@ You've created a shared folder on the server. It is this folder and its content 
 
 ### Task 4: Setup Quick Access and assign User
 
-Private Access provides two ways to configure the private resources that you want to tunnel through the service. Quick Access or Global Secure Access applications. For this exercise, you'll use Quick Access.
+In this task, you will configure **Quick Access** to secure private resources, such as your file server, through the **Global Secure Access (GSA)** client. Quick Access allows you to define a group of FQDNs and IP addresses to protect. 
 
-Quick Access is the primary group of FQDNs and IP addresses that you want to secure. When you configure the Quick Access, you're creating a new enterprise application that serves as a container for the private resources that you want to secure.
-
-In order for your users to access the resources the file server through the GSA client you need to enable Quick Access and assign it to your test users.
+You will enable **Quick Access**, create an enterprise application to secure the resources, and assign it to your test users for access.
 
 1. Naviaget back to **Entra Admin Center** and in the left navigation pane expand **Global Secure Access**, expand **Applications**, then select **Quick Access**. Enter the following information:
 
@@ -249,7 +247,7 @@ You have successfully enabled quick access for your test user.
 
 ### Task 5: Device join Entra ID
 
-In order to use Global Secure Access, you need to join the client endpoint, the LON-SC2 VM, to Microsoft Entra ID. Otherwise the GSA client will not work.
+In this task, you will join the client endpoint, **LON-SC2 VM**, to **Microsoft Entra ID** to enable the **Global Secure Access (GSA)** client to function properly. Without this, the GSA client will not work.
 
 1. To Switch between the Virtual Machines, select the Microsoft AZURE: LON-SC2 VM from the dropdown.
 
@@ -295,11 +293,9 @@ Once your endpoint is joined to Entra ID you will be able to set up the GSA clie
 
 ### Task 6: Activate the traffic forwarding profile and download the GSA desktop client
 
-To enable access to private resources or applications in your on-premises environment, you need to enable the traffic forwarding profile for Private Access and assign users.
+In this task, you will enable the **traffic forwarding profile** for **Private Access** and assign users to allow access to private resources in your on-premises environment.
 
-You also need to download and install the Global Secure Access desktop client.  
-
-Private access traffic can be forwarded to the service by connecting through the Global Secure Access desktop client.
+Additionally, you will download and install the **Global Secure Access desktop client** to forward private access traffic to the service.
 
 1. You should still be on **LON-SC2**, to which you have signed in with <inject key="AzureAdUserEmail"></inject> account using the password <inject key="AzureAdUserPassword"></inject>.
 
