@@ -360,9 +360,11 @@ You have successfully connected to the file server by using Global Secure Access
 
 ### Review
 In this lab, you have completed the following:
-- Created the log analytics workspace for your Sentinel deployment.
-- Deployed Sentinel to the log analytics workspace and added data.
-- Created role based access model for the role requirements for Contoso´s security operations team.
-- Created a dashboard with custom views for incidents and the associated alerts.
+- Activated the Global Secure Access.
+- Enabled TLS and installed the private network connector.
+- Created a shared folder on the server.
+- Setup Quick Access and assign User.
+- Joined device to Entra ID.
+- Activated the traffic forwarding profile and download the GSA desktop client.
 
 ### You have successfully finished the exercise. Click on **Next** to move on to the next one.

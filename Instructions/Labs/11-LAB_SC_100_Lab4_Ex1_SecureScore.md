@@ -246,9 +246,9 @@ In this task, you confirmed that members of the Mark 8 Project can see the messa
 
 ### Review
 In this lab, you have completed the following:
-- Created the log analytics workspace for your Sentinel deployment.
-- Deployed Sentinel to the log analytics workspace and added data.
-- Created role based access model for the role requirements for Contoso´s security operations team.
-- Created a dashboard with custom views for incidents and the associated alerts.
+- Create a custom role to manage security posture for Exposure Management.
+- Activate Defender XDR unified RBAC for specific workloads.
+- Shared the recommended action in the Teams channel.
+- Edited the status for the recommended action.
 
 ### You have successfully finished the exercise. Click on **Next** to move on to the next one.
