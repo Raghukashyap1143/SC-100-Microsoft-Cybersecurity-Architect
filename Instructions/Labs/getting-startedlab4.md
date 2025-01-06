@@ -1,4 +1,6 @@
-# Getting Started with the Lab
+# Getting Started with your SC-100: Microsoft Cybersecurity Architect Lab
+
+Welcome to your SC-100: Microsoft Cybersecurity Architect workshop! This environment has been designed to guide you through the essential skills needed to become a proficient Microsoft Cybersecurity Architect, equipping you with the knowledge to design, implement, and manage security solutions that align with Zero Trust principles and best practices. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
 
