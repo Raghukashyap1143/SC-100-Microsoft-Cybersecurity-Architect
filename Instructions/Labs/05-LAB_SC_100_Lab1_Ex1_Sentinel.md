@@ -1,4 +1,4 @@
-# Security Operations Center
+# Excercise 1: Security Operations Center
 
 ## Exercise Overview
 

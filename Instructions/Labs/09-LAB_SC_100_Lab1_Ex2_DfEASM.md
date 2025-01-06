@@ -1,4 +1,4 @@
-# Managing External Attack Surface
+# Excercise 2: Managing External Attack Surface
 
 ## Exercise Overview
 
