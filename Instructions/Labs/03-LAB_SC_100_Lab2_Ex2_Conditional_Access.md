@@ -320,9 +320,10 @@ You have now created a CA policy to enforce your authentication strength policy 
 
 ### Review
 In this lab, you have completed the following:
-- Created the Defender EASM workspace.
-- Created the Discovery of Contoso´s External Attack Surface.
-- Setup the connection between Defender EASM and a log analytics workspace.
-- Reviewed the Security posture and labeled an asset.
+- Created trusted network.
+- Created new Conditional Access Policy with limited scope.
+- Tested the configured Policy.
+- Configured an active working Conditional Access policy that prevents users from logging in outside the trusted network.
+- Created a CA policy to enforce your authentication strength policy to Salesforce.
 
 ### You have successfully finished the exercise. Click on **Next** to move on to the next one.

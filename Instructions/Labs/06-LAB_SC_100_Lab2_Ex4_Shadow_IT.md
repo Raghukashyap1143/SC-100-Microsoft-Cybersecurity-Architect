@@ -121,10 +121,10 @@ You have successfully created a policy to tag applications with a risk score of 
 
 ### Review
 In this lab, you have completed the following:
-- Enabled Defender for Cloud.
-- Enabled Azure Arc on the test server.
-- Added Server to Defender for Cloud and gather Logs.
-- Added regulatory compliance standard.
+- Integrated Microsoft Defender for Endpoint with Defender for Cloud Apps.
+- Investigated the Shadow-IT of Contoso Ltd.
+- Blocked unsecure applications.
+- Blocked unsecure applicatons automatically.
 
 
 ### You have successfully completed the lab.

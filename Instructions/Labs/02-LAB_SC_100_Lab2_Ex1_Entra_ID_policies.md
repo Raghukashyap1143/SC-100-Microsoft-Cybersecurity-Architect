@@ -134,9 +134,7 @@ You have now created an authentication strength that restricts the use of SMS OT
 
 ### Review
 In this lab, you have completed the following:
-- Created the Defender EASM workspace.
-- Created the Discovery of Contoso´s External Attack Surface.
-- Setup the connection between Defender EASM and a log analytics workspace.
-- Reviewed the Security posture and labeled an asset.
+- Restricted the use of third-party apps to Microsoft verified services.
+- Created an Authentication strength.
 
 ### You have successfully finished the exercise. Click on **Next** to move on to the next one.
