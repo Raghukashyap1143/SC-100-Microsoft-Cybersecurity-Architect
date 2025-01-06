@@ -1,5 +1,5 @@
-# Excercise-2: Data classification framework
-
+# Excercise 2: Data classification framework
+## Exercise Overview
 You have been assigned the task of structuring data classification for Contoso Ltd. in preparation for an ISO-27001:2022 audit. The goal is to establish a robust framework that is crucial for ensuring effective data protection against leakage, deletion, and loss. Your role involves integrating a new project ID system for construction projects within the company. To comply with government regulations, all documents that contain a certain project-ID must be kept for 5 years.
 
 You were given following examples to classify Project IDs:
@@ -15,7 +15,6 @@ You were given following examples to classify Project IDs:
 
 ### Estimated Duration: 45 Minutes
 ## Architecture Diagram
-
 
  ![](../media/lab3/lab3ex2.png)
 
@@ -48,7 +47,7 @@ This introduction of a new project ID necessitates the creation of a correspondi
 
 ### Task 1: Create a custom sensitive information Type
 
-You will create a custom sensitive information type to detect documents that contain project IDs.
+In this task, you will create a **custom sensitive information type** to detect documents containing **project IDs**.
 
 1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -100,7 +99,7 @@ You have successfully created a new sensitive information type to identify proje
 
 ### Task 2: Create a retention label
 
-You will create a retention label to retain all documents related to construction projects for 5 years.
+In this task, you will create a **retention label** to retain all documents related to **construction projects** for **5 years**.
 
 1. From the left navigation panel, select **Solutions** then select **Data Lifecycle Management**.
 
@@ -143,7 +142,7 @@ You have successfully created a retention label with a retention period of 5 yea
 
 ### Task 3: Auto-apply the retention label
 
-You will use the sensitive information type you created in this exercise to auto-apply the retention label.
+In this task, you will use the **sensitive information type** created earlier to **auto-apply** the **retention label** to relevant documents.
 
 1. Navigate to **`https://purview.microsoft.com/`** > **Solutions** > **Data Lifecycle Management**.
 1. On the **Data lifecycle management** pane, select **Label policies**.
@@ -195,3 +194,12 @@ You have successfully published and auto-applied the retention label to all docu
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
   
 <validation step="8c2f8278-828f-407f-91b8-f930a4318959" />
+
+### Review
+In this lab, you have completed the following:
+- Created the Defender EASM workspace.
+- Created the Discovery of Contoso´s External Attack Surface.
+- Setup the connection between Defender EASM and a log analytics workspace.
+- Reviewed the Security posture and labeled an asset.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.

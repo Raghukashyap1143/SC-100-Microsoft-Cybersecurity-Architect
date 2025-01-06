@@ -1,6 +1,6 @@
-# Excercise-1: Compliance assessment
+# Excercise 1: Compliance assessment
 
-## Lab scenario introduction
+## Exercise Overview
 
 You are Allan Deyoung, a member of the IT department at Contoso Ltd. You have recently been transferred to the IT Security division. Your new role is to evaluate Contoso's Zero Trust readiness and develop an action plan to establish a Zero Trust initiative, following the Zero Trust pillars. Contoso is a large multinational corporation with a global presence in multiple industries. The company has a large cloud footprint and a hybrid infrastructure. Contoso's security operations center (SOC) is responsible for monitoring and responding to security incidents across the enterprise. The SOC is staffed with security analysts, security engineers, and network engineers. The SOC uses Microsoft Sentinel as its security information and event management (SIEM) solution. The SOC has a log analytics workspace that is used to collect and analyze security logs from across the enterprise.
 
@@ -9,7 +9,6 @@ Contoso Ltd. is expanding into Europe to increase sales, but is having trouble s
 ### Estimated Duration: 30 Minutes
 
 ## Architecture Diagram
-
 
  ![](../media/lab3/lab3ex1.png)
 
@@ -45,8 +44,7 @@ Compliance Manager assessments from Microsoft are groupings of controls from spe
 
 ### Task 1: Conduct an ISO-27001 assessment
 
-Your first step is to analyse the company's current environment. You carry out a compliance assessment to analyse the extent to which Contoso's environment complies with the ISO-27001 regulations.
-
+In this task, your first step is to analyze the company's current environment. You will conduct a **compliance assessment** to evaluate how well **Contoso's environment** aligns with **ISO-27001** regulations.
 1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -86,7 +84,7 @@ You have successfully created an assessment based on ISO-27001.
 
 ### Task 2: Assign tasks to a technical engineer
 
-The results of the assessment shows you different areas and actions that are essential to comply with ISO-27011 regulations. You will investigate improvement actions and assign a task to a technical engineer.
+In this task, based on the results of the assessment, you will identify areas and actions necessary to comply with **ISO-27001** regulations. You will investigate the required improvements and assign a task to a **technical engineer** for implementation.
 
 1. Navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment**
 1. From the **ISO-27001 Audit assessment** page, select **Your improvement actions**.
@@ -109,7 +107,7 @@ You have successfully viewed and assigned an improvement action to a technical e
 
 ### Task 3: Provide access to a technical engineer for the improvement actions
 
-Users need access to view the tasks assigned to them. You will grant Nestor Wilke access to the assessment.
+In this task, you will grant **Nestor Wilke** access to the assessment, enabling him to view the tasks assigned to him.
 
 1. Navigate to the Microsoft Purview portal **`https://purview.microsoft.com/`** and from there select **Solutions** > **Compliance Manager** > **Assessments** > **ISO-27001 Audit assessment** > **Your improvement actions**.
 1. From the upper right corner of the **ISO/IEC 27001:Assessment** page, select **Manage user access**.
@@ -126,3 +124,12 @@ Users need access to view the tasks assigned to them. You will grant Nestor Wilk
 1. You can now exit out of the Microsoft Purview portal by closing the browser tab.
 
 You have successfully granted Nestor Wilke the Assessor role for this assessment.
+
+### Review
+In this lab, you have completed the following:
+- Created the Defender EASM workspace.
+- Created the Discovery of Contoso´s External Attack Surface.
+- Setup the connection between Defender EASM and a log analytics workspace.
+- Reviewed the Security posture and labeled an asset.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.

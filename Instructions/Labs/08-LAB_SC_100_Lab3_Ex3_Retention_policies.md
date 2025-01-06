@@ -1,11 +1,10 @@
-# Excercise-3: Retention policies
-
+# Excercise 3: Retention policies
+## Exercise Overview
 The German government recently modified specific laws governing retention periods for companies. One significant change is that all financial documents must now be retained for 11 years, instead of the previous requirement of 10 years. Another change is that commercial or business correspondence, including copies of dispatched commercial or business correspondence, can now be retained for 5 years instead of 7. Currently, your company adheres to a retention policy that maintains all documents for a duration of 7 years. However, Contoso Ltd. has encountered challenges in recent years due to the accumulation of a large volume of data in its environment. This has led to increased maintenance costs and significant storage space consumption. Your assignment is to optimize the retention policy in your company to comply with legal regulations while minimizing data storage requirements. The company policy dictates that all data must be retained for at least five years after creation, in strict adherence to all applicable laws governing data retention.
 
 ### Estimated Duration: 45 Minutes
 
 ## Architecture Diagram
-
 
  ![](../media/lab3/lab3ex3.png)
 
@@ -92,7 +91,7 @@ You successfully viewed the existing labels and settings to decide whether they 
 
 ### Task 2: Create a retention policy
 
-You have effectively assessed Contoso Ltd.'s retention policies, uncovering an outdated setup that fails to meet legal standards. Your investigation revealed five retention policies sharing identical settings, with only one retention label applied, none of which adequately address legal requirements.
+In this task, you will assess **Contoso Ltd.'s retention policies**, identifying an outdated setup that does not meet legal standards. Your investigation reveals **five retention policies** with identical settings, and only **one retention label** applied, none of which fulfill the necessary legal requirements.
 
 Your plan involves implementing a new company-wide retention policy with a five-year retention period. Following this timeframe, data may be retained but is not mandatory for deletion. This adjustment satisfies the legal requirements for minimum retention periods and reduces data overhead.
 
@@ -149,7 +148,7 @@ You have successfully created a retention policy. You can now delete all remaini
 
 ### Task 3: Create a retention label
 
-To adhere to german regulations you will now create a retention label with a retention period of 10 years and auto-apply it to all documents that contain german financial data.
+In this task, you will create a **retention label** with a **10-year retention period** to comply with **German regulations**. You will then **auto-apply** this label to all documents containing **German financial data**.
 
 1. Navigate to **`https://purview.microsoft.com/`** > **Solutions** > **Data Lifecycle Management**.
 1. On the **Data lifecycle management** pane, select **Retention policies**.
@@ -215,3 +214,13 @@ To adhere to german regulations you will now create a retention label with a ret
     ![altext](../media/lab3/image-51.png)
 
 You have successfully created and auto-applied a retention label.
+
+### Review
+In this lab, you have completed the following:
+- Enabled Defender for Cloud.
+- Enabled Azure Arc on the test server.
+- Added Server to Defender for Cloud and gather Logs.
+- Added regulatory compliance standard.
+
+
+### You have successfully completed the lab.
