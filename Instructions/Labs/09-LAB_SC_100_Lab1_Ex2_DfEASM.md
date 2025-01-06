@@ -227,4 +227,11 @@ Since this asset is hosted by a third party but still belongs to your attack sur
 
 Only if the State is set to **Approved Inventory**, assets are represented in dashboard charts and are scanned daily. For that reason its important to review newly discovered assets and changed their state accordingly.
 
-As part of this exercise you set up Defender EASM, created the discovery of Contoso´s outside facing environment, you got deeper insight of assets and their configuration and you have managed assets so that the dashboards only include data for which Contoso is directly responsible.
+### Review
+In this lab, you have completed the following:
+- Created the Defender EASM workspace.
+- Created the Discovery of Contoso´s External Attack Surface.
+- Setup the connection between Defender EASM and a log analytics workspace.
+- Reviewed the Security posture and labeled an asset.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.

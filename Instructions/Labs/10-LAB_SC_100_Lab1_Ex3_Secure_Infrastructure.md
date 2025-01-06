@@ -221,3 +221,13 @@ Due to limitation off the lab environment, you are not able to see the resources
 In the Regulatory compliance dashboard you can now review any failing assessments that appear in the dashboard to understand the details of the recommendations.
 
 By continuously assessing resources against these controls, Defender for Cloud identifies issues that may hinder achieving specific compliance certifications. Maintaining regulatory compliance is crucial for safeguarding your organization’s data and ensuring a secure cloud environment.
+
+### Review
+In this lab, you have completed the following:
+- Enabled Defender for Cloud.
+- Enabled Azure Arc on the test server.
+- Added Server to Defender for Cloud and gather Logs.
+- Added regulatory compliance standard.
+
+
+### You have successfully completed the lab.

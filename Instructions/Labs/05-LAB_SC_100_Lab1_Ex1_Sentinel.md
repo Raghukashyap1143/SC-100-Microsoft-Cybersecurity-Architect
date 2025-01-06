@@ -428,3 +428,12 @@ You successfully created a dashboard with custom views for incidents and the ass
  - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="80e42d63-07d4-44b8-bce9-022ddf79ca4d" />
+
+### Review
+In this lab, you have completed the following:
+- Created the log analytics workspace for your Sentinel deployment.
+- Deployed Sentinel to the log analytics workspace and added data.
+- Created role based access model for the role requirements for Contoso´s security operations team.
+- Created a dashboard with custom views for incidents and the associated alerts.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.
