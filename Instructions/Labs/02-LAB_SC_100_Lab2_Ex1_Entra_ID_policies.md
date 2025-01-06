@@ -6,7 +6,7 @@ You reviewed enterprise applications and noted that some users have provided per
 
 Since a partner organization was recently attacked using SMS interception, you want to enforce authentication assurance following NIST. To achieve this, you will create an Authentication strength policy to deactivate SMS OTP and restrict the use of AAL1 authentication methods in your organization. You will create this configuration in the Entra ID portal.
 
-## Estimated Duration: 
+## Estimated Duration: 30 Minutes
 
 ## Architecture Diagram
 
