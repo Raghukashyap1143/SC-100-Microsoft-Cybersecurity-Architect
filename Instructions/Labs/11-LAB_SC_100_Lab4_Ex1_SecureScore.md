@@ -7,6 +7,8 @@ The security team reviews and delegates Secure Score recommended actions to its 
 
 Recently, there have been reports that uninvited associates were automatically being admitted to Teams calls to which they were not directly invited. Due to the sensitive and confidential nature of calls, the security team want to control this.
 
+## Estimated Duration: 60 Minutes
+
 ## Architecture Diagram
 
 ![](../media/lab4/lab4ex1.png)

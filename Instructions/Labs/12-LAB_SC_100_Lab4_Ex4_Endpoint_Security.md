@@ -5,8 +5,9 @@ Contoso uses Microsoft Intune to manage its devices and provides its employees w
 
 In addition, the analysis revealed that Tailwind Traders uses macOS devices in its environment. As part of the upcoming merger, you plan to prepare the Contoso tenant for the new macOS devices.
 
-## Architecture Diagram
+## Estimated Duration: 60 Minutes
 
+## Architecture Diagram
 
  ![](../media/lab4/lab4ex3.png)
 

@@ -5,6 +5,8 @@ After setting up a monitoring server, you need to establish secure networking to
 
 To establish secure networking, you will start by creating an Azure App Proxy and enrolling the client to Entra ID, before creating a connector. After that, you will configure an access policy and install the GSA client. Finally, you will test the GSA connection to ensure that everything is working properly.
 
+## Estimated Duration: 60 Minutes
+
 ## Architecture Diagram
 
  ![](../media/lab4/lab4ex2.png)
