@@ -197,9 +197,8 @@ You have successfully published and auto-applied the retention label to all docu
 
 ### Review
 In this lab, you have completed the following:
-- Created the Defender EASM workspace.
-- Created the Discovery of Contoso´s External Attack Surface.
-- Setup the connection between Defender EASM and a log analytics workspace.
-- Reviewed the Security posture and labeled an asset.
+- Created a custom sensitive information Type.
+- Created a retention label.
+- Published and auto-applied the retention label to all documents that contain project IDs.
 
 ### You have successfully finished the exercise. Click on **Next** to move on to the next one.

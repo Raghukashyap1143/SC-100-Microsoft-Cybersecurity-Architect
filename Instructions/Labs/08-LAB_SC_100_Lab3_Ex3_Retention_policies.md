@@ -217,10 +217,9 @@ You have successfully created and auto-applied a retention label.
 
 ### Review
 In this lab, you have completed the following:
-- Enabled Defender for Cloud.
-- Enabled Azure Arc on the test server.
-- Added Server to Defender for Cloud and gather Logs.
-- Added regulatory compliance standard.
+- Analysed the current structure of the retention policy.
+- Created a retention policy.
+- Created and auto-applied a retention label.
 
 
 ### You have successfully completed the lab.

@@ -127,9 +127,8 @@ You have successfully granted Nestor Wilke the Assessor role for this assessment
 
 ### Review
 In this lab, you have completed the following:
-- Created the Defender EASM workspace.
-- Created the Discovery of Contoso´s External Attack Surface.
-- Setup the connection between Defender EASM and a log analytics workspace.
-- Reviewed the Security posture and labeled an asset.
+- Conducted an ISO-27001 assessment
+- Assigned tasks to a technical engineer
+- Provided access to a technical engineer for the improvement actions
 
 ### You have successfully finished the exercise. Click on **Next** to move on to the next one.
