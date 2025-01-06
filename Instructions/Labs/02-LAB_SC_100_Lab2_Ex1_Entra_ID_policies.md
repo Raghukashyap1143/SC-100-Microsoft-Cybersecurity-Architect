@@ -1,5 +1,5 @@
 # Excercise 1: Configure Entra ID
-
+## Exercise Overview
 You are the newly promoted IT-Security specialist of Contoso Ltd. As the company recently acquired Tailwind Traders, you reviewed your Entra ID tenant and decided on new security requirements. Your task is to manage the tasks and implement policies to meet the requirements that come with the acquisition.
 
 You reviewed enterprise applications and noted that some users have provided permissions for a third-party application to access their mailbox data. This is a potential risk for data loss from email correspondence. Therefore, you wish to restrict this behavior but allow users to sign-in and share login IDs to websites Microsoft has validated. You also want to allow users to request specific access to new SaaS products using their Entra ID identity. 
@@ -9,7 +9,6 @@ Since a partner organization was recently attacked using SMS interception, you w
 ## Estimated Duration: 30 Minutes
 
 ## Architecture Diagram
-
 
    ![](../media/lab02/lab2ex1.png)
 
@@ -132,3 +131,12 @@ In this Task you will use the Entra ID portal to create an own Authentication st
     ![](../media/lab02/exc1-10.png)
 
 You have now created an authentication strength that restricts the use of SMS OTP as an authentication factor.
+
+### Review
+In this lab, you have completed the following:
+- Created the Defender EASM workspace.
+- Created the Discovery of Contoso´s External Attack Surface.
+- Setup the connection between Defender EASM and a log analytics workspace.
+- Reviewed the Security posture and labeled an asset.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.

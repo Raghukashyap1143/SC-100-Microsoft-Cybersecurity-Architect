@@ -1,11 +1,10 @@
 # Excercise 3: Shadow-IT
-
+## Exercise Overview
 Contoso's IT infrastructure has evolved over the past few decades, providing various server instances, applications, and services. Recently, the company has prioritized securing its environment by implementing Device Management, data governance, and Identity and Application Protection over the last two years. However, the process of restricting users to only specific applications deployed by the company has not yet been established, allowing users to install applications from various sources. As the organization's cyber security architect, your goal is to have a complete overview of all applications used by employees. Your protection measure is to block insecure applications in your environment.
 
 ### Estimated Duration: 45 Minutes
 
 ## Architecture Diagram
-
 
    ![](../media/lab02/lab2ex3.png)
 
@@ -118,3 +117,14 @@ In order to automatically block unsafe applications in the future, you will crea
     ![](../media/lab02/8.png)
 
 You have successfully created a policy to tag applications with a risk score of 5 or lower as unsanctioned.
+
+
+### Review
+In this lab, you have completed the following:
+- Enabled Defender for Cloud.
+- Enabled Azure Arc on the test server.
+- Added Server to Defender for Cloud and gather Logs.
+- Added regulatory compliance standard.
+
+
+### You have successfully completed the lab.

@@ -1,11 +1,10 @@
 # Excercise 2: Conditional Access
-
+## Exercise Overview
 You have discovered that employees are accessing Microsoft 365 from unknown locations, despite your Conditional Access policies only allowing access from specific locations and devices. Your investigation has revealed that these employees are accessing Microsoft 365 while traveling home from their office on public transportation. This behavior is in violation of industry regulations, and you want to use Continuous Access Evaluation to prevent it. Additionally, you want to implement the authentication strength you prepared in the previous exercise to secure certain applications that handle customer data. 
 
 ### Estimated Duration: 45 Minutes
 
 ## Architecture Diagram
-
 
    ![](../media/lab02/lab2ex2.png)
 
@@ -317,3 +316,13 @@ In this Task you create a CA policy to enforce the authentication strenth you cr
 
 
 You have now created a CA policy to enforce your authentication strength policy to Salesforce excluding SMS OTP and therefore prevent successful attacks using SMS interception.
+
+
+### Review
+In this lab, you have completed the following:
+- Created the Defender EASM workspace.
+- Created the Discovery of Contoso´s External Attack Surface.
+- Setup the connection between Defender EASM and a log analytics workspace.
+- Reviewed the Security posture and labeled an asset.
+
+### You have successfully finished the exercise. Click on **Next** to move on to the next one.
