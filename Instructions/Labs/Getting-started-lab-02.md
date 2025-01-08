@@ -72,25 +72,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](../media/lc-image(3)-1.png)
 
-### Disable the security defaults (Only if it set to Enabled)
-
-1. Navigate to: **Identity > Overview > Properties** in the [Microsoft entra admin center](https://entra.microsoft.com/).
-
-   ![](../media/sc-100-getting-started/image-1.png)
-
-3. Select: **Manage security defaults**.
-
-   ![](../media/sc-100-getting-started/image-2.png)
-
-4. On the **Security defaults** side screen, if Security defaults are enabled, set them to **Disabled**.
-
-5. From the drop-down list, select **My organization is using Conditional Access**.
-Select **Save**.
-
-   ![](../media/sc-100-getting-started/image-3.png)
-
-6. A pop-up will appear to confirm disabling Security defaults. Select **Disable**.
-
 ## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
