@@ -442,4 +442,4 @@ In this excercise, you have completed the following:
 - Created role based access model for the role requirements for Contoso´s security operations team.
 - Created a dashboard with custom views for incidents and the associated alerts.
 
-### You have successfully finished the exercise. Click on **Next** to move on to the next one.
+### You have successfully finished the exercise. Click on **Next** to move on to the next excercise.
