@@ -436,7 +436,7 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
    >**Success!** You successfully created a dashboard with custom views for incidents and the associated alerts.
 
 ### Review
-In this lab, you have completed the following:
+In this excercise, you have completed the following:
 - Created the log analytics workspace for your Sentinel deployment.
 - Deployed Sentinel to the log analytics workspace and added data.
 - Created role based access model for the role requirements for Contoso´s security operations team.
