@@ -33,8 +33,6 @@ After completing this excercise, you'll be able to:
 
 ## Part 1: Design a solution
 
-In this task you´ll design a concept to secure on premise environment inside your cloud infrastructure.
-
 ### Design approach
 
 The initial step involves analyzing the requirements based on the described scenario, understanding the objectives and defining the requirements.
@@ -143,8 +141,6 @@ In this task, you will configure **Azure Arc** to send data to the **Log Analyti
 
    ![](../media/lab01/45.png)
 
-You have successfully enabled Azure Arc on the test server and data should start to flow into the log analytics workspace. This process might take some time until you can see anything in the dashboard.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -152,6 +148,8 @@ You have successfully enabled Azure Arc on the test server and data should start
  - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="7905e87b-74c6-4ccc-92fc-21b2e51da913" />
+
+   >**Success!**: You have successfully enabled Azure Arc on the test server and data should start to flow into the log analytics workspace. This process might take some time until you can see anything in the dashboard.
 
 ### Task 3: Add Server to Defender for Cloud and gather Logs.
 
@@ -233,7 +231,8 @@ In the Regulatory compliance dashboard you can now review any failing assessment
 By continuously assessing resources against these controls, Defender for Cloud identifies issues that may hinder achieving specific compliance certifications. Maintaining regulatory compliance is crucial for safeguarding your organization’s data and ensuring a secure cloud environment.
 
 ### Review
-In this lab, you have completed the following:
+
+In this excercise, you have completed the following:
 - Enabled Defender for Cloud.
 - Enabled Azure Arc on the test server.
 - Added Server to Defender for Cloud and gather Logs.
