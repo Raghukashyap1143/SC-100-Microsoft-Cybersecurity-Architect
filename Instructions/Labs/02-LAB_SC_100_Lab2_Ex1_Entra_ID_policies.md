@@ -6,6 +6,13 @@ You reviewed enterprise applications and noted that some users have provided per
 
 Since a partner organization was recently attacked using SMS interception, you want to enforce authentication assurance following NIST. To achieve this, you will create an Authentication strength policy to deactivate SMS OTP and restrict the use of AAL1 authentication methods in your organization. You will create this configuration in the Entra ID portal.
 
+## Exercise Objectives
+
+After completing this exercise, you'll be able to:
+
+- Restrict the use of third-party applications to only Microsoft-verified services.
+- Create and configure authentication strength policies to enhance security.
+
 ## Estimated Duration: 30 Minutes
 
 ## Architecture Diagram
@@ -21,8 +28,6 @@ Since a partner organization was recently attacked using SMS interception, you w
    - **Authentication Strength**: Establishes customized authentication policies to enforce stronger and more secure access controls for sensitive resources.  
 
 ## Part 1: Design a solution
-
-In this task you will design a concept to address the risks Contoso Ltd. is facing.
 
 ### Design approach
 
@@ -50,11 +55,9 @@ The third phase involves crafting the solution's concept. Upon investigation, it
 
 ## Part 2: Implement the solution 
 
-**Note:** These lab steps must be executed on the M365 Lab Profile.
-
 ### Task 1 - Restrict use of third-party apps to Microsoft verified services
 
-In this task you will restrict the level of access a user can grant to applications. You will also add the functionality for users to request access they are not able to permit themselves. 
+In this task, you will restrict the level of access a user can grant to applications. You will also add the functionality for users to request access they are not able to permit themselves. 
 
 1. Open a new tab in **Microsoft Edge**, select the address bar, navigate to **`https://entra.microsoft.com`** and log into the Entra ID Portal with the below credentials if prompted.
 
@@ -95,11 +98,11 @@ In this task you will restrict the level of access a user can grant to applicati
 
 1. Keep this browser tab open for the next task.
 
-You have now configured the application consent settings limiting the access every user can grant to applications. Users can still request permission consent to applications and the application admin team can approve of them after evaluating the need and risk for the specific application.
+   >**Success!** You have now configured the application consent settings limiting the access every user can grant to applications. Users can still request permission consent to applications and the application admin team can approve of them after evaluating the need and risk for the specific application.
 
 ### Task 2 - Create an Authentication strength
 
-In this Task you will use the Entra ID portal to create an own Authentication strength to restrict the use of SMS OTP within your organization. 
+In this task, you will use the Entra ID portal to create an own Authentication strength to restrict the use of SMS OTP within your organization. 
 
 1. On the left navigation pane, navigate to **Protection** > **Authentication methods** > **Authentication strengths**.
 
@@ -130,11 +133,11 @@ In this Task you will use the Entra ID portal to create an own Authentication st
 
     ![](../media/lab02/exc1-10.png)
 
-You have now created an authentication strength that restricts the use of SMS OTP as an authentication factor.
+   >**Success!** You have now created an authentication strength that restricts the use of SMS OTP as an authentication factor.
 
 ### Review
-In this lab, you have completed the following:
+In this excercise, you have completed the following:
 - Restricted the use of third-party apps to Microsoft verified services.
 - Created an Authentication strength.
 
-### You have successfully finished the exercise. Click on **Next** to move on to the next one.
+### You have successfully finished the exercise. Click on **Next** to move on to the next excercise.
