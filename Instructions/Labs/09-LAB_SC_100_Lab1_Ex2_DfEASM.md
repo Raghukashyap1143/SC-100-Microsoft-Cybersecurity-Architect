@@ -146,7 +146,7 @@ In this Task, you´ll configure a data connection from Defender EASM to an log a
 
 After the connection has been created, custom log tables are created in the log analytics workspace. In Sentinel, this data can then be used to create or enrich security incidents, build investigation playbooks, train machine learning algorithms or trigger remediation actions.
 
-    >**Success**! You successfully setup the connection between Defender EASM and a log analytics workspace.
+   >**Success!** You successfully setup the connection between Defender EASM and a log analytics workspace.
 
 ### Task 4 - Review Dashboards and label assets
 
