@@ -1,6 +1,15 @@
 # Excercise 3: Retention policies
+
 ## Exercise Overview
 The German government recently modified specific laws governing retention periods for companies. One significant change is that all financial documents must now be retained for 11 years, instead of the previous requirement of 10 years. Another change is that commercial or business correspondence, including copies of dispatched commercial or business correspondence, can now be retained for 5 years instead of 7. Currently, your company adheres to a retention policy that maintains all documents for a duration of 7 years. However, Contoso Ltd. has encountered challenges in recent years due to the accumulation of a large volume of data in its environment. This has led to increased maintenance costs and significant storage space consumption. Your assignment is to optimize the retention policy in your company to comply with legal regulations while minimizing data storage requirements. The company policy dictates that all data must be retained for at least five years after creation, in strict adherence to all applicable laws governing data retention.
+
+## Exercise Objectives
+
+After completing this exercise, you'll be able to:
+
+- Analyze the current structure of retention policies to understand data management.
+- Create and configure a retention policy for data governance.
+- Create and automatically apply a retention label to ensure proper data retention management.
 
 ### Estimated Duration: 45 Minutes
 
@@ -19,8 +28,6 @@ The architecture for this lab involves the following key components:
 - **Retention Label Configuration**: Establishes retention labels to categorize and manage content effectively, ensuring adherence to lifecycle management policies.  
 
 ## Part 1: Design a solution
-
-In this task you will design a concept to address the challenges Contoso Ltd. is facing.
 
 ### Design Approach
 
@@ -216,7 +223,8 @@ In this task, you will create a **retention label** with a **10-year retention p
 You have successfully created and auto-applied a retention label.
 
 ### Review
-In this lab, you have completed the following:
+
+In this excercise, you have completed the following:
 - Analysed the current structure of the retention policy.
 - Created a retention policy.
 - Created and auto-applied a retention label.
