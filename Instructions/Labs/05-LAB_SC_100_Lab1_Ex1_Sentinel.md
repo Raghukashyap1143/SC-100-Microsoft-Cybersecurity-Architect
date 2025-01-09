@@ -83,9 +83,6 @@ In this task, you'll create a log analytics workspace which is required to house
 1. Select **Review & Create (5)**.
 1. Select **Create** to start the deployment.
 
-You successfully created the log analytics workspace for your Sentinel deployment.
-
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -93,6 +90,8 @@ You successfully created the log analytics workspace for your Sentinel deploymen
  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="76fe2891-2386-4c8f-872c-46eb9701d50c" />
+
+   >**Success!** You successfully created the log analytics workspace for your Sentinel deployment.
 
 ### Task 2 - Create Sentinel
 
@@ -124,8 +123,6 @@ In this task, you will add Sentinel to the created log analytics workspace and a
 
 1. Wait till the solution is successfully installed.
 
-You have successfully deployed Sentinel to the log analytics workspace and added data.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -133,6 +130,8 @@ You have successfully deployed Sentinel to the log analytics workspace and added
  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="dd739dbe-ab7d-4545-b085-2890cfd574ee" />
+
+   >**Success!** You have successfully deployed Sentinel to the log analytics workspace and added data.
 
 ### Task 3 - Setup RBAC
 
@@ -254,8 +253,6 @@ Additionally, you'll restrict the Network Team to only access Cisco Umbrella log
 
 1. Select **Review + assign** twice.
 
-You successfully created role based access model for the role requirements for Contoso´s security operations team and created a custom role for the network team and assigned the role on the specific table in your log analytics workspace.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -263,6 +260,8 @@ You successfully created role based access model for the role requirements for C
  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="d2819e37-068f-437c-9026-013869aa3f4c" />
+
+   >**Success!** You successfully created role based access model for the role requirements for Contoso´s security operations team and created a custom role for the network team and assigned the role on the specific table in your log analytics workspace.
 
 ### Task 4 - Create Workbook
 
@@ -426,8 +425,6 @@ In this task, you´ll create a workbook, to get a dashboard with custom views an
 
     ![](../media/lab01/86.png)
 
-You successfully created a dashboard with custom views for incidents and the associated alerts.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -435,6 +432,8 @@ You successfully created a dashboard with custom views for incidents and the ass
  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="80e42d63-07d4-44b8-bce9-022ddf79ca4d" />
+
+   >**Success!** You successfully created a dashboard with custom views for incidents and the associated alerts.
 
 ### Review
 In this lab, you have completed the following:
