@@ -1,6 +1,16 @@
 # Excercise 3: Shadow-IT
+
 ## Exercise Overview
 Contoso's IT infrastructure has evolved over the past few decades, providing various server instances, applications, and services. Recently, the company has prioritized securing its environment by implementing Device Management, data governance, and Identity and Application Protection over the last two years. However, the process of restricting users to only specific applications deployed by the company has not yet been established, allowing users to install applications from various sources. As the organization's cyber security architect, your goal is to have a complete overview of all applications used by employees. Your protection measure is to block insecure applications in your environment.
+
+## Exercise Objectives
+
+After completing this exercise, you'll be able to:
+
+- Integrate Microsoft Defender for Endpoint with Defender for Cloud Apps for unified security management.
+- Investigate and identify Shadow IT within the organization (Contoso Ltd.).
+- Block unsecure applications to enhance security posture.
+- Automate the blocking of unsecure applications for continuous protection.
 
 ### Estimated Duration: 45 Minutes
 
@@ -21,8 +31,6 @@ The architecture for this lab involves the following key components:
 - **Automated Application Blocking**: Configures automation to detect and block unsecure applications proactively, ensuring continuous compliance and reducing manual intervention. 
 
 ## Part 1: Design a solution
-
-In this task you will design a concept to address the challenges Contoso Ltd. is facing.
 
 ### Design Approach
 
@@ -65,7 +73,7 @@ In order to control the use of application on users company owned devices you mu
 
    ![](../media/lab02/3.png)
 
-You have successfully enabled Microsoft Defender for Cloud Apps for Endpoints. With this set-up all signals coming from Microsoft Defender for Endpoints are forwarded to Defender for Cloud Apps giving you the ability to block unsecure applications. All applications tagged as **Unsanctoned** will now be blocked.
+   >**Success!** You have successfully enabled Microsoft Defender for Cloud Apps for Endpoints. With this set-up all signals coming from Microsoft Defender for Endpoints are forwarded to Defender for Cloud Apps giving you the ability to block unsecure applications. All applications tagged as **Unsanctoned** will now be blocked.
 
 ### Task 2: Investigate the Shadow-IT of Contoso Ltd
 
@@ -77,9 +85,9 @@ In this task, you will analyze all the applications currently used in your compa
 
 1. The **Cloud app catalog** blade displays all applications currently utilized within your organization. Explore multiple applications and their associated risk scores by selecting each respective application.
 
->**NOTE**: Defender for Cloud Apps assesses risks by evaluating regulatory certification, industry standards, and best practices. The score reflects the maturity of the app's suitability for enterprise use. It calculates a total score for each app by averaging weighted subscores across various risk categories that include considerations for reliability.
+   >**NOTE**: Defender for Cloud Apps assesses risks by evaluating regulatory certification, industry standards, and best practices. The score reflects the maturity of the app's suitability for enterprise use. It calculates a total score for each app by averaging weighted subscores across various risk categories that include considerations for reliability.
 
-You have successfully reviewed several applications that are currently used at Contoso.
+   >**Success!** You have successfully reviewed several applications that are currently used at Contoso.
 
 ### Task 3: Block unsecure applications
 
@@ -92,7 +100,7 @@ Once you have successfully gained an overview of the use of applications in your
 
    ![](../media/lab02/5.png)
 
-You have successfully blocked vulnerable applications from being used by users.
+   >**Success!** You have successfully blocked vulnerable applications from being used by users.
 
 ### Task 4: Block unsecure applicatons automatically
 
@@ -116,15 +124,14 @@ In order to automatically block unsafe applications in the future, you will crea
 
     ![](../media/lab02/8.png)
 
-You have successfully created a policy to tag applications with a risk score of 5 or lower as unsanctioned.
-
+    >**Success!** You have successfully created a policy to tag applications with a risk score of 5 or lower as unsanctioned.
 
 ### Review
-In this lab, you have completed the following:
+
+In this excercise, you have completed the following:
 - Integrated Microsoft Defender for Endpoint with Defender for Cloud Apps.
 - Investigated the Shadow-IT of Contoso Ltd.
 - Blocked unsecure applications.
 - Blocked unsecure applicatons automatically.
-
 
 ### You have successfully completed the lab.
