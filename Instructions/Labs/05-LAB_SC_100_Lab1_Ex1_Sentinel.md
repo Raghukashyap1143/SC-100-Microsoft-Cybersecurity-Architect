@@ -83,7 +83,7 @@ You successfully created the log analytics workspace for your Sentinel deploymen
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+ - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="76fe2891-2386-4c8f-872c-46eb9701d50c" />
 
@@ -123,7 +123,7 @@ You have successfully deployed Sentinel to the log analytics workspace and added
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+ - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="dd739dbe-ab7d-4545-b085-2890cfd574ee" />
 
@@ -253,7 +253,7 @@ You successfully created role based access model for the role requirements for C
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+ - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="d2819e37-068f-437c-9026-013869aa3f4c" />
 
@@ -425,7 +425,7 @@ You successfully created a dashboard with custom views for incidents and the ass
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
- - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+ - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="80e42d63-07d4-44b8-bce9-022ddf79ca4d" />
 
