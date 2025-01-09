@@ -4,6 +4,15 @@
 
 Contoso has a Security Operations Center (SOC) that monitors and responds to security incidents across the enterprise. The SOC is staffed with security analysts, security engineers, and network engineers. The SOC has decided to use Microsoft Sentinel as their Security Information and Event Management (SIEM) solution. To collect and analyze security logs from across the enterprise, the SOC has a log analytics workspace. The SOC has a requirement to secure access to the log analytics workspace based on the principle of least privilege. The SOC has two different roles, security analyst and security engineer, with different permission requirements. The network team has a requirement to access only the Cisco Umbrella logs.
 
+## Exercise Objectives
+
+After completing this lab, you'll be able to:  
+
+- Create and configure a Log Analytics Workspace to collect and analyze data from various sources.  
+- Deploy Azure Sentinel to enable security analytics and threat detection.  
+- Set up RBAC (Role-Based Access Control) to ensure appropriate permissions and secure access to resources.  
+- Create and customize Workbooks for visualizing and analyzing security data.  
+
 ## Estimated Duration: 40 Minutes
 
 ## Architecture Diagram
@@ -25,8 +34,6 @@ The architecture for this lab involves the following key components:
    - **Workbooks**: Interactive dashboards for visualizing and analyzing data trends and security insights.
 
 ## Part 1: Design a solution 
-
-In this task, you'll design a concept for monitoring and responding to security events with specific access permissions for Contoso's Security Operations Center.
 
 ### Design approach
 
