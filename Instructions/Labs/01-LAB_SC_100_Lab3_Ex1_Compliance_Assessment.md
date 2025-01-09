@@ -2,9 +2,19 @@
 
 ## Exercise Overview
 
-You are Allan Deyoung, a member of the IT department at Contoso Ltd. You have recently been transferred to the IT Security division. Your new role is to evaluate Contoso's Zero Trust readiness and develop an action plan to establish a Zero Trust initiative, following the Zero Trust pillars. Contoso is a large multinational corporation with a global presence in multiple industries. The company has a large cloud footprint and a hybrid infrastructure. Contoso's security operations center (SOC) is responsible for monitoring and responding to security incidents across the enterprise. The SOC is staffed with security analysts, security engineers, and network engineers. The SOC uses Microsoft Sentinel as its security information and event management (SIEM) solution. The SOC has a log analytics workspace that is used to collect and analyze security logs from across the enterprise.
+You are a member of the IT department at Contoso Ltd. You have recently been transferred to the IT Security division. Your new role is to evaluate Contoso's Zero Trust readiness and develop an action plan to establish a Zero Trust initiative, following the Zero Trust pillars. Contoso is a large multinational corporation with a global presence in multiple industries. The company has a large cloud footprint and a hybrid infrastructure. Contoso's security operations center (SOC) is responsible for monitoring and responding to security incidents across the enterprise. The SOC is staffed with security analysts, security engineers, and network engineers. The SOC uses Microsoft Sentinel as its security information and event management (SIEM) solution. The SOC has a log analytics workspace that is used to collect and analyze security logs from across the enterprise.
 
 Contoso Ltd. is expanding into Europe to increase sales, but is having trouble satisfying customer IT security demands. Customers want Contoso to maintain a secure environment to facilitate safe collaboration and minimize the risk of data leaks and compromised company assets. Many customers require evidence of well-established IT business processes and a robust security framework, which is often in the form of an ISO-27001 certification. To address this, Contoso has decided to hire an external audit firm to conduct the ISO-27001 Audit and obtain the certification. It is necessary to assess the current organizational stance and develop an action plan to meet the ISO-27001 requirements. As the company's cyber security architect, you are tasked with identifying the existing gaps and assigning specific tasks to people within the organization to resolve them.
+
+
+## Exercise Objectives
+
+After completing this exercise, you'll be able to:
+
+- Conduct an ISO-27001 assessment to evaluate security practices.
+- Assign tasks to a technical engineer for remediation and improvement actions.
+- Provide appropriate access to a technical engineer to implement improvement actions.
+
 
 ### Estimated Duration: 30 Minutes
 
@@ -25,8 +35,6 @@ The architecture for this lab involves the following key components:
 
 ## Part 1: Design a solution
 
-In this task you will design a concept to address the challenges Contoso Ltd. is facing.
-
 ### Design Approach
 
 To address the described issue effectively, it's crucial to grasp ISO 27001 thoroughly. Assessing Contoso's setup against ISO 27001 standards is essential, highlighting any inconsistencies for analysis. This process can be time-consuming due to the complexity of both the M365 environment and the 27001 regulations. However, the Microsoft Compliance Manager assessment streamlines this analysis.
@@ -45,6 +53,7 @@ Compliance Manager assessments from Microsoft are groupings of controls from spe
 ### Task 1: Conduct an ISO-27001 assessment
 
 In this task, your first step is to analyze the company's current environment. You will conduct a **compliance assessment** to evaluate how well **Contoso's environment** aligns with **ISO-27001** regulations.
+
 1. Sign-in to the Microsoft Purview Compliance portal **`https://purview.microsoft.com/`** as per the credentials mentioned below:
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -80,7 +89,7 @@ In this task, your first step is to analyze the company's current environment. Y
 1. You should now be on the newly created **ISO-27001 Audit assessment** page.
 1. Leave this browser tab open for the next task.
 
-You have successfully created an assessment based on ISO-27001.
+   >**Success!** You have successfully created an assessment based on ISO-27001.
 
 ### Task 2: Assign tasks to a technical engineer
 
@@ -103,7 +112,7 @@ In this task, based on the results of the assessment, you will identify areas an
 
 1. Keep this browser tab open for the next task.
 
-You have successfully viewed and assigned an improvement action to a technical engineer
+   >**Success!** You have successfully viewed and assigned an improvement action to a technical engineer
 
 ### Task 3: Provide access to a technical engineer for the improvement actions
 
@@ -123,12 +132,13 @@ In this task, you will grant **Nestor Wilke** access to the assessment, enabling
 1. You have successfully granted Nestor Wilke the Assessor role for this assessment.
 1. You can now exit out of the Microsoft Purview portal by closing the browser tab.
 
-You have successfully granted Nestor Wilke the Assessor role for this assessment.
+   >**Success!** You have successfully granted Nestor Wilke the Assessor role for this assessment.
 
 ### Review
-In this lab, you have completed the following:
+
+In this excercise, you have completed the following:
 - Conducted an ISO-27001 assessment
 - Assigned tasks to a technical engineer
 - Provided access to a technical engineer for the improvement actions
 
-### You have successfully finished the exercise. Click on **Next** to move on to the next one.
+### You have successfully finished the exercise. Click on **Next** to move on to the next excercise.
