@@ -4,6 +4,15 @@
 
 Contoso aims to enhance its cybersecurity posture by identifying and managing its external attack surface. This surface includes assets that are hosted on different cloud providers. To achieve this goal, Contoso wants to integrate its attack surface data with Sentinel, its cloud-native SIEM solution. This integration will enhance its security monitoring and incident response capabilities. 
 
+## Exercise Objectives
+
+After completing this lab, you'll be able to:  
+
+- Create a Defender External Attack Surface Management (EASM) workspace.  
+- Discover and analyze Contoso’s External Attack Surface.  
+- Configure the connection between Defender EASM and a Log Analytics workspace.  
+- Review the security posture of identified assets and apply appropriate labeling.  
+
 ## Estimated Duration: 40 Minutes
 
 ## Architecture Diagram
@@ -78,8 +87,6 @@ In this Task, you´ll create a Defender EASM workspace.
 
 1. Select **Create**.
 
-You successfully created the Defender EASM workspace.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -87,6 +94,8 @@ You successfully created the Defender EASM workspace.
  - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="f10c8d8e-403f-40ca-8055-fb57c65221e1" />
+
+   >**Success!** You successfully created the Defender EASM workspace.
 
 ### Task 2 - Create Discovery
 
@@ -102,7 +111,7 @@ In this Task, you´ll create a Discovery on Contoso Ltd. outside facing assets. 
 
     ![](../media/lab01/16.png)
 
-You successfully created the Discovery of Contoso´s External Attack Surface and populated the EASM instance with actionable data.
+    >**Success!** You successfully created the Discovery of Contoso´s External Attack Surface and populated the EASM instance with actionable data.
 
 ### Task 3 - Setup data connector and log analytics workspace
 
@@ -137,7 +146,7 @@ In this Task, you´ll configure a data connection from Defender EASM to an log a
 
 After the connection has been created, custom log tables are created in the log analytics workspace. In Sentinel, this data can then be used to create or enrich security incidents, build investigation playbooks, train machine learning algorithms or trigger remediation actions.
 
-You successfully setup the connection between Defender EASM and a log analytics workspace.
+    >**Success**! You successfully setup the connection between Defender EASM and a log analytics workspace.
 
 ### Task 4 - Review Dashboards and label assets
 
@@ -174,8 +183,6 @@ In this Task, you´ll review the Defender EASM Security posture and get informat
 
     ![](../media/lab01/26.png)
 
-You successfully reviewed the Security posture and labeled an asset for further investigation.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 	
  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -183,6 +190,8 @@ You successfully reviewed the Security posture and labeled an asset for further 
  - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="3923d260-f803-495e-8b59-018c7ab6f6bc" />
+
+   >**Success!** You successfully reviewed the Security posture and labeled an asset for further investigation.
 
 ### Task 5 - Manage Assets
 
@@ -228,10 +237,10 @@ Since this asset is hosted by a third party but still belongs to your attack sur
 Only if the State is set to **Approved Inventory**, assets are represented in dashboard charts and are scanned daily. For that reason its important to review newly discovered assets and changed their state accordingly.
 
 ### Review
-In this lab, you have completed the following:
+In this excercise, you have completed the following:
 - Created the Defender EASM workspace.
 - Created the Discovery of Contoso´s External Attack Surface.
 - Setup the connection between Defender EASM and a log analytics workspace.
 - Reviewed the Security posture and labeled an asset.
 
-### You have successfully finished the exercise. Click on **Next** to move on to the next one.
+### You have successfully finished the exercise. Click on **Next** to move on to the next excercise.
