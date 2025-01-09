@@ -1,6 +1,17 @@
 # Excercise 2: Conditional Access
+
 ## Exercise Overview
 You have discovered that employees are accessing Microsoft 365 from unknown locations, despite your Conditional Access policies only allowing access from specific locations and devices. Your investigation has revealed that these employees are accessing Microsoft 365 while traveling home from their office on public transportation. This behavior is in violation of industry regulations, and you want to use Continuous Access Evaluation to prevent it. Additionally, you want to implement the authentication strength you prepared in the previous exercise to secure certain applications that handle customer data. 
+
+## Exercise Objectives
+
+After completing this exercise, you'll be able to:
+
+- Create a trusted network for enhanced security.
+- Set up a new Conditional Access Policy with a limited scope.
+- Test and validate the effectiveness of the configured policy.
+- Implement a Conditional Access policy that restricts user login to the trusted network.
+- Create and enforce a Conditional Access policy to apply your authentication strength policy to Salesforce.
 
 ### Estimated Duration: 45 Minutes
 
@@ -23,8 +34,6 @@ You have discovered that employees are accessing Microsoft 365 from unknown loca
 - **Multi-Factor Authentication (MFA) for Salesforce**: Enforces MFA for Salesforce access to protect sensitive data and ensure secure authentication practices.  
 
 ## Part 1: Design a solution
-
-In this task you will design a concept to address the risks Contoso Ltd. is facing.
 
 ### Design approach
 
@@ -50,7 +59,7 @@ The third phase involves crafting the solution's concept. Upon investigation, it
 
 ### Task 1 - Create trusted network
 
-In this task you will create a named location using your VM's external IP address to define a trusted network you can use in a conditional access policy in the following tasks. You will use this address because your machine is located within your company network.
+In this task, you will create a named location using your VM's external IP address to define a trusted network you can use in a conditional access policy in the following tasks. You will use this address because your machine is located within your company network.
 
 1. Open a **PowerShell** window with administrator access
 
@@ -92,7 +101,6 @@ In this task you will create a named location using your VM's external IP addres
 
    ![](../media/lab02/exc2-3.png)
 
-You have now defined your Company's external IP Address named and trusted location you can use to restrict access outside the company's network.
 
 **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -100,6 +108,8 @@ You have now defined your Company's external IP Address named and trusted locati
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
   
 <validation step="6023a971-27ce-41da-8a97-ea621ca2e8de" />
+
+  >**Success!** You have now defined your Company's external IP Address named and trusted location you can use to restrict access outside the company's network.
 
 ### Task 2 - Create new Conditional Access Policy with limited scope
 
@@ -157,7 +167,6 @@ As you have successfully created a trusted network you will now use this to crea
 
     ![](../media/lab02/exc2-14.png)
 
-You have now created and enabled your CA policy to restrict access outside trusted networks only affecting your own test user account.
 
 **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -165,6 +174,8 @@ You have now created and enabled your CA policy to restrict access outside trust
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
   
 <validation step="ab7de097-f109-48c9-82ef-c69c8122bc37" />
+
+  >**Success!** You have now created and enabled your CA policy to restrict access outside trusted networks only affecting your own test user account.
 
 ### Task 3 - Test the configured Policy
 
@@ -209,7 +220,7 @@ Since you have created a Conditional Access policy limiting access to all cloud 
 
 1. Close the **Conditional Access Policy details** and the **Activity Details: Sign-ins**.
 
-You have now successfully tested and ensured access to all cloud applications from within the company's network. You have also checked the Sign-in logs, to ensure, that the policy works as intended and uses the correct assignments and conditions to restrict access to your cloud applications from outside the company's network.
+   >**Success!** You have now successfully tested and ensured access to all cloud applications from within the company's network. You have also checked the Sign-in logs, to ensure, that the policy works as intended and uses the correct assignments and conditions to restrict access to your cloud applications from outside the company's network.
 
 ### Task 4 - Company-wide policy rollout
 
@@ -253,13 +264,13 @@ Make sure, that you have at least one emergency admin account that is excluded f
 
     ![](../media/lab02/image-03.png)
 
-You have now configured an active working Conditional Access policy that prevents users from logging in outside the trusted network you defined as the company's external IP address. This was tested using a limited user scope to ensure that all cloud applications remain accessible. Lastly you have rolled out the CA policy to all users.
+    >**Note**: You have now configured an active working Conditional Access policy that prevents users from logging in outside the trusted network you defined as the company's external IP address. This was tested using a limited user scope to ensure that all cloud applications remain accessible. Lastly you have rolled out the CA policy to all users.
 
-You have successfully restricted access from outside the trusted network.
+  >**Success!** You have successfully restricted access from outside the trusted network.
 
 ### Task 5 - Require MFA for Salesforce
 
-In this Task you create a CA policy to enforce the authentication strenth you created in the previous exercise when signing into Salesforce. 
+In this task, you create a CA policy to enforce the authentication strenth you created in the previous exercise when signing into Salesforce. 
 
 >**IMPORTANT**: This task will skip the testing phase. In a real world scenario you would test with a limited user scope first as seen in the previous tasks and perform a full rollout after a successful testing phase.
 
@@ -314,16 +325,16 @@ In this Task you create a CA policy to enforce the authentication strenth you cr
 
     ![](../media/lab02/image-13.png)
 
-
-You have now created a CA policy to enforce your authentication strength policy to Salesforce excluding SMS OTP and therefore prevent successful attacks using SMS interception.
+    >**Success!** You have now created a CA policy to enforce your authentication strength policy to Salesforce excluding SMS OTP and therefore prevent successful attacks using SMS interception.
 
 
 ### Review
-In this lab, you have completed the following:
+
+In this excercise, you have completed the following:
 - Created trusted network.
 - Created new Conditional Access Policy with limited scope.
 - Tested the configured Policy.
 - Configured an active working Conditional Access policy that prevents users from logging in outside the trusted network.
 - Created a CA policy to enforce your authentication strength policy to Salesforce.
 
-### You have successfully finished the exercise. Click on **Next** to move on to the next one.
+### You have successfully finished the exercise. Click on **Next** to move on to the next excercise.
