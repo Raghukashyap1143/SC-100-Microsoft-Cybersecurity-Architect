@@ -37,8 +37,6 @@ After completing this lab, you'll be able to:
 
 ## Part 1: Design a solution
 
-In this task you´ll design a concept to get an overview on your outside facing assets and their attack surface.
-
 ### Design approach
 
 The initial step involves analyzing the requirements based on the described scenario, understanding the objectives and defining the requirements.
