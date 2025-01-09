@@ -1,4 +1,5 @@
 # Excercise 2: Data classification framework
+
 ## Exercise Overview
 You have been assigned the task of structuring data classification for Contoso Ltd. in preparation for an ISO-27001:2022 audit. The goal is to establish a robust framework that is crucial for ensuring effective data protection against leakage, deletion, and loss. Your role involves integrating a new project ID system for construction projects within the company. To comply with government regulations, all documents that contain a certain project-ID must be kept for 5 years.
 
@@ -13,7 +14,17 @@ You were given following examples to classify Project IDs:
 |BaR#0418-ag|
 |dui0522-in|
 
+## Exercise Objectives
+
+After completing this exercise, you'll be able to:
+
+- Create a custom sensitive information type for data protection.
+- Set up a retention label to manage data lifecycle.
+- Publish and automatically apply the retention label to all documents containing project IDs.
+
+
 ### Estimated Duration: 45 Minutes
+
 ## Architecture Diagram
 
  ![](../media/lab3/lab3ex2.png)
@@ -29,8 +40,6 @@ The architecture for this lab involves the following key components:
 - **Automatic Retention Label Application**: Configures automation to apply retention labels to content based on predefined criteria, streamlining data governance processes.  
 
 ## Part 1: Design a solution
-
-In this task you will design a concept to address the issues Contoso Ltd. is facing.
 
 ### Design Approach
 
@@ -95,7 +104,7 @@ In this task, you will create a **custom sensitive information type** to detect 
 
     ![altext](../media/lab3/image-22.png)
 
-You have successfully created a new sensitive information type to identify project IDs.
+    >**Success!** You have successfully created a new sensitive information type to identify project IDs.
 
 ### Task 2: Create a retention label
 
@@ -138,7 +147,7 @@ In this task, you will create a **retention label** to retain all documents rela
 
 1. Keep the browser tab open for the next task.
 
-You have successfully created a retention label with a retention period of 5 years.
+   >**Success!** You have successfully created a retention label with a retention period of 5 years.
 
 ### Task 3: Auto-apply the retention label
 
@@ -185,9 +194,7 @@ In this task, you will use the **sensitive information type** created earlier to
 1. On the **Review and finish** page, review all your settings, select **Submit**, then select **Done**.
 
     ![altext](../media/lab3/image-33.png)
-
-You have successfully published and auto-applied the retention label to all documents that contain project IDs.
-
+   
 **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
@@ -195,10 +202,13 @@ You have successfully published and auto-applied the retention label to all docu
   
 <validation step="8c2f8278-828f-407f-91b8-f930a4318959" />
 
+    >**Success!** You have successfully published and auto-applied the retention label to all documents that contain project IDs.
+
 ### Review
-In this lab, you have completed the following:
+
+In this excercise, you have completed the following:
 - Created a custom sensitive information Type.
 - Created a retention label.
 - Published and auto-applied the retention label to all documents that contain project IDs.
 
-### You have successfully finished the exercise. Click on **Next** to move on to the next one.
+### You have successfully finished the exercise. Click on **Next** to move on to the next excercise.
