@@ -119,10 +119,11 @@ In this task, you will configure **Azure Arc** to send data to the **Log Analyti
 
    ![](../media/lab01/43.png)
 1. Select **Download** 
-<!-- and run script on your second Lab Client **VM1** to onboard the on-premise Server to Azure. -->
+
    >**Note**: If there is a pop-up regarding **OnboardingScript.ps1 could harm your device. Do you want to keep it anyway?**, click on **Keep** (1).
 
-      ![](../media/lab01/44.png)
+   ![](../media/lab01/44.png)
+
 1. Run Windows PowerShell as an administrator. To do this, use the right mouse key to select the Windows icon on the bottom right corner of the window and select **Windows PowerShell(Admin)**
 1. Set the Execution Policy to unrestricted.
 
